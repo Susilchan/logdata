@@ -16,6 +16,7 @@ $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->get('/', 'Home::index');
+
 // $routes->post('/logdata');
 // where controller filters or CSRF protection are bypassed.
 // If you don't want to define all routes, please use the Auto Routing (Improved).
@@ -32,7 +33,7 @@ $routes->get('/', 'Home::index');
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
 
-$routes->resource('/logdata');
+$routes->resource('Logdata');
 // $routes->resource('logdata_2');
 // $routes->resource('logdata_3');
 // $routes->resource('logdata_4');
