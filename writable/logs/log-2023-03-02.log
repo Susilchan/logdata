@@ -1,0 +1,194 @@
+ERROR - 2023-03-02 05:51:06 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_kel7', 3306, '', 0)
+#1 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\BISMILLAH\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\BISMILLAH\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\BISMILLAH\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\BISMILLAH\app\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(934): App\Controllers\Logdata->index()
+#8 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+#9 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\BISMILLAH\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\BISMILLAH\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\BISMILLAH\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\BISMILLAH\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\BISMILLAH\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\BISMILLAH\app\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(934): App\Controllers\Logdata->index()
+#7 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+#8 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\BISMILLAH\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\BISMILLAH\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-02 05:51:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `logdata`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Logdata->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-02 05:51:46 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_kel7', 3306, '', 0)
+#1 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\BISMILLAH\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\BISMILLAH\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\BISMILLAH\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\BISMILLAH\app\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(934): App\Controllers\Logdata->index()
+#8 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+#9 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\BISMILLAH\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\BISMILLAH\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\BISMILLAH\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\BISMILLAH\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\BISMILLAH\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\BISMILLAH\app\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(934): App\Controllers\Logdata->index()
+#7 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+#8 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\BISMILLAH\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\BISMILLAH\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-02 05:51:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `logdata`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Logdata->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-02 06:01:46 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_kel7', 3306, '', 0)
+#1 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\BISMILLAH\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\BISMILLAH\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\BISMILLAH\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\BISMILLAH\app\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(934): App\Controllers\Logdata->index()
+#8 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+#9 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\BISMILLAH\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\BISMILLAH\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\BISMILLAH\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\BISMILLAH\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\BISMILLAH\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\BISMILLAH\app\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(934): App\Controllers\Logdata->index()
+#7 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+#8 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\BISMILLAH\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\BISMILLAH\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-02 06:01:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `logdata`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Logdata->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-02 06:01:53 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'db_kel7', 3306, '', 0)
+#1 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\xampp\htdocs\BISMILLAH\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\xampp\htdocs\BISMILLAH\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\xampp\htdocs\BISMILLAH\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\xampp\htdocs\BISMILLAH\app\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+#7 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(934): App\Controllers\Logdata->index()
+#8 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+#9 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\xampp\htdocs\BISMILLAH\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\xampp\htdocs\BISMILLAH\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\xampp\htdocs\BISMILLAH\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp\htdocs\BISMILLAH\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp\htdocs\BISMILLAH\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp\htdocs\BISMILLAH\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp\htdocs\BISMILLAH\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\xampp\htdocs\BISMILLAH\app\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+#6 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(934): App\Controllers\Logdata->index()
+#7 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+#8 E:\xampp\htdocs\BISMILLAH\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\xampp\htdocs\BISMILLAH\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\xampp\htdocs\BISMILLAH\system\Commands\Server\rewrite.php(47): require_once('E:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-03-02 06:01:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `logdata`
+ORDER BY `id` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Logdata.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Logdata->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logdata))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-02 15:38:12 --> Class "App\Controllers\ApiModelT" not found
+in APPPATH\Controllers\LogdataTrial.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LogdataTrial->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LogdataTrial))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-02 15:39:09 --> Class "App\Models\ApiModelTrial" not found
+in APPPATH\Controllers\LogdataTrial.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\LogdataTrial->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LogdataTrial))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
