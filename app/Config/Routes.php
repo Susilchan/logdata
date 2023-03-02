@@ -16,6 +16,7 @@ $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
 $routes->get('/', 'Home::index');
+// $routes->post('/logdata');
 // where controller filters or CSRF protection are bypassed.
 // If you don't want to define all routes, please use the Auto Routing (Improved).
 // Set `$autoRoutesImproved` to true in `app/Config/Feature.php` and set the following to true.
@@ -30,11 +31,12 @@ $routes->get('/', 'Home::index');
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
-$routes->resource('logdata');
-$routes->resource('logdata_2');
-$routes->resource('logdata_3');
-$routes->resource('logdata_4');
-$routes->resource('logdataTrial');
+
+$routes->resource('/logdata');
+// $routes->resource('logdata_2');
+// $routes->resource('logdata_3');
+// $routes->resource('logdata_4');
+// $routes->resource('logdataTrial');
 
 // $routes
 /*
