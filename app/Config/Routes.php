@@ -33,7 +33,7 @@ $routes->get('/', 'Home::index');
 // route since we don't have to scan directories.
 // $routes->get('/', 'Home::index');
 
-$routes->resource('Logdata');
+$routes->resource('logdata');
 // $routes->resource('logdata_2');
 // $routes->resource('logdata_3');
 // $routes->resource('logdata_4');
