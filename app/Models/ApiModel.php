@@ -13,6 +13,5 @@ class ApiModel extends Model
       'kelembapan',
       'created_date',
       'blok',
-    //   'updated_date'
     ];
 }
