@@ -36,7 +36,7 @@ class Logdata extends ResourceController
         $data = [
             'suhu' => $this->request->getVar('suhu'),
             'kelembapan'  => $this->request->getVar('kelembapan'),
-            'waktu'  => date('Y-m-d H:i:s'),
+            'created_date'  => date('Y-m-d H:i:s'),
             'blok' => $this->request->getVar('blok'),
         ];
 
@@ -63,7 +63,7 @@ class Logdata extends ResourceController
         }
     }
 
-    // update
+ //   update
     public function update($id = null){
         $apiModel = new ApiModel();
         $id = $this->request->getVar('id');
