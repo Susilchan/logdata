@@ -63,27 +63,27 @@ class Logdata extends ResourceController
         }
     }
 
- //   update
-    public function update($id = null){
-        $apiModel = new ApiModel();
-        $id = $this->request->getVar('id');
-        $data = [
-            'no.' => $this->request->getVar('no'),
-            // 'Waktu'  => $this->request->getVar('Waktu'),
-            'suhu'  => $this->request->getVar('suhu'),
-            'kelembapan'  => $this->request->getVar('kelembapan'),
-            'blok'  => $this->request->getVar('blok'),
-        ];
-        $apiModel->update($id, $data);
-        $response = [
-          'status'   => 200,
-          'error'    => null,
-          'messages' => [
-              'success' => 'logdata updated.'
-          ]
-      ];
-      return $this->respond($response);
-    }
+//  //   update
+//     public function update($id = null){
+//         $apiModel = new ApiModel();
+//         $id = $this->request->getVar('id');
+//         $data = [
+//             'no.' => $this->request->getVar('no'),
+//             // 'Waktu'  => $this->request->getVar('Waktu'),
+//             'suhu'  => $this->request->getVar('suhu'),
+//             'kelembapan'  => $this->request->getVar('kelembapan'),
+//             'blok'  => $this->request->getVar('blok'),
+//         ];
+//         $apiModel->update($id, $data);
+//         $response = [
+//           'status'   => 200,
+//           'error'    => null,
+//           'messages' => [
+//               'success' => 'logdata updated.'
+//           ]
+//       ];
+//       return $this->respond($response);
+//     }
 
     // delete
     public function delete($id = null){
