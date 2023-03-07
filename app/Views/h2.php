@@ -3,10 +3,6 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-            <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
-=======
->>>>>>> 931a99df4b35d1c0f706a7e245a8396e18ee718c
             <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet"/> 
         </head>
         <body>
