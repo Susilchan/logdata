@@ -14,8 +14,8 @@
                                     <ul class="nav">
                                         <li><img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"></li>
                                         <li><a href='<?php $baseURL ?>/h2'><button class="bt active" ><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a></li>
-                                        <li><a href='<?php $baseURL ?>/h3-1'><button class="bt"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a></li>
-                                        <li><a href='<?php $baseURL ?>/h4-1'><button class="bt"><img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <li><a href='<?php $baseURL ?>/h31'><button class="bt"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <li><a href='<?php $baseURL ?>/h41'><button class="bt"><img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a></li>
                                         <li><a href='<?php $baseURL ?>/h5'><button class="bt"><img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></a></li>
                                         <span class="responsive" style="float: right"> <h5 id="time"></h5></span>
                                     </ul>  
