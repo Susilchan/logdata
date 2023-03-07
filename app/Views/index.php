@@ -22,7 +22,7 @@
                     <span>Website Fertigasi dan Logger Pada Tanaman Vanili </span>
                     
                     <br>
-                    <button class="button" onclick='/h2'>MULAI</button>
+                    <button class="button" onclick='<?php $baseURL ?>/h2'>MULAI</button>
                 </div>
             </main>              
         </body>
