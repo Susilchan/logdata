@@ -15,7 +15,7 @@ $routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
-$routes->get('/', 'Home::index');
+$routes->get('/', 'Home::home');
 
 $routes->resource('logdata');
 
