@@ -38,10 +38,10 @@ while (($row = mysqli_fetch_assoc($query))) {
                                 <nav class="main-nav">
                                     <ul class="nav">
                                         <li><img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"></li>
-                                        <li><button  onclick="window.location.href='h2.php'" class="bt"><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></li>
-                                        <li><button  onclick="window.location.href='h3-1.php'" class="bt active"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></li>
-                                        <li><button  onclick="window.location.href='h4-1.php'" class="bt"><img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></li>
-                                        <li><button  onclick="window.location.href='h5.php'" class="bt"><img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></li>
+                                        <li><a href='<?php $baseURL ?>/h2'><button   class="bt"><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <li><a href='<?php $baseURL ?>/h31'><button   class="bt active"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <li><a href='<?php $baseURL ?>/h41'><button   class="bt"><img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <li><a href='<?php $baseURL ?>/h5'><button   class="bt"><img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></a></li>
                                         <span class="responsive" style="float: right"> <h5 id="time"></h5></span>
                                     </ul>  
                                     
@@ -52,10 +52,10 @@ while (($row = mysqli_fetch_assoc($query))) {
                 </header>
 
                 <div class="button-blok">
-                    <button  onclick="window.location.href='h3-1.php'" class="button-b">BLOK 1</button>
-                    <button  onclick="window.location.href='h3-2.php'" class="button-b">BLOK 2</button>
-                    <button  onclick="window.location.href='h3-3.php'"class="button-b">BLOK 3</button>
-                    <button  onclick="window.location.href='h3-4.php'"class="button-b active">BLOK 4</button>
+                    <a href='<?php $baseURL ?>/h31'><button class="button-b">BLOK 1</button></a>
+                    <a href='<?php $baseURL ?>/h32'><button class="button-b">BLOK 2</button></a>
+                    <a href='<?php $baseURL ?>/h33'><button class="button-b">BLOK 3</button></a>
+                    <a href='<?php $baseURL ?>/h34'><button class="button-b active">BLOK 4</button></a>
                 </div>
 
                 <div class="column" style="background-color:#f7f7f6;">
