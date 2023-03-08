@@ -27,8 +27,8 @@ class Database extends Config
     public array $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
+        'username' => 'phpmyadmin',
+        'password' => 'Cloudhost12345',
         'database' => 'db_kel7',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
