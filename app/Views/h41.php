@@ -57,10 +57,11 @@
                             $data = json_decode($konten, true);
                             
                                // while ($row = mysqli_fetch_object($query)) {
-                                 //   $no_urut++;
+                                
                                         
-                            ?>
-                                    <?php foreach ($data as $row) {
+                            
+                                 foreach ($data as $row) {
+                                    $no_urut++;
 
                                     if($row['blok']  == 1){
                                         $suhu[] = $row['suhu'];
