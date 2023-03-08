@@ -26,7 +26,7 @@ $data = json_decode($konten, true);
     if($row['blok']  == 1){
         echo $row['suhu'];
         echo $row['kelembapan'];
-        echo $row['date'] ;
+        echo $row['created_date'] ;
         echo $row['blok'] ;
 
     }}
