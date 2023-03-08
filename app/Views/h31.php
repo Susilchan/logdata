@@ -1,16 +1,20 @@
-<?php include('get-graph.php');
+ <?php 
+//  include('get-graph.php'); 
 
-$sql = "SELECT DATE(created_date) AS date
+// $sql = "SELECT DATE(created_date) AS date
+// , ROUND(AVG(kelembapan),2) as kelembapan
+// , ROUND(AVG(suhu),2) as suhu, blok as blok FROM logdata WHERE blok = 1 GROUP BY 1";
+
+// $query     = mysqli_query($conn, $sql);
+// $suhu = [];
+// $kelembapan = [];
+// $date = [];
+// $blok = [];
+$sql = $this -> db -> query('SELECT DATE(created_date) AS date
 , ROUND(AVG(kelembapan),2) as kelembapan
-, ROUND(AVG(suhu),2) as suhu, blok as blok FROM logdata WHERE blok = 1 GROUP BY 1";
+, ROUND(AVG(suhu),2) as suhu, blok as blok FROM logdata WHERE blok = 1 GROUP BY 1');
 
-$query     = mysqli_query($conn, $sql);
-$suhu = [];
-$kelembapan = [];
-$date = [];
-$blok = [];
-
-while (($row = mysqli_fetch_assoc($query))) {
+while (($row = mysqli_fetch_assoc($sql))) {
     $suhu[] = $row['suhu'];
     $kelembapan[] = $row['kelembapan'];
     $date[] = $row['date'];

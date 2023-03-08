@@ -51,7 +51,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php include 'connect.php';
+                                <?php //include 'connect.php';
                                 
                                     $no_urut = 0;
 
