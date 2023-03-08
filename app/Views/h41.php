@@ -57,7 +57,7 @@
                             $data = json_decode($konten, true);
                             
                                // while ($row = mysqli_fetch_object($query)) {
-                                    $no_urut++;
+                                 //   $no_urut++;
                                         
                             ?>
                                     <?php foreach ($data as $row) {

@@ -7,10 +7,6 @@ $data = json_decode($konten, true);
 <?php foreach ($data as $row) {
 
     if($row['blok']  == 1){
-        // echo $row['suhu'];
-        // echo $row['kelembapan'];
-        // echo $row['created_date'] ;
-        // echo $row['blok'] ;
         $suhu[] = $row['suhu'];
         $kelembapan[] = $row['kelembapan'];
         $date[] = $row['created_date'];
@@ -18,19 +14,6 @@ $data = json_decode($konten, true);
 
     }}
 ?>
-
-
-<?php?>
-<!-- // while (($row = mysqli_fetch_assoc($sql))) 
-//     $suhu[] = $row['suhu'];
-//     $kelembapan[] = $row['kelembapan'];
-//     $date[] = $row['date'];
-//     $blok[] = $row['blok']; -->
-
-
-
-
-
 
 
 <!DOCTYPE html>
