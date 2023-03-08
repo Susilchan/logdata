@@ -37,7 +37,6 @@ $data = json_decode($konten, true);
     }}
 ?>
 
-// ?>
 
 
 <!DOCTYPE html>
