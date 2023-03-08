@@ -10,8 +10,8 @@
 // $kelembapan = [];
 // $date = [];
 // $blok = [];
-$this -> load -> database();
-$sql = $this -> db -> query('SELECT DATE(created_date) AS date
+$this->load->database();
+$sql = $this->db->query('SELECT DATE(created_date) AS date
 , ROUND(AVG(kelembapan),2) as kelembapan
 , ROUND(AVG(suhu),2) as suhu, blok as blok FROM logdata WHERE blok = 1 GROUP BY 1');
 
