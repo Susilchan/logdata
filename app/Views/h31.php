@@ -10,19 +10,41 @@
 // $kelembapan = [];
 // $date = [];
 // $blok = [];
-$this->load->database();
-$sql = $this->db->query('SELECT DATE(created_date) AS date
-, ROUND(AVG(kelembapan),2) as kelembapan
-, ROUND(AVG(suhu),2) as suhu, blok as blok FROM logdata WHERE blok = 1 GROUP BY 1');
+// $this->load->database();
+// $sql = $this->db->query('SELECT DATE(created_date) AS date
+// , ROUND(AVG(kelembapan),2) as kelembapan
+// , ROUND(AVG(suhu),2) as suhu, blok as blok FROM logdata WHERE blok = 1 GROUP BY 1');
 
-while (($row = mysqli_fetch_assoc($sql))) {
-    $suhu[] = $row['suhu'];
-    $kelembapan[] = $row['kelembapan'];
-    $date[] = $row['date'];
-    $blok[] = $row['blok'];
-}
 
+$sumber = 'http://103.76.120.90/logdata';
+$konten = file_get_contents($sumber);
+$data = json_decode($konten, true);
 ?>
+
+<?php foreach ($data['results'] as $row) {
+
+    if($row['blok']  == 1){
+        echo $row['suhu'];
+        echo $row['kelembapan'];
+        echo $row['date'] ;
+        echo $row['blok'] ;
+
+    }}
+?>
+
+
+<?php?>
+// while (($row = mysqli_fetch_assoc($sql))) 
+//     $suhu[] = $row['suhu'];
+//     $kelembapan[] = $row['kelembapan'];
+//     $date[] = $row['date'];
+//     $blok[] = $row['blok'];
+
+
+
+
+
+
 
 <!DOCTYPE html>
 <html>
