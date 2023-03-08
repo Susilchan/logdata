@@ -38,11 +38,11 @@ $data = json_decode($konten, true);
 
 
 <?php?>
-// while (($row = mysqli_fetch_assoc($sql))) 
+<!-- // while (($row = mysqli_fetch_assoc($sql))) 
 //     $suhu[] = $row['suhu'];
 //     $kelembapan[] = $row['kelembapan'];
 //     $date[] = $row['date'];
-//     $blok[] = $row['blok'];
+//     $blok[] = $row['blok']; -->
 
 
 
