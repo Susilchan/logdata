@@ -8,10 +8,7 @@ $data = json_decode($konten, true);
 <?php foreach ($data as $row) {
 
     if($row['blok']  == 4){
-        // echo $row['suhu'];
-        // echo $row['kelembapan'];
-        // echo $row['created_date'] ;
-        // echo $row['blok'] ;
+
         $suhu[] = $row['suhu'];
         $kelembapan[] = $row['kelembapan'];
         $date[] = $row['created_date'];

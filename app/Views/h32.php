@@ -1,22 +1,4 @@
 <?php 
-// include('get-graph.php');
-
-// $sql = "SELECT DATE(created_date) AS date
-// , ROUND(AVG(kelembapan),2) as kelembapan
-// , ROUND(AVG(suhu),2) as suhu, blok as blok FROM logdata WHERE blok = 2 GROUP BY 1";
-
-// $query     = mysqli_query($conn, $sql);
-// $suhu = [];
-// $kelembapan = [];
-// $date = [];
-// $blok = [];
-
-// while (($row = mysqli_fetch_assoc($query))) {
-//     $suhu[] = $row['suhu'];
-//     $kelembapan[] = $row['kelembapan'];
-//     $date[] = $row['date'];
-//     $blok[] = $row['blok'];
-// }
 $sumber = 'http://103.76.120.90/logdata';
 $konten = file_get_contents($sumber);
 $data = json_decode($konten, true);
@@ -25,10 +7,6 @@ $data = json_decode($konten, true);
 <?php foreach ($data as $row) {
 
     if($row['blok']  == 2){
-        // echo $row['suhu'];
-        // echo $row['kelembapan'];
-        // echo $row['created_date'] ;
-        // echo $row['blok'] ;
         $suhu[] = $row['suhu'];
         $kelembapan[] = $row['kelembapan'];
         $date[] = $row['created_date'];
