@@ -56,12 +56,10 @@
                             $konten = file_get_contents($sumber);
                             $data = json_decode($konten, true);
                             
-                               // while ($row = mysqli_fetch_object($query)) {
-                                
-                                        
-                            
+                                    
+                                 $no_urut++;
                                  foreach ($data as $row) {
-                                    $no_urut++;
+                                 
 
                                     if($row['blok']  == 1){
                                         $suhu[] = $row['suhu'];
@@ -69,7 +67,7 @@
                                         $date[] = $row['created_date'];
                                         $blok[] = $row['blok'];
 
-                                    }}
+                                    }
                                     ?>
                                         <tr>
                                             <td><?php echo $no_urut ?></td>
@@ -77,7 +75,7 @@
                                             <td><?php echo $row->kelembapan; ?></td>
                                             <td><?php echo $row->created_date; ?></td>
                                         </tr>
-                                
+                                <?php } ?>
 
                                        
                                 
