@@ -21,7 +21,7 @@ $konten = file_get_contents($sumber);
 $data = json_decode($konten, true);
 ?>
 
-<?php foreach ($data['results'] as $row) {
+<?php foreach ($data as $row) {
 
     if($row['blok']  == 1){
         echo $row['suhu'];
