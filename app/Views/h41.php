@@ -51,22 +51,25 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?php //include 'connect.php';
-                                
-                                    $no_urut = 0;
-
-                                    $sql = 'SELECT * FROM logdata WHERE blok = 1';
-
-                                    $query = mysqli_query($conn, $sql); 
-   
-
-                                    while ($row = mysqli_fetch_object($query)) {
-
+                            <?php 
+                            $sumber = 'http://103.76.120.90/logdata';
+                            $konten = file_get_contents($sumber);
+                            $data = json_decode($konten, true);
+                            
+                               // while ($row = mysqli_fetch_object($query)) {
                                     $no_urut++;
                                         
-                                ?>
-                                    
-                                   
+                            ?>
+                                    <?php foreach ($data as $row) {
+
+                                    if($row['blok']  == 1){
+                                        $suhu[] = $row['suhu'];
+                                        $kelembapan[] = $row['kelembapan'];
+                                        $date[] = $row['created_date'];
+                                        $blok[] = $row['blok'];
+
+                                    }}
+                                    ?>
                                         <tr>
                                             <td><?php echo $no_urut ?></td>
                                             <td><?php echo $row->suhu; ?></td>
@@ -79,7 +82,7 @@
                                 
 
                                 <?php
-                                    }
+                                    
                                     if (!mysqli_num_rows($query)) {
                                         echo '<tr><td colspan="5" class="text-center">Tidak ada data.</td></tr>';
                                     }
