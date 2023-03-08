@@ -55,17 +55,9 @@
                             $sumber = 'http://103.76.120.90/logdata';
                             $konten = file_get_contents($sumber);
                             $data = json_decode($konten, true);
-<<<<<<< HEAD
                             
                                     
                                  $no_urut++;
-=======
-			    $no_urut = 0;                            
-                               // while ($row = mysqli_fetch_object($query)) {
-                                
-                                        
-                            
->>>>>>> 3f0d8a2950f27a179db6d19861efdc53e1330dea
                                  foreach ($data as $row) {
                                  
 
@@ -78,10 +70,10 @@
                                     }
                                     ?>
                                         <tr>
-                                            <td><?php echo $no_urut[] ?></td>
-                                            <td><?php echo $suhu[]; ?></td>
-                                            <td><?php echo $kelembapan[]; ?></td>
-                                            <td><?php echo $created_date[]; ?></td>
+                                            <td><?php echo $no_urut ?></td>
+                                            <td><?php echo $row->suhu; ?></td>
+                                            <td><?php echo $row->kelembapan; ?></td>
+                                            <td><?php echo $row->created_date; ?></td>
                                         </tr>
                                 <?php } ?>
 
