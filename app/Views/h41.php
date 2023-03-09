@@ -57,17 +57,23 @@
                             $data = json_decode($konten, true);
                             
                                     
-                                 $no_urut++;
+                            $no_urut = 0;
                                  foreach ($data as $row) {
-                                 
+                                    $no_urut++;
 
                                     if($row['blok']  == 1){
                                         $suhu[] = $row['suhu'];
                                         $kelembapan[] = $row['kelembapan'];
                                         $date[] = $row['created_date'];
                                         $blok[] = $row['blok'];
+                                        echo '<tr>
+                                        <td>'.$no_urut.'</td>
+                                        <td>'.$suhu.'</td>
+                                        <td>'.$kelembapan.'</td>
+                                        <td>'.$date.'</td>
+                                         </tr>';
 
-                                    }
+                                    }}
                                     ?>
                                         <tr>
                                             <td><?php echo $no_urut ?></td>
@@ -75,7 +81,7 @@
                                             <td><?php echo $row->kelembapan; ?></td>
                                             <td><?php echo $row->created_date; ?></td>
                                         </tr>
-                                <?php } ?>
+                               
 
                                 
 
