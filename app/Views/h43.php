@@ -59,9 +59,10 @@
                                     
                             $no_urut = 0;
                                  foreach ($data as $row) {
-                                    $no_urut++;
+                                  
 
                                     if($row['blok']  == 3){
+                                        $no_urut++;
                                         $suhu = $row['suhu'];
                                         $kelembapan = $row['kelembapan'];
                                         $date = $row['created_date'];
