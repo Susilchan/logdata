@@ -75,12 +75,7 @@
 
                                     }}
                                     ?>
-                                        <tr>
-                                            <td><?php echo $no_urut ?></td>
-                                            <td><?php echo $row->suhu; ?></td>
-                                            <td><?php echo $row->kelembapan; ?></td>
-                                            <td><?php echo $row->created_date; ?></td>
-                                        </tr>
+                                      
                                
 
                                 
