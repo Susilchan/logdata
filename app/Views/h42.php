@@ -50,35 +50,31 @@
                             </thead>
                             
                             <tbody>
-                                <?php include 'connect.php';
-                                
-                                    $no_urut = 0;
-
-                                    $sql = 'SELECT * FROM logdata WHERE blok = 2';
-
-                                    $query = mysqli_query($conn, $sql); 
-   
-
-                                    while ($row = mysqli_fetch_object($query)) {
-
-                                        $no_urut++;
-                                        
-                                ?>
+                            <?php 
+                            $sumber = 'http://103.76.120.90/logdata';
+                            $konten = file_get_contents($sumber);
+                            $data = json_decode($konten, true);
+                            
                                     
-                                   
-                                        <tr>
-                                            <td><?php echo $no_urut ?></td>
-                                            <td><?php echo $row->suhu; ?></td>
-                                            <td><?php echo $row->kelembapan; ?></td>
-                                            <td><?php echo $row->created_date; ?></td>
-                                        </tr>
-                        
-                                <?php
-                                    }
-                                    if (!mysqli_num_rows($query)) {
-                                        echo '<tr><td colspan="5" class="text-center">Tidak ada data.</td></tr>';
-                                    }
-                                ?>
+                            $no_urut = 0;
+                                 foreach ($data as $row) {
+                                    $no_urut++;
+
+                                    if($row['blok']  == 2){
+                                        $suhu = $row['suhu'];
+                                        $kelembapan = $row['kelembapan'];
+                                        $date = $row['created_date'];
+                                        $blok = $row['blok'];
+                                        echo '<tr>
+                                        <td>'.$no_urut.'</td>
+                                        <td>'.$suhu.'</td>
+                                        <td>'.$kelembapan.'</td>
+                                        <td>'.$date.'</td>
+                                         </tr>';
+
+                                    }}
+                                    ?>
+                                      
 
                             </tbody>
                             
