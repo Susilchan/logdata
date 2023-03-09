@@ -62,10 +62,10 @@
                                     $no_urut++;
 
                                     if($row['blok']  == 1){
-                                        $suhu[] = $row['suhu'];
-                                        $kelembapan[] = $row['kelembapan'];
-                                        $date[] = $row['created_date'];
-                                        $blok[] = $row['blok'];
+                                        $suhu = $row['suhu'];
+                                        $kelembapan = $row['kelembapan'];
+                                        $date = $row['created_date'];
+                                        $blok = $row['blok'];
                                         echo '<tr>
                                         <td>'.$no_urut.'</td>
                                         <td>'.$suhu.'</td>
