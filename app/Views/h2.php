@@ -13,7 +13,7 @@
                                 <nav class="main-nav">
                                     <ul class="nav">
                                         <img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px">
-                                        <a href='<?php $baseURL ?>/h2' class="bt active">  ><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></a>
+                                        <a href='<?php $baseURL ?>/h2' class="bt active"><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></a>
                                         <a href='<?php $baseURL ?>/h31'class="bt"> <img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></a>
                                         <a href='<?php $baseURL ?>/h41'class="bt"> <img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></a>
                                         <a href='<?php $baseURL ?>/h5'class="bt"> <img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></a>
