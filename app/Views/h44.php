@@ -15,11 +15,12 @@
                             <div class="col-12">
                                 <nav class="main-nav">
                                     <ul class="nav">
-                                        <li><img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"></li>
-                                        <li><a href='<?php $baseURL ?>/h2'><button class="bt"><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></li>
-                                        <li><a href='<?php $baseURL ?>/h31'><button  class="bt"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></li>
-                                        <li><a href='<?php $baseURL ?>/h41'><button   class="bt active"><img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></li>
-                                        <li><a href='<?php $baseURL ?>/h5'><button   class="bt"><img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></li>
+                                        <img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px">
+                                        <a href='<?php $baseURL ?>/h2' class="bt">  ><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></a>
+                                        <a href='<?php $baseURL ?>/h31'class="bt "> <img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></a>
+                                        <a href='<?php $baseURL ?>/h41'class="bt active"> <img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></a>
+                                        <a href='<?php $baseURL ?>/h5'class="bt"> <img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></a>
+
                                         <span class="responsive" style="float: right"> <h5 id="time"></h5></span>
                                     </ul>  
                                     
@@ -87,7 +88,8 @@
     </html> 
     <br/><br/>
 
-    <style>* {
+    <style>
+    * {
         box-sizing: border-box;
     }
     body {
@@ -122,7 +124,7 @@
         max-width: 100%;
         height: auto; 
     }
-
+  
     #time{
         margin: 10px;
         padding: 5px 5px;
@@ -161,7 +163,7 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 24px;
         opacity: 1;
-        text-align: justify;
+        text-align: center;
         padding-right: 50px;
         padding-left: 50px;
         height: 80px;
@@ -212,18 +214,17 @@
         background-color: #93db74;
         border: none;
         color: black;
-        padding: 10px 80px;
+        padding: 10px 95px;
         text-align: center;
         text-decoration: none;
         display: block;
-        margin: 90px 85px 80px;
+        margin:70px 90px 20px;
         cursor: pointer;
         border-radius: 16px;
         position: center;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         font-size: 16px;
-        
     }
 
     .button-b.active {
@@ -235,13 +236,67 @@
         background-color: #c1ff72;
     }
 
+   
+
 
     @media screen and (max-width: 800px) {
+        .button-b {
+            display: inline;
+            margin: 20px 20px 10px;
+            position: left;
+        }
+        .column1{
+            /* float: left; */
+            float: center;
+            width: 35%;
+            margin-top: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 50px;
+            padding-left: 50px;
+            height: 80px;
+            background-color: #2bd56b
+            
+
+        }
         .left, .main, .right {
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */}
     }
 
     @media screen and (max-width: 900px) {
+        *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+        }
+        .column1{
+            /* float: left; */
+            float: none;
+            width: 100%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            height: 30px;
+            background-color: #2bd56b
+            
+        }
+        .column2{
+            float: none;
+            padding-top: 10px;
+
+        }
         nav {
             width: 100%;
             height: auto;
@@ -252,15 +307,149 @@
             float: left;
             padding: 15px;
         }
-        
+
+        @media screen and (max-width: 700px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+        }
+        .column1{
+            /* float: left; */
+            float: none;
+            width: 100%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            height: 30px;
+            background-color: #2bd56b
+            
+        }
+        .column2{
+            float: none;
+            padding-top: 10px;
+
+        }
+        }
+        }
+        @media screen and (max-width: 600px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+        }
+        .column1{
+            /* float: left; */
+            float: none;
+            width: 100%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            height: 30px;
+            background-color: #2bd56b
+            
+        }
+        .column2{
+            float: none;
+            padding-top: 10px;
+
+        }
+        }
+        }
+        @media screen and (max-width: 500px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+        }
+        .column1{
+            /* float: left; */
+            float: none;
+            width: 100%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            height: 30px;
+            background-color: #2bd56b
+            
+        }
+        .column2{
+            float: none;
+            padding-top: 10px;
+
+        }
+        }
+        }
 
         @media screen and (max-width: 400px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+        }
+        .column1{
+            /* float: left; */
+            float: none;
+            width: 100%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            height: 30px;
+            background-color: #2bd56b
+            
+        }
+        .column2{
+            float: none;
+            padding-top: 10px;
+
+        }
             #time{
                 float: center;
 
             }
         }
-    }
+    
     </style>
 
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>

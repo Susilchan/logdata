@@ -12,11 +12,11 @@
                             <div class="col-12">
                                 <nav class="main-nav">
                                     <ul class="nav">
-                                        <li><img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"></li>
-                                        <li><a href='<?php $baseURL ?>/h2'><button class="bt active" ><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a></li>
-                                        <li><a href='<?php $baseURL ?>/h31'><button class="bt"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a></li>
-                                        <li><a href='<?php $baseURL ?>/h41'><button class="bt"><img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a></li>
-                                        <li><a href='<?php $baseURL ?>/h5'><button class="bt"><img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px">
+                                        <a href='<?php $baseURL ?>/h2' class="bt active">  ><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></a>
+                                        <a href='<?php $baseURL ?>/h31'class="bt"> <img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></a>
+                                        <a href='<?php $baseURL ?>/h41'class="bt"> <img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></a>
+                                        <a href='<?php $baseURL ?>/h5'class="bt"> <img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></a>
                                         <span class="responsive" style="float: right"> <h5 id="time"></h5></span>
                                     </ul>  
                                     
@@ -40,7 +40,8 @@
     </html> 
     <br/><br/>
 
-    <style>* {
+    <style>
+    * {
         box-sizing: border-box;
     }
     body {
@@ -55,21 +56,15 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
 
-    li {
-        float:left;
-        margin: 5px;
-      
-    }
-
-    li a{
+    /* li a{
         display: block;
         color: white;
         padding: 5px 5px;
         font-size: 5px;
-    }
+    } */
 
     .responsive {
         max-width: 100%;
@@ -88,10 +83,12 @@
         font-size: small;
     }
 
-    nav {
-        padding: 5px 5px;
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 10px;
         font-size: 64px;
-        text-decoration: none;
         border: 10px;
         margin: 0px;
         background-color: #2bd56b;
@@ -141,11 +138,10 @@
 
     .bt.active{
         background-color: #f7f7f6;
-        border-bottom-left-radius: 1px;
-        border-bottom-right-radius: 1px;
-        padding: 5px;
-        padding-bottom: 10px;
-        padding-top: 5px;
+            border-bottom-left-radius: 1px;
+            border-bottom-right-radius: 1px;
+            padding: 0 5px 5px 5px;
+
     }
 
     @media screen and (max-width: 800px) {

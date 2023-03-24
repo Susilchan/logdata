@@ -114,11 +114,11 @@ $data = json_decode($konten, true);
             background-color: #93db74;
             border: none;
             color: black;
-            padding: 10px 80px;
+            padding: 10px 95px;
             text-align: center;
             text-decoration: none;
             display: inline;
-            margin: 20px 85px 10px;
+            margin: 20px 30px 10px;
             cursor: pointer;
             border-radius: 16px;
             position: center;
@@ -126,6 +126,10 @@ $data = json_decode($konten, true);
             font-weight: bold;
 
         }
+        .button-blok{
+            text-align: center; 
+        }
+
 
         .button-b:hover {
             background-color: #c1ff72;
@@ -139,23 +143,22 @@ $data = json_decode($konten, true);
         .column {
             padding-top:20px;
             width: 60%;
-            /* height:50%; */
-            margin: 15px auto;
-                
+             height:20%; 
+            margin: 15px auto;                
             }
-
-
-        @media screen and (max-width: 800px) {
-
-            .left,
-            .main,
-            .right {
-                width: 100%;
-                /* The width is 100%, when the viewport is 800px or smaller */
-            }
-        }
 
         @media screen and (max-width: 900px) {
+            .column {
+            padding-top:20px;
+            width: 50%;
+            height:25%;
+            margin: 15px auto;
+            }
+
+            .button-b {
+                margin: 20px 85px 10px;
+                position: center;
+            }
             nav {
                 width: 100%;
                 height: auto;
@@ -166,15 +169,159 @@ $data = json_decode($konten, true);
                 float: left;
                 padding: 15px;
             }
-
-
-            @media screen and (max-width: 400px) {
-                #time {
-                    float: center;
+            #myChart {
+                    width: 500px;
+                    height: 800px;
 
                 }
+
             }
+        
+        @media screen and (max-width: 800px) {
+            .button-blok {
+            display: grid;
+            place-items: center; 
         }
+            .column {
+            padding-top:20px;
+            width: 50%;
+            height:25%;
+            margin: 15px auto;
+            }
+            
+            .left,
+            .main,
+            .right {
+                width: 100%;
+                /* The width is 100%, when the viewport is 800px or smaller */
+            }
+            #myChart {
+                    width: 500px;
+                    height: 800px;
+
+                }
+             }
+
+        @media screen and (max-width: 700px) {
+            .button-blok {
+            display: grid;
+            place-items: center; 
+        }
+        
+            .column {
+            padding-top:20px;
+            width: 50%;
+            height:25%;
+            margin: 15px auto;
+            }
+
+            .button-b {
+                margin: 20px 85px 10px;
+                position: center;
+            }
+            nav {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            nav li a {
+                float: left;
+                padding: 15px;
+            }
+            #myChart {
+                    width: 500px;
+                    height: 800px;
+
+                }
+
+            }     
+        @media screen and (max-width: 600px) {
+            .button-blok {
+            display: grid;
+            place-items: center; 
+        }
+            .column {
+            padding-top:20px;
+            width: 50%;
+            height:25%;
+            margin: 15px auto;
+            }
+
+            .button-b {
+                margin: 20px 85px 10px;
+                position: center;
+            }
+            nav {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            nav li a {
+                float: left;
+                padding: 15px;
+            }
+            #myChart {
+                    width: 500px;
+                    height: 800px;
+
+                }
+
+            }
+        @media screen and (max-width: 500px) {
+            .button-blok {
+            display: grid;
+            place-items: center; 
+        }
+
+            .column {
+            padding-top:20px;
+            width: 50%;
+            height:25%;
+            margin: 15px auto;
+            }
+
+            .button-b {
+                margin: 20px 85px 10px;
+                position: center;
+            }
+            nav {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+
+            nav li a {
+                float: left;
+                padding: 15px;
+            }
+            #myChart {
+                    width: 500px;
+                    height: 800px;
+
+                }
+
+            }
+        @media screen and (max-width: 400px) {
+            .button-blok {
+            display: grid;
+            place-items: center; 
+        }
+        .button-b {
+            margin: 10px 50px 8px;
+            position: center;
+            place-items: center;
+        }
+        .column {
+            width: 95%;
+            height: 200px;
+        }
+        #time {
+            float: center;
+        }
+            }
+        
     </style>
 </head>
 
@@ -185,11 +332,12 @@ $data = json_decode($konten, true);
                 <div class="col-12">
                     <nav class="main-nav">
                         <ul class="nav">
-                            <li><img src="asset/Logo 2.png" alt="logo felova" width="50px" height="50px"></li>
-                            <li><a href='<?php $baseURL ?>/h2'><button class="bt"><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a></li>
-                            <li><a href='<?php $baseURL ?>/h31'><button class="bt active"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a></li>
-                            <li><a href='<?php $baseURL ?>/h41'><button class="bt"><img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button><a></li>
-                            <li><a href='<?php $baseURL ?>/h5'><button class="bt"><img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></a></li>
+                            <img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px">
+                            <a href='<?php $baseURL ?>/h2' class="bt">  ><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></a>
+                            <a href='<?php $baseURL ?>/h31'class="bt active"> <img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></a>
+                            <a href='<?php $baseURL ?>/h41'class="bt"> <img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></a>
+                            <a href='<?php $baseURL ?>/h5'class="bt"> <img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></a>
+
                             <span class="responsive" style="float: right">
                                 <h5 id="time"></h5>
                             </span>
