@@ -59,8 +59,7 @@
     </html> 
     <br/><br/>
 
-    <style>
-    * {
+    <style>* {
         box-sizing: border-box;
     }
     body {
@@ -119,6 +118,42 @@
         height: 80px;
     }
 
+    #desc{
+        border: 30px;
+        border-style: solid;
+        border-color: #93db74;
+        background-color: #93db74;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .column1 {
+        float: left;
+        width: 35%;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        opacity: 1;
+        text-align: justify;
+        padding-right: 50px;
+        padding-left: 50px;
+        height: 80px;
+        background-color: #2bd56b
+    }
+
+    .column2 {
+        float: left;
+        width: 65%;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        opacity: 1;
+        text-align: justify;
+        padding-right: 50px;
+        padding-left: 50px;
+        height: 80px;
+        background-color: #2bd56b
+    }
+
     .kiria {
         margin-top: 35px;
         /* border: 30px;
@@ -171,9 +206,9 @@
 
 
     .row:after {
-        content: "";
-        display: table;
-        clear: both;
+    content: "";
+    display: table;
+    clear: both;
     }
 
     .button {
@@ -222,16 +257,33 @@
         *{
                 font-size: 12px;
             }
-
-        .button-b {
-            padding: 10px 12px;
-            display: inline;
-            margin: 5px 5px 5px;
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
+            }
+        .column1{
+            /* float: left; */
+            float: none;
+            width: 100%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 12px;
-            border-radius: 50px;
-       
+            opacity: 1;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            height: 30px;
+            background-color: #2bd56b
+            
         }
-    
+        .column2{
+            float: none;
+            padding-top: 10px;
+
+        }
         nav {
             width: 100%;
             height: auto;
@@ -319,17 +371,36 @@
     }
 
     @media screen and (max-width: 800px) {
+        .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
+            }
+        .button-b {
+            display: inline;
+            margin: 20px 20px 10px;
+            position: left;
+        }
+        .column1{
+            /* float: left; */
+            float: center;
+            width: 35%;
+            margin-top: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 50px;
+            padding-left: 50px;
+            height: 80px;
+            background-color: #2bd56b
+            
 
-        nav {
-            width: 100%;
-            height: auto;
-            position: relative;
         }
-        
-        nav li a {
-            float: left;
-            padding: 15px;
-        }
+        .left, .main, .right {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */}
 
         .bt.active {
                 background-color: #f7f7f6;
@@ -410,8 +481,42 @@
     @media screen and (max-width: 900px) {
         *{
                 font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
         }
-           
+        .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
+            }
+        .column1{
+            /* float: left; */
+            float: none;
+            width: 100%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            height: 30px;
+            background-color: #2bd56b
+            
+        }
+        .column2{
+            float: none;
+            padding-top: 10px;
+
+        }
         nav {
             width: 100%;
             height: auto;
@@ -502,18 +607,41 @@
             *{
                 font-size: 12px;
             }
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
+            }
+            .button-b {
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
 
-            nav {
-            width: 100%;
-            height: auto;
-            position: relative;
             }
-            
-            nav li a {
-                float: left;
-                padding: 15px;
-            }
-            
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
@@ -596,18 +724,42 @@
             *{
                 font-size: 12px;
             }
-
-            nav {
-            width: 100%;
-            height: auto;
-            position: relative;
-            }
-            
-            nav li a {
-                float: left;
-                padding: 15px;
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
             }
 
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
             .bt.active {
                     background-color: #f7f7f6;
                     padding: 5px;
@@ -691,18 +843,41 @@
             *{
                 font-size: 12px;
             }
-
-            nav {
-            width: 100%;
-            height: auto;
-            position: relative;
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
             }
-            
-            nav li a {
-                float: left;
-                padding: 15px;
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
             }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
 
+            }
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
@@ -788,32 +963,54 @@
             *{
                 font-size: 12px;
             }
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
+            }
 
-            nav {
-            width: 100%;
-            height: auto;
-            position: relative;
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
             }
-            
-            nav li a {
-                float: left;
-                padding: 15px;
-            }
-            
-            #time{
-                float: center;
-
-            }
-            
-            .bt.active {
-                background-color: #f7f7f6;
-                padding: 5px;
-                padding-bottom: 1px;
-                padding-top: 5px;
-                border-radius:50px;
-            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
                 
-            .kiria {
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
+                #time{
+                    float: center;
+
+                }
+                .bt.active {
+                    background-color: #f7f7f6;
+                    padding: 5px;
+                    padding-bottom: 1px;
+                    padding-top: 5px;
+                    border-radius:50px;
+                }
+                .kiria {
                 margin-top: 35px;
                 margin-right:300px;
                 margin-left:10px;
@@ -821,6 +1018,8 @@
                 height:130px;
                 position: inline-block;
                 margin-bottom:40px;
+            
+        
             }
 
             .kirib {
@@ -886,6 +1085,13 @@
             
             *{
                 font-size: 12px;
+            }
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
             }
             .button-b {
             padding: 10px 12px;
