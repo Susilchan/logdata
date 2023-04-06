@@ -31,6 +31,7 @@ $data = json_decode($konten, true);
         * {
             box-sizing: border-box;
         }
+
         body {
             margin: 0px;
             font-size: 14px;
@@ -108,7 +109,6 @@ $data = json_decode($konten, true);
             padding-bottom: 10px;
             padding-top: 5px;
         }
-
         .button-b {
             background-color: #93db74;
             border: none;

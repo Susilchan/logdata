@@ -69,123 +69,124 @@ $data = json_decode($konten, true);
         </body>
     </html> 
     <br/><br/>
-    <style>* {
-        box-sizing: border-box;
-    }
-    body {
-        margin:0px;
-        font-size: 14px;
-        background: rgba(246,247,247,1);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
+        body {
+            margin: 0px;
+            font-size: 14px;
+            background: rgba(246, 247, 247, 1);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
 
-    li {
-        float:left;
-        margin: 5px;
-      
-    }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
-    li a{
-        display: block;
-        color: white;
-        padding: 5px 5px;
-        font-size: 5px;
-    }
+        li {
+            float: left;
+            margin: 5px;
 
-    .responsive {
-        max-width: 100%;
-        height: auto; 
-    }
+        }
 
-    #time{
-        margin: 10px;
-        padding: 5px 5px;
-        border: 5px;
-        border-color: #fefefe;
-        background-color: #fefefe;
-        border-style: solid;
-        border-radius: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: small;
-    }
+        li a {
+            display: block;
+            color: white;
+            padding: 5px 5px;
+            font-size: 5px;
+        }
 
-    nav {
-        padding: 5px 5px;
-        font-size: 64px;
-        text-decoration: none;
-        border: 10px;
-        margin: 0px;
-        background-color: #2bd56b;
-        width: 100%;
-        height: 80px;
-    }
+        .responsive {
+            max-width: 100%;
+            height: auto;
+        }
 
-    
-    .button {
-        display: inline-block;
-    }
+        #time {
+            margin: 10px;
+            padding: 5px 5px;
+            border: 5px;
+            border-color: #fefefe;
+            background-color: #fefefe;
+            border-style: solid;
+            border-radius: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+        }
 
-    .bt{
-        border-radius: 50%;
-        border: 0px;
-        background-color: #2bd56b;
-        cursor: pointer;
-        padding-bottom: 5px ;
-    }
-
-    .bt.active{
-        background-color: #f7f7f6;
-        border-bottom-left-radius: 1px;
-        border-bottom-right-radius: 1px;
-        padding: 5px;
-        padding-bottom: 10px;
-        padding-top: 5px;
-    }
-
-    .button-b {
-        background-color: #93db74;
-        border: none;
-        color: black;
-        padding: 10px 50px;
-        text-align: center;
-        text-decoration: none;
-        display: inline;
-        margin: 20px 75px 8px;
-        cursor: pointer;
-        border-radius: 16px;
-        position: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        
-    }
+        nav {
+            padding: 5px 5px;
+            font-size: 64px;
+            text-decoration: none;
+            border: 10px;
+            margin: 0px;
+            background-color: #2bd56b;
+            width: 100%;
+            height: 80px;
+        }
 
 
-    .button-b:hover {
-        background-color: #c1ff72;
-    }
+        .button {
+            display: inline-block;
+        }
 
-    .button-b.active {
-        background-color: #c1ff72;
+        .bt {
+            border-radius: 50%;
+            border: 0px;
+            background-color: #2bd56b;
+            cursor: pointer;
+            padding-bottom: 5px;
+        }
 
-    }
+        .bt.active {
+            background-color: #f7f7f6;
+            border-bottom-left-radius: 1px;
+            border-bottom-right-radius: 1px;
+            padding: 5px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
 
-    .column {
-        padding-top:20px;
-        width: 60%;
-        /* height:50%; */
-        margin: 15px auto;
+        .button-b {
+            background-color: #93db74;
+            border: none;
+            color: black;
+            padding: 10px 50px;
+            text-align: center;
+            text-decoration: none;
+            display: inline;
+            margin: 20px 75px 8px;
+            cursor: pointer;
+            border-radius: 16px;
+            position: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+
+        }
+
+        .button-b:hover {
+            background-color: #c1ff72;
+        }
+
+        .button-b.active {
+            background-color: #c1ff72;
+
+        }
+
+        .column {
+            padding-top:20px;
+            width: 60%;
+            /* height:50%; */
+            margin: 15px auto;
                 
-    }
+        }
 
-    @media screen and (max-width: 900px) {
+        @media screen and (max-width: 900px) {
             .column {
             padding-top:20px;
             width: 50%;
@@ -208,8 +209,8 @@ $data = json_decode($konten, true);
                 padding: 15px;
             }
             #myChart {
-                width: 500px;
-                height: 800px;
+                    width: 500px;
+                    height: 800px;
 
             }
             .bt.active {
@@ -241,8 +242,8 @@ $data = json_decode($konten, true);
                 /* The width is 100%, when the viewport is 800px or smaller */
             }
             #myChart {
-                    width: 500px;
-                    height: 800px;
+                width: 500px;
+                height: 800px;
 
             }
             .bt.active {
@@ -258,7 +259,7 @@ $data = json_decode($konten, true);
             .button-blok {
             display: grid;
             place-items: center; 
-        }
+            }
         
             .column {
             padding-top:20px;
@@ -375,12 +376,13 @@ $data = json_decode($konten, true);
                 border-radius:50px;
             }
 
+
         }
         @media screen and (max-width: 400px) {
             .button-blok {
             display: grid;
             place-items: center; 
-            }
+        }
             .button-b {
                 margin: 10px 50px 8px;
                 position: center;
@@ -403,8 +405,9 @@ $data = json_decode($konten, true);
         }
 
 
-
-   
+        
+            
+        
     </style>
 
 <script>
