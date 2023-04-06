@@ -114,7 +114,7 @@ $data = json_decode($konten, true);
             background-color: #93db74;
             border: none;
             color: black;
-            padding: 10px 70px;
+            padding: 10px 50px;
             text-align: center;
             text-decoration: none;
             display: inline;
