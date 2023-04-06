@@ -398,7 +398,7 @@ $data = json_decode($konten, true);
                 background-color: #2bd56b;
                 cursor: pointer;
                 padding-bottom: 5px;
-                margin:5px;
+                margin:-5px;
             }
 
         }
