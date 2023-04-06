@@ -27,7 +27,7 @@ $data = json_decode($konten, true);
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
 
-       <style>
+    <style>
         * {
             box-sizing: border-box;
         }
@@ -409,16 +409,13 @@ $data = json_decode($konten, true);
                     <nav class="main-nav">
                         <ul class="nav">
                             <a href='<?php $baseURL ?>/index.php'> <button class="bt "><img src="asset/Logo 2.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
-                            <!-- <img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"> -->
-                            <a href='<?php $baseURL ?>/h2'><button  class="bt"><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
-                            <a href='<?php $baseURL ?>/h31'><button class="bt active"> <img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a>
-                            <a href='<?php $baseURL ?>/h41'><button  class="bt"> <img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a>
-                            <a href='<?php $baseURL ?>/h5'><button class="bt"> <img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></a>
-
-                            <span class="responsive" style="float: right">
-                                <h5 id="time"></h5>
-                            </span>
-                        </ul>
+                            <!-- <li><img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"></li> -->
+                            <a href='<?php $baseURL ?>/h2'><button class="bt" ><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
+                            <a href='<?php $baseURL ?>/h31'><button class="bt active"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a>
+                            <a href='<?php $baseURL ?>/h41'><button class="bt"><img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a>
+                            <a href='<?php $baseURL ?>/h5'><button class="bt"><img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></a>
+                            <span class="responsive" style="float: right"> <h5 id="time"></h5></span>
+                        </ul>  
 
                     </nav>
                 </div>
