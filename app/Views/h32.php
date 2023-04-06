@@ -406,7 +406,101 @@ $data = json_decode($konten, true);
    
     </style>
 
-    
+<script>
+    var kelembapan = <?= json_encode($kelembapan); ?>;
+    var suhu = <?= json_encode($suhu); ?>;
+    var date = <?= json_encode($date); ?>;
+    var blok = <?= json_encode($blok); ?>;
+    $(document).ready(function() {
+        var time_Array = [date];
+
+        var dataSuhu = {
+            label: "Suhu (°C)",
+            data: suhu,
+            lineTension: 0,
+            fill: false,
+            borderColor: 'red',
+            backgroundColor: 'red',
+
+        };
+
+        var dataKelembapan = {
+            label: "Kelembapan (%)",
+            data: kelembapan,
+            lineTension: 0,
+            fill: false,
+            borderColor: 'blue',
+            backgroundColor: 'blue',
+        };
+
+
+        var ctx = document.getElementById('myChart').getContext('2d');
+
+        const data = {
+            labels: date,
+            datasets: [dataSuhu, dataKelembapan]
+        }
+
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: data,
+
+            options: {
+                responsive: true,
+                interaction: {
+                    mode: 'index',
+                    intersect: false,
+                },
+                stacked: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Chart.js Line Chart - Multi Axis'
+                    }
+                },
+                scales: {
+                    y: {
+                        type: 'linear',
+                        display: true,
+                        position: 'left',
+                        ticks: {
+                            beginAtZero: true
+                        },
+                        grid: {
+                            drawOnChartArea: false,
+                        },
+                    },
+                    y1: {
+                        type: 'linear',
+                        display: true,
+                        position: 'right',
+                        ticks: {
+                            beginAtZero: true
+                        },
+                        grid: {
+                            drawOnChartArea: false,
+                        },
+                    },
+                    xAxes: [{
+                        type: 'time',
+                        time: {
+                            parser: 'YYYY-MM-DD HH:mm:ss',
+                            unit: 'date',
+                            displayFormats: {
+                                'date': 'YYYY-MM-DD',
+                                'minute': 'YYYY-MM-DD HH:mm:ss',
+                                'hour': 'YYYY-MM-DD HH:mm:ss'
+                            }
+                        },
+                        ticks: {
+                            source: 'data'
+                        }
+                    }]
+                }
+            }
+        });
+    });
+</script>
     <script>
         `use strict`;
         function refreshTime() {
