@@ -256,14 +256,7 @@
         *{
                 font-size: 12px;
             }
-        .button-b {
-            padding: 10px 12px;
-            display: inline;
-            margin: 5px 5px 5px;
-            font-size: 12px;
-            border-radius: 50px;
-       
-        }
+
         .column1{
             /* float: left; */
             float: none;
