@@ -157,7 +157,7 @@ $data = json_decode($konten, true);
         text-align: center;
         text-decoration: none;
         display: inline;
-        margin: 20px 85px 10px;
+        margin: 20px 85px 8px;
         cursor: pointer;
         border-radius: 16px;
         position: center;
