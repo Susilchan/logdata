@@ -400,6 +400,14 @@ $data = json_decode($konten, true);
                 padding-top: 5px;
                 border-radius:50px;
             }
+            .bt {
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px;
+                margin:-5px;
+            }
         }
 
 
