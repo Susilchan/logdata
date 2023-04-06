@@ -161,16 +161,12 @@ $data = json_decode($konten, true);
                 height: auto;
                 position: relative;
             }
-
+            
             nav li a {
                 float: left;
                 padding: 15px;
             }
-            #myChart {
-                    width: 500px;
-                    height: 800px;
 
-            }
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
@@ -178,6 +174,12 @@ $data = json_decode($konten, true);
                 padding-top: 5px;
                 border-radius:50px;
             }
+            #myChart {
+                    width: 500px;
+                    height: 800px;
+
+            }
+
 
         }
         
@@ -204,6 +206,17 @@ $data = json_decode($konten, true);
                 height: 800px;
 
             }
+            nav {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            
+            nav li a {
+                float: left;
+                padding: 15px;
+            }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
@@ -235,16 +248,12 @@ $data = json_decode($konten, true);
                 height: auto;
                 position: relative;
             }
-
+            
             nav li a {
                 float: left;
                 padding: 15px;
             }
-            #myChart {
-                width: 500px;
-                height: 800px;
 
-            }
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
@@ -252,6 +261,12 @@ $data = json_decode($konten, true);
                 padding-top: 5px;
                 border-radius:50px;
             }
+            #myChart {
+                width: 500px;
+                height: 800px;
+
+            }
+
 
         }     
         @media screen and (max-width: 600px) {
@@ -275,16 +290,12 @@ $data = json_decode($konten, true);
                 height: auto;
                 position: relative;
             }
-
+            
             nav li a {
                 float: left;
                 padding: 15px;
             }
-            #myChart {
-                width: 500px;
-                height: 800px;
 
-            }
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
@@ -292,6 +303,12 @@ $data = json_decode($konten, true);
                 padding-top: 5px;
                 border-radius:50px;
             }
+            #myChart {
+                width: 500px;
+                height: 800px;
+
+            }
+
 
         }
         @media screen and (max-width: 500px) {
@@ -316,16 +333,12 @@ $data = json_decode($konten, true);
                 height: auto;
                 position: relative;
             }
-
+            
             nav li a {
                 float: left;
                 padding: 15px;
             }
-            #myChart {
-                    width: 500px;
-                    height: 800px;
 
-            }
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
@@ -333,6 +346,13 @@ $data = json_decode($konten, true);
                 padding-top: 5px;
                 border-radius:50px;
             }
+            #myChart {
+                    width: 500px;
+                    height: 800px;
+
+            }
+
+
 
 
         }
@@ -353,6 +373,17 @@ $data = json_decode($konten, true);
             #time {
                 float: center;
             }
+            nav {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            
+            nav li a {
+                float: left;
+                padding: 15px;
+            }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
@@ -360,6 +391,7 @@ $data = json_decode($konten, true);
                 padding-top: 5px;
                 border-radius:50px;
             }
+
         }
 
 
