@@ -90,7 +90,7 @@ $data = json_decode($konten, true);
 
 
         .button {
-            display: inline-block;
+            display: block;
         }
 
         .bt {
