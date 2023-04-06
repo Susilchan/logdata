@@ -69,7 +69,7 @@ $data = json_decode($konten, true);
         </body>
     </html> 
     <br/><br/>
-    <style>
+       <style>
         * {
             box-sizing: border-box;
         }
@@ -156,11 +156,11 @@ $data = json_decode($konten, true);
             background-color: #93db74;
             border: none;
             color: black;
-            padding: 10px 50px;
+            padding: 10px 80px;
             text-align: center;
             text-decoration: none;
             display: inline;
-            margin: 20px 75px 8px;
+            margin: 20px 85px 10px;
             cursor: pointer;
             border-radius: 16px;
             position: center;
