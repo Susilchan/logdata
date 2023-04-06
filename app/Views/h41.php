@@ -133,7 +133,7 @@
         max-width: 100%;
         height: auto; 
     }
-  
+
     #time{
         margin: 10px;
         padding: 5px 5px;
@@ -223,11 +223,11 @@
         background-color: #93db74;
         border: none;
         color: black;
-        padding: 10px 95px;
+        padding: 10px 80px;
         text-align: center;
         text-decoration: none;
         display: block;
-        margin:70px 90px 20px;
+        margin: 90px 85px 80px;
         cursor: pointer;
         border-radius: 16px;
         position: center;
@@ -244,9 +244,6 @@
     .button-b:hover {
         background-color: #c1ff72;
     }
-
-   
-
 
     @media screen and (max-width: 800px) {
         .button-b {
@@ -278,6 +275,7 @@
         *{
                 font-size: 12px;
             }
+
             .button-b {
             padding: 10px 12px;
             display: inline;
@@ -285,36 +283,45 @@
             font-size: 12px;
             border-radius: 50px;
        
-        }
-        .column1{
-            /* float: left; */
-            float: none;
-            width: 100%;
-            margin-top: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 12px;
-            opacity: 1;
-            text-align: center;
-            padding-right: 10px;
-            padding-left: 10px;
-            height: 30px;
-            background-color: #2bd56b
-            
-        }
-        .column2{
-            float: none;
-            padding-top: 10px;
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
 
-        }
-        nav {
-            width: 100%;
-            height: auto;
-            position: relative;
-        }
-        
-        nav li a {
-            float: left;
-            padding: 15px;
+            }
+            nav {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            
+            nav li a {
+                float: left;
+                padding: 15px;
+            }
+
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
         }
 
         @media screen and (max-width: 700px) {
@@ -329,28 +336,35 @@
             border-radius: 50px;
        
         }
-        .column1{
-            /* float: left; */
-            float: none;
-            width: 100%;
-            margin-top: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 12px;
-            opacity: 1;
-            text-align: center;
-            padding-right: 10px;
-            padding-left: 10px;
-            height: 30px;
-            background-color: #2bd56b
-            
-        }
-        .column2{
-            float: none;
-            padding-top: 10px;
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
 
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
         }
-        }
-        }
+        
         @media screen and (max-width: 600px) {
             *{
                 font-size: 12px;
@@ -363,27 +377,33 @@
             border-radius: 50px;
        
         }
-        .column1{
-            /* float: left; */
-            float: none;
-            width: 100%;
-            margin-top: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 12px;
-            opacity: 1;
-            text-align: center;
-            padding-right: 10px;
-            padding-left: 10px;
-            height: 30px;
-            background-color: #2bd56b
-            
-        }
-        .column2{
-            float: none;
-            padding-top: 10px;
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
 
-        }
-        }
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
         }
         @media screen and (max-width: 500px) {
             *{
@@ -396,29 +416,36 @@
             font-size: 12px;
             border-radius: 50px;
        
-        }
-        .column1{
-            /* float: left; */
-            float: none;
-            width: 100%;
-            margin-top: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 12px;
-            opacity: 1;
-            text-align: center;
-            padding-right: 10px;
-            padding-left: 10px;
-            height: 30px;
-            background-color: #2bd56b
-            
-        }
-        .column2{
-            float: none;
-            padding-top: 10px;
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
 
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
         }
-        }
-        }
+        
 
         @media screen and (max-width: 400px) {
             
@@ -426,38 +453,47 @@
                 font-size: 12px;
             }
             .button-b {
-            padding: 10px 12px;
-            display: inline;
-            margin: 5px 5px 5px;
-            font-size: 12px;
-            border-radius: 50px;
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
        
-        }
-        .column1{
-            /* float: left; */
-            float: none;
-            width: 100%;
-            margin-top: 20px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 12px;
-            opacity: 1;
-            text-align: center;
-            padding-right: 10px;
-            padding-left: 10px;
-            height: 30px;
-            background-color: #2bd56b
-            
-        }
-        .column2{
-            float: none;
-            padding-top: 10px;
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
 
-        }
+            }
             #time{
                 float: center;
 
             }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
         }
+
+
     
     </style>
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
@@ -491,7 +527,7 @@
         <script>
             $(document).ready(function() {
                 $('#data').DataTable( {
-                    dom: 'Bfrtip',
+                    dom: 'Bfrtip ',
                     buttons: [
                         {
                             extend:    'excelHtml5',

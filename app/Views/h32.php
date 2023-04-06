@@ -42,7 +42,9 @@ $data = json_decode($konten, true);
                                     <a href='<?php $baseURL ?>/h41'class="bt"> <img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></a>
                                     <a href='<?php $baseURL ?>/h5'class="bt"> <img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></a>
 
-                                        <span class="responsive" style="float: right"> <h5 id="time"></h5></span>
+                                    <span class="responsive" style="float: right"> 
+                                    <h5 id="time"></h5>
+                                </span>
                                     </ul>  
                                     
                                 </nav>
@@ -66,127 +68,123 @@ $data = json_decode($konten, true);
         </body>
     </html> 
     <br/><br/>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+    <style>* {
+        box-sizing: border-box;
+    }
+    body {
+        margin:0px;
+        font-size: 14px;
+        background: rgba(246,247,247,1);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 
-        body {
-            margin: 0px;
-            font-size: 14px;
-            background: rgba(246, 247, 247, 1);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
 
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
+    li {
+        float:left;
+        margin: 5px;
+      
+    }
 
-        li {
-            float: left;
-            margin: 5px;
+    li a{
+        display: block;
+        color: white;
+        padding: 5px 5px;
+        font-size: 5px;
+    }
 
-        }
+    .responsive {
+        max-width: 100%;
+        height: auto; 
+    }
 
-        li a {
-            display: block;
-            color: white;
-            padding: 5px 5px;
-            font-size: 5px;
-        }
+    #time{
+        margin: 10px;
+        padding: 5px 5px;
+        border: 5px;
+        border-color: #fefefe;
+        background-color: #fefefe;
+        border-style: solid;
+        border-radius: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+    }
 
-        .responsive {
-            max-width: 100%;
-            height: auto;
-        }
+    nav {
+        padding: 5px 5px;
+        font-size: 64px;
+        text-decoration: none;
+        border: 10px;
+        margin: 0px;
+        background-color: #2bd56b;
+        width: 100%;
+        height: 80px;
+    }
 
-        #time {
-            margin: 10px;
-            padding: 5px 5px;
-            border: 5px;
-            border-color: #fefefe;
-            background-color: #fefefe;
-            border-style: solid;
-            border-radius: 30px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: small;
-        }
+    
+    .button {
+        display: inline-block;
+    }
 
-        nav {
-            padding: 5px 5px;
-            font-size: 64px;
-            text-decoration: none;
-            border: 10px;
-            margin: 0px;
-            background-color: #2bd56b;
-            width: 100%;
-            height: 80px;
-        }
+    .bt{
+        border-radius: 50%;
+        border: 0px;
+        background-color: #2bd56b;
+        cursor: pointer;
+        padding-bottom: 5px ;
+    }
 
+    .bt.active{
+        background-color: #f7f7f6;
+        border-bottom-left-radius: 1px;
+        border-bottom-right-radius: 1px;
+        padding: 5px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
 
-        .button {
-            display: inline-block;
-        }
-
-        .bt {
-            border-radius: 50%;
-            border: 0px;
-            background-color: #2bd56b;
-            cursor: pointer;
-            padding-bottom: 5px;
-        }
-
-        .bt.active {
-            background-color: #f7f7f6;
-            border-bottom-left-radius: 1px;
-            border-bottom-right-radius: 1px;
-            padding: 5px;
-            padding-bottom: 10px;
-            padding-top: 5px;
-        }
-
-        .button-b {
-            background-color: #93db74;
-            border: none;
-            color: black;
-            padding: 10px 95px;
-            text-align: center;
-            text-decoration: none;
-            display: inline;
-            margin: 20px 30px 10px;
-            cursor: pointer;
-            border-radius: 16px;
-            position: center;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bold;
-
-        }
-        .button-blok{
-            text-align: center; 
-        }
+    .button-b {
+        background-color: #93db74;
+        border: none;
+        color: black;
+        padding: 10px 80px;
+        text-align: center;
+        text-decoration: none;
+        display: inline;
+        margin: 20px 85px 10px;
+        cursor: pointer;
+        border-radius: 16px;
+        position: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        
+    }
 
 
-        .button-b:hover {
-            background-color: #c1ff72;
-        }
+    .button-b:hover {
+        background-color: #c1ff72;
+    }
 
-        .button-b.active {
-            background-color: #c1ff72;
+    .button-b.active {
+        background-color: #c1ff72;
 
-        }
+    }
 
-        .column {
-            padding-top:20px;
-            width: 60%;
-             height:20%; 
-            margin: 15px auto;                
-            }
+    .column {
+        padding-top:20px;
+        width: 60%;
+        /* height:50%; */
+        margin: 15px auto;
+                
+    }
 
-        @media screen and (max-width: 900px) {
+    @media screen and (max-width: 900px) {
             .column {
             padding-top:20px;
             width: 50%;
@@ -209,12 +207,19 @@ $data = json_decode($konten, true);
                 padding: 15px;
             }
             #myChart {
-                    width: 500px;
-                    height: 800px;
-
-                }
+                width: 500px;
+                height: 800px;
 
             }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+        }
         
         @media screen and (max-width: 800px) {
             .button-blok {
@@ -238,8 +243,15 @@ $data = json_decode($konten, true);
                     width: 500px;
                     height: 800px;
 
-                }
-             }
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+        }
 
         @media screen and (max-width: 700px) {
             .button-blok {
@@ -269,12 +281,19 @@ $data = json_decode($konten, true);
                 padding: 15px;
             }
             #myChart {
-                    width: 500px;
-                    height: 800px;
+                width: 500px;
+                height: 800px;
 
-                }
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
 
-            }     
+        }     
         @media screen and (max-width: 600px) {
             .button-blok {
             display: grid;
@@ -302,12 +321,19 @@ $data = json_decode($konten, true);
                 padding: 15px;
             }
             #myChart {
-                    width: 500px;
-                    height: 800px;
-
-                }
+                width: 500px;
+                height: 800px;
 
             }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+        }
         @media screen and (max-width: 500px) {
             .button-blok {
             display: grid;
@@ -339,29 +365,47 @@ $data = json_decode($konten, true);
                     width: 500px;
                     height: 800px;
 
-                }
-
             }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+        }
         @media screen and (max-width: 400px) {
             .button-blok {
             display: grid;
             place-items: center; 
-        }
-        .button-b {
-            margin: 10px 50px 8px;
-            position: center;
-            place-items: center;
-        }
-        .column {
-            width: 95%;
-            height: 200px;
-        }
-        #time {
-            float: center;
-        }
             }
-        
+            .button-b {
+                margin: 10px 50px 8px;
+                position: center;
+                place-items: center;
+            }
+            .column {
+                width: 95%;
+                height: 200px;
+            }
+            #time {
+                float: center;
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+        }
+
+
+
+   
     </style>
+
     
     <script>
         `use strict`;

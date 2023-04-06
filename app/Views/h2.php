@@ -28,20 +28,17 @@
 
                 <div class="row">
                     <div class="column" style="background-color:#f7f7f6;">
-                        <img src="asset/Capture 3.png" alt="logo felova" class="responsive" width="570px" height="600px">
-                    </div>
-                    <div class="column" style="background-color:#f7f7f6;">
-                        <h3>FELOPEDIA</h3>
+                        <img src="asset/Capture 3.png" id="g1" alt="logo felova" class="responsive" >
+                        <h3 id="tittle">FELOPEDIA</h3>
                         <h6 id="desc">Vanili atau Vanilla Planifolia merupakan tanaman dari keluarga orkid (Orchidaceae) yang berasal dari Meksiko dan Amerika Tengah. Kini, Vanili sudah tersebar di berbagai wilayah termasuk Madagaskar, Indonesia, dan India. Vanili ditanam untuk menghasilkan bunga dan buah vanili yang digunakan sebagai bahan dasar pembuatan makanan dan minuman. Tanaman Vanili membutuhkan iklim hangat dan lembap untuk tumbuh dengan baik pada kisaran suhu 20-30 derajat.</h6>
-                        <img src="asset/Capture 2.png" alt="logo felova" class="responsive" >
+
                     </div>
                 </div>
         </body>
     </html> 
     <br/><br/>
 
-    <style>
-    * {
+    <style>* {
         box-sizing: border-box;
     }
     body {
@@ -56,15 +53,21 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        /* overflow: hidden; */
+        overflow: hidden;
     }
 
-    /* li a{
+    li {
+        float:left;
+        margin: 5px;
+      
+    }
+
+    li a{
         display: block;
         color: white;
         padding: 5px 5px;
         font-size: 5px;
-    } */
+    }
 
     .responsive {
         max-width: 100%;
@@ -83,12 +86,10 @@
         font-size: small;
     }
 
-    .nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 5px 10px;
+    nav {
+        padding: 5px 5px;
         font-size: 64px;
+        text-decoration: none;
         border: 10px;
         margin: 0px;
         background-color: #2bd56b;
@@ -102,12 +103,16 @@
         border-color: #93db74;
         background-color: #93db74;
         font-family: Arial, Helvetica, sans-serif;
+        display:flex;
+        margin-left:250px;
+        margin-top:-250px;
+        font-size:24px;
     }
 
     .column {
         float: left;
-        width: 50%;
-        margin-top: 0px;
+        width: 100%;
+        margin-top: 50px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 24px;
         opacity: 1;
@@ -115,15 +120,21 @@
         padding-right: 50px;
         padding-left: 50px;
         height: 80px;
-        background-color: #2bd56b
+        background-color: #2bd56b;
+        /* margin-right:10px; */
     }
 
-    .row:after {
-    content: "";
-    display: table;
-    clear: both;
+    #g1{
+            width:150px;
+            height:200px;
     }
 
+    #tittle{
+        margin-top:10px;
+        border: 0px;
+    }
+
+    
     .button {
         display: inline-block;
     }
@@ -138,18 +149,145 @@
 
     .bt.active{
         background-color: #f7f7f6;
-            border-bottom-left-radius: 1px;
-            border-bottom-right-radius: 1px;
-            padding: 0 5px 5px 5px;
+        border-bottom-left-radius: 1px;
+        border-bottom-right-radius: 1px;
+        padding: 5px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
 
+    @media screen and (max-width: 1024px) {
+        .button-b {
+            display: inline;
+            margin: 20px 20px 10px;
+            position: left;
+        }
+      
+
+        .bt.active {
+            background-color: #f7f7f6;
+            padding: 5px;
+            padding-bottom: 1px;
+            padding-top: 5px;
+            border-radius:50px;
+        }
+        #desc{
+        border: 30px;
+        border-style: solid;
+        border-color: #93db74;
+        background-color: #93db74;
+        font-family: Arial, Helvetica, sans-serif;
+        display:flex;
+        margin-left:250px;
+        margin-top:-200px;
+    }
+
+        .column {
+            float: left;
+            width: 100%;
+            margin-top: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            opacity: 1;
+            text-align: justify;
+            padding-right: 50px;
+            padding-left: 50px;
+            height: 80px;
+            background-color: #2bd56b;
+            /* margin-right:10px; */
+        }
+
+        #g1{
+                width:150px;
+                height:200px;
+        }
+
+        #tittle{
+            margin-top:10px;
+            border: 0px;
+        }
     }
 
     @media screen and (max-width: 800px) {
+        .button-b {
+            display: inline;
+            margin: 20px 20px 10px;
+            position: left;
+        }
+        .column1{
+            /* float: left; */
+            float: center;
+            width: 35%;
+            margin-top: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 50px;
+            padding-left: 50px;
+            height: 80px;
+            background-color: #2bd56b
+            
+
+        }
         .left, .main, .right {
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */}
+
+        .bt.active {
+            background-color: #f7f7f6;
+            padding: 5px;
+            padding-bottom: 1px;
+            padding-top: 5px;
+            border-radius:50px;
+        }
+        #desc{
+        border: 30px;
+        border-style: solid;
+        border-color: #93db74;
+        background-color: #93db74;
+        font-family: Arial, Helvetica, sans-serif;
+        display:flex;
+        margin-left:250px;
+        margin-top:-200px;
     }
 
+        .column {
+            float: left;
+            width: 100%;
+            margin-top: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            opacity: 1;
+            text-align: justify;
+            padding-right: 50px;
+            padding-left: 50px;
+            height: 80px;
+            background-color: #2bd56b;
+            /* margin-right:10px; */
+        }
+
+        #g1{
+                width:150px;
+                height:200px;
+        }
+
+        #tittle{
+            margin-top:10px;
+            border: 0px;
+        }
+    }
     @media screen and (max-width: 900px) {
+        *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+        }
         nav {
             width: 100%;
             height: auto;
@@ -160,15 +298,287 @@
             float: left;
             padding: 15px;
         }
+
+        .bt.active {
+            background-color: #f7f7f6;
+            padding: 5px;
+            padding-bottom: 1px;
+            padding-top: 5px;
+            border-radius:50px;
+        }
+        #desc{
+            border: 30px;
+            border-style: solid;
+            border-color: #93db74;
+            background-color: #93db74;
+            font-family: Arial, Helvetica, sans-serif;
+            display:flex;
+            margin-left:250px;
+            margin-top:-200px;
+        }
+
+        .column {
+            float: left;
+            width: 100%;
+            margin-top: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            opacity: 1;
+            text-align: justify;
+            padding-right: 50px;
+            padding-left: 50px;
+            height: 80px;
+            background-color: #2bd56b;
+            /* margin-right:10px; */
+        }
+
+        #g1{
+                width:150px;
+                height:200px;
+        }
+
+        #tittle{
+            margin-top:10px;
+            border: 0px;
+        }
+    }
+
+        @media screen and (max-width: 700px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                display:flex;
+                margin-left:250px;
+                margin-top:-200px;
+            }
+
+            .column {
+                float: left;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 50px;
+                padding-left: 50px;
+                height: 80px;
+                background-color: #2bd56b;
+                /* margin-right:10px; */
+            }
+
+            #g1{
+                    width:150px;
+                    height:200px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                border: 0px;
+            }
+        }
+        
+          @media screen and (max-width: 600px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                display:flex;
+                margin-left:250px;
+                margin-top:-200px;
+            }
+
+            .column {
+                float: left;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 50px;
+                padding-left: 50px;
+                height: 80px;
+                background-color: #2bd56b;
+                /* margin-right:10px; */
+            }
+
+            #g1{
+                    width:150px;
+                    height:200px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                border: 0px;
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                /* display:flex; */
+                margin-left:10px;
+                margin-top:10px;
+            }
+
+            .column {
+                float: left;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 50px;
+                padding-left: 50px;
+                height: 80px;
+                background-color: #2bd56b;
+                /* margin-right:10px; */
+            }
+
+            #g1{
+                    width:150px;
+                    height:200px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                border: 0px;
+            }
+
+            
+
+        
+        }
         
 
         @media screen and (max-width: 400px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+        
             #time{
                 float: center;
 
             }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left:10px;
+                margin-top:10px;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 50px;
+                padding-left: 50px;
+                height: 80px;
+                background-color: #2bd56b;
+                /* margin-right:10px; */
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                border: 0px;
+            }
+
         }
-    }
     </style>
     <script>
         `use strict`;

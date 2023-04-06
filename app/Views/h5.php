@@ -32,14 +32,10 @@
                 <div class="row">
                     <div class="column1" style="background-color:#f7f7f6;">
                         <div class="kiria">
-                            <h5 class="labeln">BSIP-TROA</h5>
-                            <img src="asset/images.jfif" class="responsive" width="100px" height="100px" style="border-radius: 75px;" id="center">
-                            <h5 class="labelin">Dr. Ir. Evi Savitri Iriani, M.Si.</h5>
+                            <img src="asset/1.png" class="responsive" >
                         </div>
                         <div class="kirib">
-                            <h5 class="labeln">KELOMPOK 7 IOT SV IPB</h5>
-                            <img src="asset/TEK-DOSEN-6.png" class="responsive" width="100px" height="100px" style="border-radius: 75px;" id="center">
-                            <h5 class="labelin">Bayu Widodo, S.T., M.T.</h5>
+                            <img src="asset/2.png" class="responsive" >
                         </div>
                     </div>
                     <div class="column2" style="background-color:#f7f7f6;">
@@ -49,11 +45,10 @@
                                 Perkebunan yang dikepalai oleh Dr. Ir. Evi Savitri Iriani, M.Si dengan fokus pada penelitian
                                 tanaman rempah, obat, dan aromatik.</p>
                                 <a href="https://www.instagram.com/bsiptroa/" class="fa fa-instagram"> bsiptroa</a>
-                                <i class="fa fa-envelope" style="font-size:24px"> balittro@litbang.pertanian.go.id</i>     
+                                <i class="fa fa-envelope"> balittro@litbang.pertanian.go.id</i>     
                         </div>
                         <div class="kananb">
-                            <img src="asset/hafid.png" class="responsive" width="70px" height="70px" style="border-radius: 75px;" >
-                            <img src="asset/chikaa.jpg" class="responsive" width="70px" height="70px" style="border-radius: 75px;">
+                            <img src="asset/3.png" class="responsive">
                             
                         </div>
 
@@ -132,7 +127,7 @@
 
     .column1 {
         float: left;
-        width: 30%;
+        width: 35%;
         margin-top: 0px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 24px;
@@ -146,7 +141,7 @@
 
     .column2 {
         float: left;
-        width: 70%;
+        width: 65%;
         margin-top: 0px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 24px;
@@ -159,78 +154,54 @@
     }
 
     .kiria {
-    
-        margin-top: 1px;
-        border: 30px;
+        margin-top: 35px;
+        /* border: 30px;
         border-style: solid;
-        border-color: #f7f7f6;
-        background-color: #2bd56b;
+        border-color: #f7f7f6; */
+        margin-right:300px;
+        width:350px;
+        height:275px;
+        position: inline-block;
+        margin-bottom:30px;
+       
     }
 
     .kirib {
         margin-top: -30px;
-        border: 30px;
+        /* border: 30px;
         border-style: solid;
-        border-color: #f7f7f6;
-        background-color: #2bd56b;
+        border-color: #f7f7f6; */
+        width:350px;
+        height:275px;
+        position: inline-block;
     }
 
     .kanana{
-        height: 300px;
+        height: 260px;
         width: 100%;
         margin-top: 30px;
         margin-right: 70px;
-        border: 60px;
+        border: 10px;
+        border-left:25px;
+        border-right:25px;
         border-style: solid;
         border-color: #93db74;
         background-color: #93db74;
         text-align: justify;
         font-family: Arial, Helvetica, sans-serif;
+        position: inline-block;
+        padding-bottom:30px;
     }
 
+
     .kananb{
-        height: 300px;
+        height: 260px;
         width: 100%;
         margin-top: 20px;
         margin-right: 70px;
-        border: 60px;
-        border-style: solid;
-        border-color: #93db74;
-        background-color: #93db74;
-        text-align: justify;
-        font-family: Arial, Helvetica, sans-serif;
+        position: inline-block;
     }
 
-    .labeln {
-        padding:0px;
-        margin-top: 0px;
-        border: 5px;
-        border-style: solid;
-        border-color: #c0ff73;
-        background-color: #c0ff73;
-        text-align: center;
-
-    }
-
-    .labelin {
-        padding:0px;
-        margin-bottom: 20px;
-        margin-left: 30px;
-        margin-right: 30px;
-        border: 3px;
-        border-style: solid;
-        border-color: #c0ff73;
-        background-color: #c0ff73;
-        text-align: center;
-
-    }
-
-    #center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
 
 
     .row:after {
@@ -261,15 +232,16 @@
     }
 
     .fa {
-        padding: 20px;
+        padding: 30px;
         font-size: 30px;
         width: 50px;
         text-align: center;
         text-decoration: none;
+         /* background: #93db74; */
     }
 
     .fa-instagram {
-        background: #93db74;
+        /* background: #93db74; */
         color: black;
         font-size: 24px;
         display: inline;
@@ -277,14 +249,41 @@
 
     .fa-envelope{
         display: inline;
+        font-size: 24px;
     }
 
-    @media screen and (max-width: 800px) {
-        .left, .main, .right {
-        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */}
-    }
+    @media screen and (max-width: 1024px) {
+        *{
+                font-size: 12px;
+            }
+        .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+        }
+        .column1{
+            /* float: left; */
+            float: none;
+            width: 100%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            height: 30px;
+            background-color: #2bd56b
+            
+        }
+        .column2{
+            float: none;
+            padding-top: 10px;
 
-    @media screen and (max-width: 900px) {
+        }
         nav {
             width: 100%;
             height: auto;
@@ -295,15 +294,862 @@
             float: left;
             padding: 15px;
         }
-        
 
-        @media screen and (max-width: 400px) {
-            #time{
-                float: center;
+        .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+        }
+
+        .kiria {
+            margin-top: 35px;
+            margin-right:200px;
+            margin-left:60px;
+            width:200px;
+            height:180px;
+            position: inline-block;
+            margin-bottom:20px;
+            
+        
+        }
+
+        .kirib {
+            margin-right:200px;
+            margin-left:60px;
+            width:200px;
+            height:180px;
+            position: inline-block;
+        }
+
+        .kanana{
+            height: 150px;
+            width: 100%;
+            margin-top: -40px;
+            margin-right: 80px;
+            margin-left: 250px;
+            border-style: solid;
+            border-color: #93db74;
+            background-color: #93db74;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            position: inline-block;
+           
+            font: size 12%;
+        }
+
+        .kananb{
+            height: 150px;
+            width: 100%;
+            margin-top: 20px;
+            margin-right: 80px;
+            margin-left: 250px;
+            position: inline-block;
+        }
+
+
+        .fa {
+            padding: 30px;
+            font-size: 11px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .fa-instagram {
+            color: black;
+            font-size: 11px;
+            display: inline;
+        }
+
+        .fa-envelope{
+            display: inline;
+            font-size: 11px;
+
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .button-b {
+            display: inline;
+            margin: 20px 20px 10px;
+            position: left;
+        }
+        .column1{
+            /* float: left; */
+            float: center;
+            width: 35%;
+            margin-top: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 50px;
+            padding-left: 50px;
+            height: 80px;
+            background-color: #2bd56b
+            
+
+        }
+        .left, .main, .right {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */}
+
+        .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+        }
+
+        .kiria {
+            margin-top: 35px;
+            margin-right:300px;
+            margin-left:30px;
+            width:200px;
+            height:180px;
+            position: inline-block;
+            margin-bottom:20px;
+            
+        
+        }
+
+        .kirib {
+            margin-right:300px;
+            margin-left:30px;
+            width:200px;
+            height:180px;
+            position: inline-block;
+        }
+
+        .kanana{
+            height: 150px;
+            width: 100%;
+            margin-top: -40px;
+            margin-right: 80px;
+            margin-left: 200px;
+            border-style: solid;
+            border-color: #93db74;
+            background-color: #93db74;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            position: inline-block;
+           
+            font: size 11%;
+        }
+
+        .kananb{
+            height: 150px;
+            width: 100%;
+            margin-top: 20px;
+            margin-right: 80px;
+            margin-left: 200px;
+            position: inline-block;
+        }
+
+
+        .fa {
+            padding: 30px;
+            font-size: 11px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .fa-instagram {
+            color: black;
+            font-size: 11px;
+            display: inline;
+        }
+
+        .fa-envelope{
+            display: inline;
+            font-size: 11px;
+
+        }
+
+    }
+
+    @media screen and (max-width: 900px) {
+        *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+        }
+        .column1{
+            /* float: left; */
+            float: none;
+            width: 100%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 10px;
+            padding-left: 10px;
+            height: 30px;
+            background-color: #2bd56b
+            
+        }
+        .column2{
+            float: none;
+            padding-top: 10px;
+
+        }
+        nav {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        
+        nav li a {
+            float: left;
+            padding: 15px;
+        }
+
+        .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+        }
+
+        .kiria {
+            margin-top: 35px;
+            margin-right:300px;
+            margin-left:30px;
+            width:200px;
+            height:180px;
+            position: inline-block;
+            margin-bottom:20px;
+            
+        
+        }
+
+        .kirib {
+            margin-right:300px;
+            margin-left:30px;
+            width:200px;
+            height:180px;
+            position: inline-block;
+        }
+
+        .kanana{
+            height: 150px;
+            width: 100%;
+            margin-top: -40px;
+            margin-right: 80px;
+            margin-left: 200px;
+            border-style: solid;
+            border-color: #93db74;
+            background-color: #93db74;
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+            position: inline-block;
+           
+            font: size 11%;
+        }
+
+        .kananb{
+            height: 150px;
+            width: 100%;
+            margin-top: 20px;
+            margin-right: 80px;
+            margin-left: 200px;
+            position: inline-block;
+        }
+
+
+        .fa {
+            padding: 30px;
+            font-size: 11px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .fa-instagram {
+            color: black;
+            font-size: 11px;
+            display: inline;
+        }
+
+        .fa-envelope{
+            display: inline;
+            font-size: 11px;
+
+        }
+    }
+
+        @media screen and (max-width: 700px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+            .kiria {
+                margin-top: 35px;
+                margin-right:300px;
+                margin-left:30px;
+                width:200px;
+                height:180px;
+                position: inline-block;
+                margin-bottom:20px;
+            
+        
+            }
+
+            .kirib {
+                margin-right:300px;
+                margin-left:30px;
+                width:200px;
+                height:180px;
+                position: inline-block;
+            }
+
+            .kanana{
+                height: 160px;
+                width: 100%;
+                margin-top: -40px;
+                margin-right: 80px;
+                margin-left: 200px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: inline-block;
+                font: size 10%;
+            }
+
+            .kananb{
+                height: 150px;
+                width: 100%;
+                margin-top: 20px;
+                margin-right: 80px;
+                margin-left: 200px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                
+            }
+
+            .fa-instagram {
+                margin: -25px;
+                color: black;
+                font-size: 10px;
+                display: inline;
+                text-align:justify;
+                margin-right:1px;
+            }
+
+            .fa-envelope{
+                margin: -25px;
+                display: inline;
+                font-size: 10px;
 
             }
         }
-    }
+        
+        @media screen and (max-width: 600px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
+            .bt.active {
+                    background-color: #f7f7f6;
+                    padding: 5px;
+                    padding-bottom: 1px;
+                    padding-top: 5px;
+                    border-radius:50px;
+                }
+
+            .kiria {
+                margin-top: 35px;
+                margin-right:300px;
+                margin-left:30px;
+                width:180px;
+                height:150px;
+                position: inline-block;
+                margin-bottom:40px;
+            
+        
+            }
+
+            .kirib {
+                margin-right:300px;
+                margin-left:30px;
+                width:180px;
+                height:150px;
+                position: inline-block;
+            }
+
+            .kanana{
+                height: 210px;
+                width: 100%;
+                margin-top: -40px;
+                margin-right: 80px;
+                margin-left: 200px;
+                border: 5px;
+                border-left:25px;
+                border-right:25px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: inline-block;
+                font: size 10%;
+            }
+
+            .kananb{
+                height: 150px;
+                width: 100%;
+                margin-top: 20px;
+                margin-right: 80px;
+                margin-left: 200px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                
+            }
+
+            .fa-instagram {
+                margin: -35px;
+                color: black;
+                font-size: 10px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 10px;
+
+            }
+        }
+        
+        @media screen and (max-width: 500px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 35px;
+                margin-right:300px;
+                margin-left:30px;
+                width:150px;
+                height:130px;
+                position: inline-block;
+                margin-bottom:40px;
+            
+        
+            }
+
+            .kirib {
+                margin-right:300px;
+                margin-left:30px;
+                width:150px;
+                height:130px;
+                position: inline-block;
+            }
+
+            .kanana{
+                height: 290px;
+                width: 100%;
+                margin-top: -40px;
+                margin-right: 80px;
+                margin-left: 150px;
+                border: 1px;
+                border-left:25px;
+                border-right:25px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: inline-block;
+                font: size 8%;
+            }
+
+            .kananb{
+                height: 130px;
+                width: 100%;
+                margin-top: 20px;
+                margin-right: 80px;
+                margin-left: 150px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                
+            }
+
+            .fa-instagram {
+                margin: -35px;
+                color: black;
+                font-size: 10px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 10px;
+
+            }
+        }
+        
+
+        @media screen and (max-width: 400px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
+                #time{
+                    float: center;
+
+                }
+                .bt.active {
+                    background-color: #f7f7f6;
+                    padding: 5px;
+                    padding-bottom: 1px;
+                    padding-top: 5px;
+                    border-radius:50px;
+                }
+                .kiria {
+                margin-top: 35px;
+                margin-right:300px;
+                margin-left:10px;
+                width:150px;
+                height:130px;
+                position: inline-block;
+                margin-bottom:40px;
+            
+        
+            }
+
+            .kirib {
+                margin-right:300px;
+                margin-left:10px;
+                width:150px;
+                height:130px;
+                position: inline-block;
+            }
+
+            .kanana{
+                height: 600px;
+                width: 100%;
+                margin-top: -40px;
+                margin-right: 80px;
+                margin-left: 140px;
+                border: 1px;
+                border-left:25px;
+                border-right:40px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: inline-block;
+                font-size:6px;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 100%;
+                margin-top: 20px;
+                margin-right: 80px;
+                margin-left: 50px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                
+            }
+
+            .fa-instagram {
+                margin: -40px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+
+            }
+        
+        }
+        @media screen and (max-width: 300px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
+                #time{
+                    float: center;
+
+                }
+                .bt.active {
+                    background-color: #f7f7f6;
+                    padding: 5px;
+                    padding-bottom: 1px;
+                    padding-top: 5px;
+                    border-radius:50px;
+                }
+                .kiria {
+                margin-top: 35px;
+                margin-right:300px;
+                margin-left:30px;
+                width:80px;
+                height:150px;
+                position: inline-block;
+                margin-bottom:40px;
+            
+        
+            }
+
+            .kirib {
+                margin-right:300px;
+                margin-left:30px;
+                width:80px;
+                height:50px;
+                position: inline-block;
+            }
+
+            .kanana{
+                height: 480px;
+                width: 120px;
+                margin-top: -40px;
+                margin-right: 80px;
+                margin-left: 90px;
+                border: 1px;
+                border-left:10px;
+                border-right:40px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: inline-block;
+                font-size: 6px;
+            }
+
+            .kananb{
+                height: 100px;
+                width: 100px;
+                margin-top: 20px;
+                margin-right: 80px;
+                margin-left: 50px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                
+            }
+
+            .fa-instagram {
+                margin: -35px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+
+            }
     </style>
     <script>
         `use strict`;

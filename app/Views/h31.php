@@ -114,11 +114,11 @@ $data = json_decode($konten, true);
             background-color: #93db74;
             border: none;
             color: black;
-            padding: 10px 95px;
+            padding: 10px 80px;
             text-align: center;
             text-decoration: none;
             display: inline;
-            margin: 20px 30px 10px;
+            margin: 20px 85px 10px;
             cursor: pointer;
             border-radius: 16px;
             position: center;
@@ -126,10 +126,6 @@ $data = json_decode($konten, true);
             font-weight: bold;
 
         }
-        .button-blok{
-            text-align: center; 
-        }
-
 
         .button-b:hover {
             background-color: #c1ff72;
@@ -143,9 +139,10 @@ $data = json_decode($konten, true);
         .column {
             padding-top:20px;
             width: 60%;
-             height:20%; 
-            margin: 15px auto;                
-            }
+            /* height:50%; */
+            margin: 15px auto;
+                
+        }
 
         @media screen and (max-width: 900px) {
             .column {
@@ -173,9 +170,16 @@ $data = json_decode($konten, true);
                     width: 500px;
                     height: 800px;
 
-                }
-
             }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+        }
         
         @media screen and (max-width: 800px) {
             .button-blok {
@@ -196,17 +200,24 @@ $data = json_decode($konten, true);
                 /* The width is 100%, when the viewport is 800px or smaller */
             }
             #myChart {
-                    width: 500px;
-                    height: 800px;
+                width: 500px;
+                height: 800px;
 
-                }
-             }
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+        }
 
         @media screen and (max-width: 700px) {
             .button-blok {
             display: grid;
             place-items: center; 
-        }
+            }
         
             .column {
             padding-top:20px;
@@ -230,12 +241,19 @@ $data = json_decode($konten, true);
                 padding: 15px;
             }
             #myChart {
-                    width: 500px;
-                    height: 800px;
+                width: 500px;
+                height: 800px;
 
-                }
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
 
-            }     
+        }     
         @media screen and (max-width: 600px) {
             .button-blok {
             display: grid;
@@ -263,12 +281,19 @@ $data = json_decode($konten, true);
                 padding: 15px;
             }
             #myChart {
-                    width: 500px;
-                    height: 800px;
-
-                }
+                width: 500px;
+                height: 800px;
 
             }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+        }
         @media screen and (max-width: 500px) {
             .button-blok {
             display: grid;
@@ -300,27 +325,46 @@ $data = json_decode($konten, true);
                     width: 500px;
                     height: 800px;
 
-                }
-
             }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+
+        }
         @media screen and (max-width: 400px) {
             .button-blok {
             display: grid;
             place-items: center; 
         }
-        .button-b {
-            margin: 10px 50px 8px;
-            position: center;
-            place-items: center;
-        }
-        .column {
-            width: 95%;
-            height: 200px;
-        }
-        #time {
-            float: center;
-        }
+            .button-b {
+                margin: 10px 50px 8px;
+                position: center;
+                place-items: center;
             }
+            .column {
+                width: 95%;
+                height: 200px;
+            }
+            #time {
+                float: center;
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+        }
+
+
+        
+            
         
     </style>
 </head>
