@@ -31,19 +31,6 @@ $data = json_decode($konten, true);
         * {
             box-sizing: border-box;
         }
-
-        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-        *, *::before, *::after {
-            box-sizing: border-box;
-        }
-
-        html, body {
-            font-family: Raleway, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
         body {
             margin: 0px;
             font-size: 14px;
