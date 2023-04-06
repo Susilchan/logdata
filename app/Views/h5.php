@@ -212,7 +212,7 @@
     }
 
     .button {
-        display: block;
+        display: inline-block;
     }
 
     .bt{
@@ -371,6 +371,13 @@
     }
 
     @media screen and (max-width: 800px) {
+        .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
+            }
         .button-b {
             display: inline;
             margin: 20px 20px 10px;
@@ -483,6 +490,13 @@
             border-radius: 50px;
        
         }
+        .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
+            }
         .column1{
             /* float: left; */
             float: none;
@@ -592,6 +606,13 @@
         @media screen and (max-width: 700px) {
             *{
                 font-size: 12px;
+            }
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
             }
             .button-b {
                 padding: 10px 12px;
@@ -703,6 +724,14 @@
             *{
                 font-size: 12px;
             }
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
+            }
+
             .button-b {
             padding: 10px 12px;
             display: inline;
@@ -813,6 +842,13 @@
         @media screen and (max-width: 500px) {
             *{
                 font-size: 12px;
+            }
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
             }
             .button-b {
             padding: 10px 12px;
@@ -927,6 +963,14 @@
             *{
                 font-size: 12px;
             }
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
+            }
+
             .button-b {
             padding: 10px 12px;
             display: inline;
@@ -1041,6 +1085,13 @@
             
             *{
                 font-size: 12px;
+            }
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
             }
             .button-b {
             padding: 10px 12px;
