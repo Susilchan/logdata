@@ -213,11 +213,11 @@
         background-color: #93db74;
         border: none;
         color: black;
-        padding: 10px 80px;
+        padding: 10px 60px;
         text-align: center;
         text-decoration: none;
         display: block;
-        margin: 90px 85px 80px;
+        margin: 80px 70px 75px;
         cursor: pointer;
         border-radius: 16px;
         position: center;
