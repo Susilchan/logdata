@@ -256,7 +256,13 @@
         *{
                 font-size: 12px;
             }
-
+            .bt{
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px ;
+            }
         .column1{
             /* float: left; */
             float: none;
