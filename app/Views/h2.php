@@ -459,14 +459,9 @@
             *{
                 font-size: 12px;
             }
-            .button-b {
-            padding: 10px 12px;
-            display: inline;
-            margin: 5px 5px 5px;
-            font-size: 12px;
-            border-radius: 50px;
+
        
-            }
+            
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
