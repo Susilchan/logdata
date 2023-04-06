@@ -394,6 +394,44 @@ $data = json_decode($konten, true);
 
         }
 
+        @media screen and (max-width: 300px) {
+            .button-blok {
+                display: grid;
+                place-items: center; 
+            }   
+            .button-b {
+                margin: 10px 50px 8px;
+                position: center;
+                place-items: center;
+            }
+            .column {
+                width: 95%;
+                height: 200px;
+            }
+            #time {
+                float: center;
+            }
+            nav {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            
+            nav li a {
+                float: left;
+                padding: 15px;
+            }
+
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+        }
+
 
         
             
