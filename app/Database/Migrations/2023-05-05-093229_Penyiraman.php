@@ -4,7 +4,7 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Logdata extends Migration
+class Penyiraman extends Migration
 {
     public function up()
     {
@@ -15,30 +15,24 @@ class Logdata extends Migration
                 'unsigned'       => true,
                 'auto_increment' => true,
             ],
-            'suhu' => [
-                'type'       => 'VARCHAR',
+            'penyiraman' => [
+                'type'       => 'INT',
                 'constraint' => '5',
             ],
-            'kelembapan' => [
-                'type'       => 'VARCHAR',
-                'constraint' => '5',
-            ],
-            'blok' => [
-                'type'       => 'VARCHAR',
-                'constraint' => '5',
-            ],
+            
             'created_date datetime default current_timestamp',
             // 'updated_date datetime default current_timestamp on update current_timestamp',
         ]);
         
         $this->forge->addKey('id', true);
-        $this->forge->createTable('logdata');
+        $this->forge->createTable('penyiraman');
     }
 
     public function down()
     {
-        $this->forge->dropTable('logdata');
+        $this->forge->dropTable('penyiraman');
         
     }
 }
+
 

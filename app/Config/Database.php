@@ -27,8 +27,12 @@ class Database extends Config
     public array $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
+        // Database Api
         'username' => 'phpmyadmin',
         'password' => 'Cloudhost12345',
+        // Database Local
+        // 'username' => 'root',
+        // 'password' => '',
         'database' => 'db_kel7',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
@@ -53,7 +57,7 @@ class Database extends Config
     public array $tests = [
         'DSN'         => '',
         'hostname'    => '127.0.0.1',
-        'username'    => '',
+        'username'    => 'root',
         'password'    => '',
         'database'    => ':memory:',
         'DBDriver'    => 'SQLite3',

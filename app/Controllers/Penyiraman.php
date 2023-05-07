@@ -3,25 +3,25 @@
 namespace App\Controllers;
 use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait;
-use App\Models\ApiModel;
+use App\Models\ModelPenyiraman;
 date_default_timezone_set("Asia/Jakarta");
 
 
-class Logdata extends ResourceController
+class Penyiraman extends ResourceController
 {
 
     use ResponseTrait;
 
     // get all
     public function index(){
-      $apiModel = new ApiModel();
-      $data = $apiModel->orderBy('id', 'DESC')->findAll();
+      $penyiraman = new ModelPenyiraman();
+      $data = $penyiraman->orderBy('id', 'DESC')->findAll();
       return $this->respond($data);
     }
 
     // create
     public function create() {
-        $apiModel = new ApiModel();
+        $penyiraman = new ModelPenyiraman();
         $key = $this->request->getVar("key");
         // $key = 'keyloveK7';
 
@@ -34,53 +34,53 @@ class Logdata extends ResourceController
             return $this->respondCreated($response);
         }
         $data = [
-            'suhu' => $this->request->getVar('suhu'),
-            'kelembapan'  => $this->request->getVar('kelembapan'),
+            'penyiraman' => $this->request->getVar('penyiraman'),
+            
             'created_date'  => date('Y-m-d H:i:s'),
-            'blok' => $this->request->getVar('blok'),
+            
         ];
 
-        $apiModel->insert($data);
+        $penyiraman->insert($data);
   
         $response = [
           'status'   => 201,
           'error'    => null,
           'messages' => [
-              'success' => 'Logdata has been added'
+              'success' => 'penyiraman has been added'
           ]
       ];
       return $this->respondCreated($response);
     }
 
     // single
-    public function getLogdata($id = null){
-        $apiModel = new ApiModel();
-        $data = $apiModel->where('id', $id)->first();
+    public function getModelPenyiraman($id = null){
+        $penyiraman = new ModelPenyiraman();
+        $data = $penyiraman->where('id', $id)->first();
         if($data){
             return $this->respond($data);
         }else{
-            return $this->failNotFound('logdata does not exist.');
+            return $this->failNotFound('penyiraman does not exist.');
         }
     }
 
 
     // delete
     public function delete($id = null){
-        $apiModel = new ApiModel();
-        $data = $apiModel->where('id', $id)->delete($id);
+        $penyiraman = new ModelPenyiraman();
+        $data = $penyiraman->where('id', $id)->delete($id);
 
         if($data){
-            $apiModel->delete($id);
+            $penyiraman->delete($id);
             $response = [
                 'status'   => 200,
                 'error'    => null,
                 'messages' => [
-                    'success' => 'logdata deleted'
+                    'success' => 'penyiraman deleted'
                 ]
             ];
             return $this->respondDeleted($response);
         }else{
-            return $this->failNotFound('logdata does not exist.');
+            return $this->failNotFound('penyiraman does not exist.');
         }
     }
 

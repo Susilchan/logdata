@@ -33,6 +33,7 @@ $routes->get('/h5', 'H5::h5');
 
 
 $routes->resource('logdata');
+$routes->resource('penyiraman');
 
 // $routes->post('/logdata');
 // where controller filters or CSRF protection are bypassed.
