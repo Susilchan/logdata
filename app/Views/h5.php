@@ -49,7 +49,7 @@
                                 <i class="fa fa-envelope"> balittro@litbang.pertanian.go.id</i>     
                         </div>
                         <div class="kananb">
-                            <img src="asset/foto-kel.png" class="responsive">
+                            <img src="asset/babi.png" class="responsive">
                             
                         </div>
 
@@ -1057,150 +1057,95 @@
         @media screen and (max-width: 300px) {
             
             *{
-                font-size: 12px;
+                font-size: 14px;
             }
             .button-b {
-            padding: 10px 12px;
-            display: inline;
-            margin: 5px 5px 5px;
-            font-size: 12px;
-            border-radius: 50px;
-       
-            }
-            .column1{
-                /* float: left; */
-                float: none;
-                width: 100%;
-                margin-top: 20px;
-                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
                 font-size: 12px;
-                opacity: 1;
-                text-align: center;
-                padding-right: 10px;
-                padding-left: 10px;
-                height: 30px;
-                background-color: #2bd56b
-                position: block;
-                
-            }
-            .column2{
-                float: none;
-                padding-top: 10px;
-                position: block;
-
-            }
-            #time{
-                float: center;
-
-            }
-            .bt.active {
-                background-color: #f7f7f6;
-                padding: 5px;
-                padding-bottom: 1px;
-                padding-top: 5px;
-                border-radius:50px;
+                border-radius: 50px;
+        
             }
 
-            .kiria {
-                margin-top: 10px;
-                margin-right: 300px;
-                margin-left: 10px;
-                width: 100px;
-                height: 70px;
-                position: block;
-                float: left;
-                margin-bottom: 40px;
-            }
-
-            .kirib {
-                margin-right: 20px;
-                margin-left: 10px;
-                margin-top: -110px;
-                width: 100px;
-                height: 70px;
-                position: block;
-                float: right;
-            }
-
-            .kanana{
-                height: 180px;
-                width: 90%;
-                margin-top: 70px;
-                margin-right: 30px;
-                margin-left: -35px;
-                border: 3px;
-                border-left:20px;
-                border-right:20px;
-                border-style: solid;
-                border-color: #93db74;
-                text-align: justify;
-                font-family: Arial, Helvetica, sans-serif;
-                position: center;
-                font-size:6px;
-                float:none;
-            }
-
-            .kananb{
-                height: 250px;
-                width: 300%;
-                margin-top: 270px;
-                margin-right: 60px;
-                margin-left: -32px;
-                position: block;
-            }
-
-
-            .fa {
-                /* padding: 30px; */
-                font-size: 11px;
-                width: 50px;
-                text-align: center;
-                text-decoration: none;
-              
-                
-            }
-
-            .fa-instagram {
-                margin: -15px;
-                color: black;
-                font-size: 8px;
-                display: inline;
-            }
-
-            .fa-envelope{
-                /* margin: -16px; */
-                display: inline;
-                font-size: 8px;
-                margin-right:-5px;
-
-            }
             .bt{
-                width:70%;
+                width:20%;
                 padding: 0px;
                 border: 0px;
                 background-color: #2bd56b;
                 cursor: pointer;
                 display: inline;
-                margin-top:10px
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                padding:2.5px;
             }
         
+            #time{
+                float: center;
+                font-size: 10px;
+
+            }
             .bt.active {
                 background-color: #f7f7f6;
-                padding: 5px;
-                padding-bottom: 1px;
-                padding-top: 5px;
+                padding: 3px;
+                padding-bottom: 2px;
+                padding-top: 3px;     
                 border-radius:50px;
             }
 
-            li {
+            /* li {
                 float:left;
                 margin: 0.7px;
                 padding: 0px;
             
-            }
+            } */
 
             .logo{
-                width:80%;
+                width:100%;
+                margin-left:1px;
+            }
+
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                /* margin-left:10px;
+                margin-top:10px; */
+                margin-right:10px;
+                text-align: justify;
+                font-size: 10px;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 8px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 20px;
+                padding-left: 20px;
+                height: 80px;
+                background-color: #2bd56b;
+
+                
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left:40px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                border: 0px;
+                margin-left:80px;
             }
         }
     </style>

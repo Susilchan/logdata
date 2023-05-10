@@ -493,6 +493,100 @@
                     border-radius:50px;
                 }
         }
+        @media screen and (max-width: 300px) {
+            
+            *{
+                font-size: 14px;
+            }
+            .button-b {
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+        
+            }
+
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                padding:2.5px;
+            }
+        
+            #time{
+                float: center;
+                font-size: 10px;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 3px;
+                padding-bottom: 2px;
+                padding-top: 3px;     
+                border-radius:50px;
+            }
+
+            /* li {
+                float:left;
+                margin: 0.7px;
+                padding: 0px;
+            
+            } */
+
+            .logo{
+                width:100%;
+                margin-left:1px;
+            }
+
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                /* margin-left:10px;
+                margin-top:10px; */
+                margin-right:10px;
+                text-align: justify;
+                font-size: 10px;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 8px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 20px;
+                padding-left: 20px;
+                height: 80px;
+                background-color: #2bd56b;
+
+                
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left:40px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                border: 0px;
+                margin-left:80px;
+            }
+        }
     </style>
 
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
