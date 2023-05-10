@@ -17,10 +17,10 @@
                                     <ul class="nav">
                                     <a href='<?php $baseURL ?>/index.php'> <button class="bt"><img src="asset/Logo 2.png" alt="dashboard" class="logo" class="responsive" width="50px" height="50px"></button></a>
                                         <!-- <img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"> -->
-                                        <a href='<?php $baseURL ?>/h2'><button  class="bt"><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
-                                        <a href='<?php $baseURL ?>/h31'><button class="bt "> <img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a>
-                                        <a href='<?php $baseURL ?>/h41'><button class="bt active"> <img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a>
-                                        <a href='<?php $baseURL ?>/h5'><button class="bt"> <img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></a>
+                                        <li><a href='<?php $baseURL ?>/h2'><button  class="bt"><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <li><a href='<?php $baseURL ?>/h31'><button class="bt "> <img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <li><a href='<?php $baseURL ?>/h41'><button class="bt active"> <img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <li><a href='<?php $baseURL ?>/h5'><button class="bt"> <img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></a></li>
 
                                         <span class="responsive" style="float: right"> <h5 id="time"></h5></span>
                                     </ul>  
@@ -496,14 +496,16 @@
     </style>
 
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-        <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
         <script src="https://cdn.datatables.net/buttons/2.3.5/js/dataTables.buttons.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
         <script src="https://cdn.datatables.net/buttons/2.3.5/js/buttons.html5.min.js"></script>
         <script src="https://cdn.datatables.net/buttons/2.3.5/js/buttons.print.min.js"></script>
-
+        <script src="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"></script>
+        <script src="https://cdn.datatables.net/fixedcolumns/4.2.2/js/dataTables.fixedColumns.min.js"></script>
+        <script src="https://cdn.datatables.net/fixedcolumns/4.2.2/css/fixedColumns.dataTables.min.css"></script>
         <script>
             `use strict`;
             function refreshTime() {
@@ -533,7 +535,13 @@
                             text:      'Download',
                             titleAttr: 'Excel'
                         }
-                    ]
+                    ],
+                    scrollY:        "300px",
+                    scrollX:        true,
+                    scrollCollapse: true,
+                    paging:         false,
+                    fixedColumns:   {
+                        heightMatch: 'semiauto'}
                 } );
             } ); 
         </script>

@@ -17,10 +17,10 @@
                                     <ul class="nav">
                                         <a href='<?php $baseURL ?>/index.php'> <button class="bt "><img src="asset/Logo 2.png" alt="dashboard" class="logo" class="responsive" width="50px" height="50px"></button></a>
                                         <!-- <li><img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"></li> -->
-                                        <a href='<?php $baseURL ?>/h2'><button class="bt" ><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
-                                        <a href='<?php $baseURL ?>/h31'><button class="bt"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a>
-                                        <a href='<?php $baseURL ?>/h41'><button class="bt"><img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a>
-                                        <a href='<?php $baseURL ?>/h5'><button class="bt active"><img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></a>
+                                        <li><a href='<?php $baseURL ?>/h2'><button class="bt" ><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <li><a href='<?php $baseURL ?>/h31'><button class="bt"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <li><a href='<?php $baseURL ?>/h41'><button class="bt"><img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a></li>
+                                        <li><a href='<?php $baseURL ?>/h5'><button class="bt active"><img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></a></li>
                                         <span class="responsive" style="float: right"> <h5 id="time"></h5></span>
                                     </ul>  
                                     
@@ -61,6 +61,7 @@
 
     <style>* {
         box-sizing: border-box;
+        font-size:22px;
     }
     body {
         margin:0px;
@@ -257,13 +258,14 @@
         *{
                 font-size: 12px;
             }
-            .bt{
-                border-radius: 50%;
-                border: 0px;
-                background-color: #2bd56b;
-                cursor: pointer;
-                padding-bottom: 5px ;
-            }
+        .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+        }
         .column1{
             /* float: left; */
             float: none;
@@ -371,13 +373,6 @@
     }
 
     @media screen and (max-width: 800px) {
-        .bt{
-                border-radius: 50%;
-                border: 0px;
-                background-color: #2bd56b;
-                cursor: pointer;
-                padding-bottom: 5px ;
-            }
         .button-b {
             display: inline;
             margin: 20px 20px 10px;
@@ -490,13 +485,6 @@
             border-radius: 50px;
        
         }
-        .bt{
-                border-radius: 50%;
-                border: 0px;
-                background-color: #2bd56b;
-                cursor: pointer;
-                padding-bottom: 5px ;
-            }
         .column1{
             /* float: left; */
             float: none;
@@ -606,13 +594,6 @@
         @media screen and (max-width: 700px) {
             *{
                 font-size: 12px;
-            }
-            .bt{
-                border-radius: 50%;
-                border: 0px;
-                background-color: #2bd56b;
-                cursor: pointer;
-                padding-bottom: 5px ;
             }
             .button-b {
                 padding: 10px 12px;
@@ -724,14 +705,6 @@
             *{
                 font-size: 12px;
             }
-            .bt{
-                border-radius: 50%;
-                border: 0px;
-                background-color: #2bd56b;
-                cursor: pointer;
-                padding-bottom: 5px ;
-            }
-
             .button-b {
             padding: 10px 12px;
             display: inline;
@@ -843,19 +816,12 @@
             *{
                 font-size: 12px;
             }
-            .bt{
-                border-radius: 50%;
-                border: 0px;
-                background-color: #2bd56b;
-                cursor: pointer;
-                padding-bottom: 5px ;
-            }
             .button-b {
-            padding: 10px 12px;
-            display: inline;
-            margin: 5px 5px 5px;
-            font-size: 12px;
-            border-radius: 50px;
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
        
             }
             .column1{
@@ -876,6 +842,10 @@
             .column2{
                 float: none;
                 padding-top: 10px;
+
+            }
+            #time{
+                float: center;
 
             }
             .bt.active {
@@ -887,48 +857,50 @@
             }
 
             .kiria {
-                margin-top: 35px;
+                margin-top: 10px;
                 margin-right:300px;
-                margin-left:30px;
+                margin-left:20px;
                 width:150px;
                 height:130px;
-                position: inline-block;
+                position: grid;
+                float: left;
                 margin-bottom:40px;
-            
-        
             }
 
             .kirib {
-                margin-right:300px;
-                margin-left:30px;
-                width:150px;
-                height:130px;
-                position: inline-block;
+                margin-right: 25px;
+                margin-left: 10px;
+                margin-top:-170px;
+                width: 150px;
+                height: 130px;
+                position: grid;
+                float: right;
             }
 
             .kanana{
-                height: 290px;
-                width: 100%;
-                margin-top: -40px;
-                margin-right: 80px;
-                margin-left: 150px;
-                border: 1px;
-                border-left:25px;
-                border-right:25px;
+                height: 150px;
+                width: 320px;
+                margin-top: 100px;
+                margin-right: 10px;
+                margin-left: -3px;
+                border: 7px;
+                border-left:20px;
+                border-right:20px;
                 border-style: solid;
                 border-color: #93db74;
                 text-align: justify;
                 font-family: Arial, Helvetica, sans-serif;
-                position: inline-block;
-                font: size 8%;
+                position: absolute;
+                font-size:6px;
+                float:none;
             }
 
             .kananb{
-                height: 130px;
-                width: 100%;
-                margin-top: 20px;
-                margin-right: 80px;
-                margin-left: 150px;
+                height: 200px;
+                width: 200%;
+                margin-top: 270px;
+                margin-right: 60px;
+                margin-left: -10px;
                 position: inline-block;
             }
 
@@ -939,20 +911,22 @@
                 width: 50px;
                 text-align: center;
                 text-decoration: none;
+              
                 
             }
 
             .fa-instagram {
-                margin: -35px;
+                margin: -7px;
                 color: black;
-                font-size: 10px;
+                font-size: 8px;
                 display: inline;
             }
 
             .fa-envelope{
                 /* margin: -16px; */
                 display: inline;
-                font-size: 10px;
+                font-size: 8px;
+                margin-right:-5px;
 
             }
         }
@@ -963,14 +937,6 @@
             *{
                 font-size: 12px;
             }
-            .bt{
-                border-radius: 50%;
-                border: 0px;
-                background-color: #2bd56b;
-                cursor: pointer;
-                padding-bottom: 5px ;
-            }
-
             .button-b {
             padding: 10px 12px;
             display: inline;
@@ -992,67 +958,72 @@
                 padding-left: 10px;
                 height: 30px;
                 background-color: #2bd56b
+                position: block;
                 
             }
             .column2{
                 float: none;
                 padding-top: 10px;
+                position: block;
 
             }
-                #time{
-                    float: center;
+            #time{
+                float: center;
 
-                }
-                .bt.active {
-                    background-color: #f7f7f6;
-                    padding: 5px;
-                    padding-bottom: 1px;
-                    padding-top: 5px;
-                    border-radius:50px;
-                }
-                .kiria {
-                margin-top: 35px;
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 10px;
                 margin-right:300px;
-                margin-left:10px;
+                margin-left:20px;
                 width:150px;
                 height:130px;
-                position: inline-block;
+                position: grid;
+                float: left;
                 margin-bottom:40px;
-            
-        
             }
 
             .kirib {
-                margin-right:300px;
-                margin-left:10px;
-                width:150px;
-                height:130px;
-                position: inline-block;
+                margin-right: 25px;
+                margin-left: 10px;
+                margin-top:-170px;
+                width: 150px;
+                height: 130px;
+                position: grid;
+                float: right;
             }
 
             .kanana{
-                height: 600px;
-                width: 100%;
-                margin-top: -40px;
-                margin-right: 80px;
-                margin-left: 140px;
-                border: 1px;
-                border-left:25px;
-                border-right:40px;
+                height: 150px;
+                width: 95%;
+                margin-top: 100px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
                 border-style: solid;
                 border-color: #93db74;
                 text-align: justify;
                 font-family: Arial, Helvetica, sans-serif;
-                position: inline-block;
+                position: absolute;
                 font-size:6px;
+                float:none;
             }
 
             .kananb{
                 height: 200px;
-                width: 100%;
-                margin-top: 20px;
-                margin-right: 80px;
-                margin-left: 50px;
+                width: 200%;
+                margin-top: 270px;
+                margin-right: 60px;
+                margin-left: -10px;
                 position: inline-block;
             }
 
@@ -1063,11 +1034,12 @@
                 width: 50px;
                 text-align: center;
                 text-decoration: none;
+              
                 
             }
 
             .fa-instagram {
-                margin: -40px;
+                margin: -7px;
                 color: black;
                 font-size: 8px;
                 display: inline;
@@ -1077,6 +1049,7 @@
                 /* margin: -16px; */
                 display: inline;
                 font-size: 8px;
+                margin-right:-5px;
 
             }
         
@@ -1086,13 +1059,6 @@
             *{
                 font-size: 12px;
             }
-            .bt{
-                border-radius: 50%;
-                border: 0px;
-                background-color: #2bd56b;
-                cursor: pointer;
-                padding-bottom: 5px ;
-            }
             .button-b {
             padding: 10px 12px;
             display: inline;
@@ -1114,68 +1080,73 @@
                 padding-left: 10px;
                 height: 30px;
                 background-color: #2bd56b
+                position: block;
                 
             }
             .column2{
                 float: none;
                 padding-top: 10px;
+                position: block;
 
             }
-                #time{
-                    float: center;
+            #time{
+                float: center;
 
-                }
-                .bt.active {
-                    background-color: #f7f7f6;
-                    padding: 5px;
-                    padding-bottom: 1px;
-                    padding-top: 5px;
-                    border-radius:50px;
-                }
-                .kiria {
-                margin-top: 35px;
-                margin-right:300px;
-                margin-left:30px;
-                width:80px;
-                height:150px;
-                position: inline-block;
-                margin-bottom:40px;
-            
-        
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 10px;
+                margin-right: 300px;
+                margin-left: 10px;
+                width: 100px;
+                height: 70px;
+                position: block;
+                float: left;
+                margin-bottom: 40px;
             }
 
             .kirib {
-                margin-right:300px;
-                margin-left:30px;
-                width:80px;
-                height:50px;
-                position: inline-block;
+                margin-right: 20px;
+                margin-left: 10px;
+                margin-top: -110px;
+                width: 100px;
+                height: 70px;
+                position: block;
+                float: right;
             }
 
             .kanana{
-                height: 480px;
-                width: 120px;
-                margin-top: -40px;
-                margin-right: 80px;
-                margin-left: 90px;
-                border: 1px;
-                border-left:10px;
-                border-right:40px;
+                height: 180px;
+                width: 90%;
+                margin-top: 70px;
+                margin-right: 30px;
+                margin-left: -35px;
+                border: 3px;
+                border-left:20px;
+                border-right:20px;
                 border-style: solid;
                 border-color: #93db74;
                 text-align: justify;
                 font-family: Arial, Helvetica, sans-serif;
-                position: inline-block;
-                font-size: 6px;
+                position: center;
+                font-size:6px;
+                float:none;
             }
 
             .kananb{
-                height: 100px;
-                width: 100px;
-                margin-top: 20px;
-                margin-right: 80px;
-                margin-left: 50px;
-                position: inline-block;
+                height: 250px;
+                width: 300%;
+                margin-top: 270px;
+                margin-right: 60px;
+                margin-left: -32px;
+                position: block;
             }
 
 
@@ -1185,11 +1156,12 @@
                 width: 50px;
                 text-align: center;
                 text-decoration: none;
+              
                 
             }
 
             .fa-instagram {
-                margin: -35px;
+                margin: -15px;
                 color: black;
                 font-size: 8px;
                 display: inline;
@@ -1199,8 +1171,38 @@
                 /* margin: -16px; */
                 display: inline;
                 font-size: 8px;
+                margin-right:-5px;
 
             }
+            .bt{
+                width:70%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px
+            }
+        
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            li {
+                float:left;
+                margin: 0.7px;
+                padding: 0px;
+            
+            }
+
+            .logo{
+                width:80%;
+            }
+        }
     </style>
     <script>
         `use strict`;
