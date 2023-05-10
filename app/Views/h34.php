@@ -38,7 +38,7 @@ $data = json_decode($konten, true);
                             <div class="col-12">
                                 <nav class="main-nav">
                                     <ul class="nav">
-                                        <a href='<?php $baseURL ?>/index.php'> <button class="bt "><img src="asset/Logo 2.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
+                                        <a href='<?php $baseURL ?>/index.php'> <button class="bt "><img src="asset/Logo 2.png" class="logo" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
                                         <!-- <li><img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"></li> -->
                                         <!-- <img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"> -->
                                         <a href='<?php $baseURL ?>/h2' ><button class="bt"><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
@@ -412,6 +412,53 @@ $data = json_decode($konten, true);
                 cursor: pointer;
                 padding-bottom: 5px;
                 margin:-5px;
+            }
+        }
+
+        @media screen and (max-width: 300px) {
+            .button-blok {
+                display: grid;
+                place-items: center; 
+            }
+            .button-b {
+                margin: 5px 5px 4px;
+                padding: 5px 20px 5px;
+                position: center;
+                place-items: center;
+            }
+            .column {
+                width: 95%;
+                height: 200px;
+            }
+            #time {
+                float: center;
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+            .bt{
+                width:70%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px
+            }
+        
+            li {
+                float:left;
+                margin: 0.7px;
+                padding: 0px;
+            
+            }
+
+            .logo{
+                width:80%;
             }
         }
 

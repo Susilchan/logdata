@@ -13,7 +13,7 @@
                                 <nav class="main-nav">
                                     <ul class="nav">
                                         <!-- <img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"> -->
-                                        <a href='<?php $baseURL ?>/index.php'> <button class="bt "><img src="asset/Logo 2.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
+                                        <a href='<?php $baseURL ?>/index.php'> <button class="bt "><img src="asset/Logo 2.png" alt="dashboard" class ="logo" class="responsive" width="50px" height="50px"></button></a>
                                         <a href='<?php $baseURL ?>/h2'> <button class="bt active"><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
                                         <a href='<?php $baseURL ?>/h31'> <button class="bt"> <img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a>
                                         <a href='<?php $baseURL ?>/h41'> <button class="bt"> <img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a>
@@ -460,9 +460,14 @@
             *{
                 font-size: 12px;
             }
-
+            .button-b {
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
        
-            
+            }
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
@@ -480,6 +485,8 @@
                 /* display:flex; */
                 margin-left:10px;
                 margin-top:10px;
+                font-size: 12px;
+                text-align: justify;
             }
 
             .column {
@@ -500,6 +507,7 @@
             #g1{
                     width:150px;
                     height:200px;
+                    margin-left: 80px;
             }
 
             #tittle{
@@ -547,6 +555,8 @@
                 font-family: Arial, Helvetica, sans-serif;
                 margin-left:10px;
                 margin-top:10px;
+                font-size: 12px;
+                text-align: justify;
             }
 
             .column {
@@ -554,7 +564,7 @@
                 width: 100%;
                 margin-top: 0px;
                 font-family: Arial, Helvetica, sans-serif;
-                font-size: 24px;
+                font-size: 12px;
                 opacity: 1;
                 text-align: justify;
                 padding-right: 50px;
@@ -567,13 +577,105 @@
             #g1{
                 width:150px;
                 height:200px;
+                margin-left: 70px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                margin-left:110px;
+                border: 0px;
+            }
+        }
+
+        @media screen and (max-width: 300px) {
+            
+            *{
+                font-size: 14px;
+            }
+            .button-b {
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+        
+            }
+
+            .bt{
+                width:70%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px
+            }
+        
+            #time{
+                float: center;
+                font-size: 10px;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            li {
+                float:left;
+                margin: 0.7px;
+                padding: 0px;
+            
+            }
+
+            .logo{
+                width:80%;
+            }
+
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                /* margin-left:10px;
+                margin-top:10px; */
+                margin-right:10px;
+                text-align: justify;
+                font-size: 10px;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 8px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 20px;
+                padding-left: 20px;
+                height: 80px;
+                background-color: #2bd56b;
+
+                
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left:40px;
             }
 
             #tittle{
                 margin-top:10px;
                 border: 0px;
+                margin-left:80px;
             }
-
         }
     </style>
     <script>

@@ -407,9 +407,10 @@ $data = json_decode($konten, true);
             .button-blok {
                 display: grid;
                 place-items: center; 
-            }   
+            }
             .button-b {
-                margin: 10px 50px 8px;
+                margin: 5px 5px 5px;
+                padding: 5px 20px 5px;
                 position: center;
                 place-items: center;
             }
@@ -420,17 +421,17 @@ $data = json_decode($konten, true);
             #time {
                 float: center;
             }
-            nav {
-                width: 100%;
-                height: auto;
-                position: relative;
-            }
-            
-            nav li a {
-                float: left;
-                padding: 15px;
-            }
 
+            .bt{
+                width:70%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px
+            }
+        
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
@@ -439,8 +440,17 @@ $data = json_decode($konten, true);
                 border-radius:50px;
             }
 
-        }
+            li {
+                float:left;
+                margin: 0.7px;
+                padding: 0px;
+            
+            }
 
+            .logo{
+                width:80%;
+            }
+        }
 
         
             
@@ -455,7 +465,7 @@ $data = json_decode($konten, true);
                 <div class="col-12">
                     <nav class="main-nav">
                         <ul class="nav">
-                            <a href='<?php $baseURL ?>/index.php'> <button class="bt "><img src="asset/Logo 2.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
+                            <a href='<?php $baseURL ?>/index.php'> <button class="bt "><img src="asset/Logo 2.png" alt="dashboard" class="responsive" class="logo" width="50px" height="50px"></button></a>
                             <!-- <li><img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"></li> -->
                             <a href='<?php $baseURL ?>/h2'><button class="bt" ><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
                             <a href='<?php $baseURL ?>/h31'><button class="bt active"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a>
