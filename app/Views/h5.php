@@ -49,7 +49,7 @@
                                 <i class="fa fa-envelope"> balittro@litbang.pertanian.go.id</i>     
                         </div>
                         <div class="kananb">
-                            <img src="asset/3.png" class="responsive">
+                            <img src="asset/foto-kel.png" class="responsive">
                             
                         </div>
 
