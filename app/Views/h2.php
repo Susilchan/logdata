@@ -604,7 +604,7 @@
             }
 
             .bt{
-                width:70%;
+                width:60%;
                 padding: 0px;
                 border: 0px;
                 background-color: #2bd56b;
@@ -620,7 +620,7 @@
             }
             .bt.active {
                 background-color: #f7f7f6;
-                padding: 5px;
+                padding: 3px;
                 padding-bottom: 1px;
                 padding-top: 5px;
                 border-radius:50px;
