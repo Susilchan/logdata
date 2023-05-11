@@ -49,7 +49,7 @@
                                 <i class="fa fa-envelope"> balittro@litbang.pertanian.go.id</i>     
                         </div>
                         <div class="kananb">
-                            <img src="asset/babi.png" class="responsive">
+                            <img src="asset/kelompok.png" class="responsive">
                             
                         </div>
 
@@ -858,8 +858,8 @@
 
             .kiria {
                 margin-top: 10px;
-                margin-right:300px;
-                margin-left:20px;
+                margin-right:150px;
+                margin-left:80px;
                 width:150px;
                 height:130px;
                 position: grid;
@@ -868,8 +868,8 @@
             }
 
             .kirib {
-                margin-right: 25px;
-                margin-left: 10px;
+                margin-right: 70px;
+                margin-left: 20px;
                 margin-top:-170px;
                 width: 150px;
                 height: 130px;
@@ -879,7 +879,7 @@
 
             .kanana{
                 height: 150px;
-                width: 320px;
+                width: 400px;
                 margin-top: 100px;
                 margin-right: 10px;
                 margin-left: -3px;
@@ -897,7 +897,7 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 210%;
                 margin-top: 270px;
                 margin-right: 60px;
                 margin-left: -35px;
@@ -982,7 +982,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:20px;
+                margin-left:60px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -991,7 +991,7 @@
             }
 
             .kirib {
-                margin-right: 25px;
+                margin-right: 60px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1020,10 +1020,10 @@
 
             .kananb{
                 height: 200px;
-                width: 240%;
+                width: 245%;
                 margin-top: 270px;
-                margin-right: 40px;
-                margin-left: -35px;
+                margin-right: 50px;
+                margin-left: -37px;
                 position: inline-block;
             }
 
@@ -1066,6 +1066,53 @@
                 font-size: 12px;
                 border-radius: 50px;
         
+            }
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:30px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 30px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 240%;
+                margin-top: 270px;
+                margin-right: 40px;
+                margin-left: -15px;
+                position: inline-block;
             }
 
             .bt{
