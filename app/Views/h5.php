@@ -859,7 +859,7 @@
             .kiria {
                 margin-top: 10px;
                 margin-right:150px;
-                margin-left:80px;
+                margin-left:50px;
                 width:150px;
                 height:130px;
                 position: grid;
@@ -868,7 +868,7 @@
             }
 
             .kirib {
-                margin-right: 70px;
+                margin-right: 50px;
                 margin-left: 20px;
                 margin-top:-170px;
                 width: 150px;
@@ -881,8 +881,8 @@
                 height: 150px;
                 width: 400px;
                 margin-top: 100px;
-                margin-right: 10px;
-                margin-left: -3px;
+                margin-right: 50px;
+                margin-left: -25px;
                 border: 7px;
                 border-left:20px;
                 border-right:20px;
@@ -900,7 +900,7 @@
                 width: 210%;
                 margin-top: 270px;
                 margin-right: 60px;
-                margin-left: -35px;
+                margin-left: -30px;
                 position: inline-block;
             }
 
@@ -1020,10 +1020,10 @@
 
             .kananb{
                 height: 200px;
-                width: 245%;
+                width: 220%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -37px;
+                margin-left: -25px;
                 position: inline-block;
             }
 
