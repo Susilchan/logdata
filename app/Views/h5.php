@@ -1023,7 +1023,7 @@
                 width: 220%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -25px;
+                margin-left: -20px;
                 position: inline-block;
             }
 

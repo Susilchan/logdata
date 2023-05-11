@@ -105,3 +105,6 @@ in APPPATH\Views\h41.php on line 58.
  9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-11 10:12:05 --> Maximum execution time of 60 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 165.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
