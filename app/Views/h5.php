@@ -930,6 +930,1113 @@
 
             }
         }
+
+        @media screen and (max-width: 490px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 480px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 470px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 460px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 450px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 440px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 430px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 420px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 410px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
         
 
         @media screen and (max-width: 400px) {
@@ -1024,6 +2131,621 @@
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 390px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 380px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -20px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 370px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -27px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 360px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -25px;
+                position: inline-block;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media screen and (max-width: 390px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:60px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 60px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 220%;
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -15px;
                 position: inline-block;
             }
 
