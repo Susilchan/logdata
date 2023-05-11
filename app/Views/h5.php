@@ -39,7 +39,7 @@
                             <img src="asset/2.png" class="responsive" >
                         </div>
                     </div>
-                    <div class="column2" style="background-color:#f7f7f6;">
+                    <div class="column2" style="background-color:#f7f7f6;"  >
                         <div class="kanana">
                             <p>Balai Pengujian Standar Instrumen Tanaman Rempah, Obat, dan Aromatik (BSIP-TROA)
                                 merupakan unit kerja yang bergerak di bawah Pusat Penelitian dan Pengembangan
@@ -897,10 +897,10 @@
 
             .kananb{
                 height: 200px;
-                width: 200%;
+                width: 220%;
                 margin-top: 270px;
                 margin-right: 60px;
-                margin-left: -10px;
+                margin-left: -35px;
                 position: inline-block;
             }
 
@@ -980,11 +980,11 @@
             }
 
             .kiria {
-                margin-top: 10px;
+                margin-top: 5px;
                 margin-right:300px;
                 margin-left:20px;
-                width:150px;
-                height:130px;
+                width:100px;
+                height:120px;
                 position: grid;
                 float: left;
                 margin-bottom:40px;
@@ -993,17 +993,17 @@
             .kirib {
                 margin-right: 25px;
                 margin-left: 10px;
-                margin-top:-170px;
-                width: 150px;
-                height: 130px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
                 position: grid;
                 float: right;
             }
 
             .kanana{
-                height: 150px;
+                height: 200px;
                 width: 95%;
-                margin-top: 100px;
+                margin-top: 60px;
                 margin-right: 10px;
                 margin-left: -40px;
                 border: 3px;
@@ -1020,10 +1020,10 @@
 
             .kananb{
                 height: 200px;
-                width: 200%;
+                width: 240%;
                 margin-top: 270px;
-                margin-right: 60px;
-                margin-left: -10px;
+                margin-right: 40px;
+                margin-left: -35px;
                 position: inline-block;
             }
 
