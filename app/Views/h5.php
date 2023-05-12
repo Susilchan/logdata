@@ -2458,7 +2458,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:50px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -2531,7 +2531,7 @@
         
         }
 
-        @media screen and (max-width: 360px) {
+        @media screen and (max-width: 380px) {
             
             *{
                 font-size: 12px;
@@ -2622,7 +2622,7 @@
                 width: 220%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -25px;
+                margin-left: -20px;
                 position: inline-block;
             }
 
@@ -2704,7 +2704,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:85px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -2745,7 +2745,7 @@
                 width: 220%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -15px;
+                margin-left: -24px;
                 position: inline-block;
             }
 
@@ -2833,7 +2833,7 @@
                 width: 240%;
                 margin-top: 270px;
                 margin-right: 40px;
-                margin-left: -15px;
+                margin-left: -13px;
                 position: inline-block;
             }
 
