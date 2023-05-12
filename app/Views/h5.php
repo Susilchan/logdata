@@ -859,7 +859,7 @@
             .kiria {
                 margin-top: 10px;
                 margin-right:150px;
-                margin-left:50px;
+                margin-left:80px;
                 width:150px;
                 height:130px;
                 position: grid;
@@ -868,7 +868,7 @@
             }
 
             .kirib {
-                margin-right: 50px;
+                margin-right: 70px;
                 margin-left: 20px;
                 margin-top:-170px;
                 width: 150px;
@@ -879,7 +879,7 @@
 
             .kanana{
                 height: 150px;
-                width: 400px;
+                width: 450px;
                 margin-top: 100px;
                 margin-right: 50px;
                 margin-left: -25px;
@@ -897,10 +897,10 @@
 
             .kananb{
                 height: 200px;
-                width: 210%;
+                width: 200.5%;
                 margin-top: 270px;
                 margin-right: 60px;
-                margin-left: -30px;
+                margin-left: -25px;
                 position: inline-block;
             }
 
@@ -932,16 +932,15 @@
         }
 
         @media screen and (max-width: 490px) {
-            
             *{
                 font-size: 12px;
             }
             .button-b {
-            padding: 10px 12px;
-            display: inline;
-            margin: 5px 5px 5px;
-            font-size: 12px;
-            border-radius: 50px;
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
        
             }
             .column1{
@@ -957,13 +956,11 @@
                 padding-left: 10px;
                 height: 30px;
                 background-color: #2bd56b
-                position: block;
                 
             }
             .column2{
                 float: none;
                 padding-top: 10px;
-                position: block;
 
             }
             #time{
@@ -979,11 +976,11 @@
             }
 
             .kiria {
-                margin-top: 5px;
-                margin-right:300px;
-                margin-left:60px;
-                width:100px;
-                height:120px;
+                margin-top: 10px;
+                margin-right:150px;
+                margin-left:80px;
+                width:150px;
+                height:130px;
                 position: grid;
                 float: left;
                 margin-bottom:40px;
@@ -991,23 +988,23 @@
 
             .kirib {
                 margin-right: 60px;
-                margin-left: 10px;
-                margin-top:-160px;
-                width: 100px;
-                height: 120px;
+                margin-left: 20px;
+                margin-top:-170px;
+                width: 150px;
+                height: 130px;
                 position: grid;
                 float: right;
             }
 
             .kanana{
-                height: 200px;
-                width: 95%;
-                margin-top: 60px;
-                margin-right: 10px;
-                margin-left: -40px;
-                border: 3px;
-                border-left: 10px;
-                border-right: 10px;
+                height: 150px;
+                width: 450px;
+                margin-top: 100px;
+                margin-right: 50px;
+                margin-left: -25px;
+                border: 7px;
+                border-left:20px;
+                border-right:20px;
                 border-style: solid;
                 border-color: #93db74;
                 text-align: justify;
@@ -1019,10 +1016,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 206.5%;
                 margin-top: 270px;
-                margin-right: 50px;
-                margin-left: -20px;
+                margin-right: 60px;
+                margin-left: -25px;
                 position: inline-block;
             }
 
@@ -1051,8 +1048,9 @@
                 margin-right:-5px;
 
             }
-        
         }
+
+        
 
         @media screen and (max-width: 480px) {
             
@@ -1104,7 +1102,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:115px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1113,7 +1111,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 110px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1142,10 +1140,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 215%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -1227,7 +1225,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:110px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1236,7 +1234,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 105px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1265,10 +1263,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 217.5%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -1350,7 +1348,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:100px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1359,7 +1357,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 100px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1388,10 +1386,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 219.5%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -1473,7 +1471,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:100px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1482,7 +1480,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 100px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1511,10 +1509,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 222.5%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -1596,7 +1594,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:100px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1605,7 +1603,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 90px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1634,10 +1632,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 224.5%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -1719,7 +1717,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:90px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1728,7 +1726,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 95px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1757,10 +1755,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 228%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -1842,7 +1840,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:95px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1851,7 +1849,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 80px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1880,10 +1878,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 230.5%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -1965,7 +1963,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left: 90px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1974,7 +1972,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 75px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1986,7 +1984,7 @@
             .kanana{
                 height: 200px;
                 width: 95%;
-                margin-top: 60px;
+                margin-top: 50px;
                 margin-right: 10px;
                 margin-left: -40px;
                 border: 3px;
@@ -2003,10 +2001,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 234%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -2089,7 +2087,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:89px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -2098,7 +2096,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 75px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -2127,10 +2125,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 237.5%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -2212,7 +2210,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:75px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -2221,7 +2219,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 75px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -2250,10 +2248,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 242%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -2335,7 +2333,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:70px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -2344,7 +2342,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 75px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -2373,10 +2371,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 246%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -39px;
                 position: inline-block;
             }
 
@@ -2458,7 +2456,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:50px;
+                margin-left:75px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -2496,10 +2494,12 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 250%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -27px;
+                margin-left: -39px;
+                /* margin-left: -18px; */
+
                 position: inline-block;
             }
 
@@ -2531,7 +2531,7 @@
         
         }
 
-        @media screen and (max-width: 380px) {
+        @media screen and (max-width: 360px) {
             
             *{
                 font-size: 12px;
@@ -2581,7 +2581,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:60px;
+                margin-left:70px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -2590,7 +2590,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 55px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -2619,10 +2619,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 255%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -20px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -2654,7 +2654,7 @@
         
         }
 
-        @media screen and (max-width: 390px) {
+        @media screen and (max-width: 350px) {
             
             *{
                 font-size: 12px;
@@ -2704,7 +2704,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:85px;
+                margin-left:65px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -2713,7 +2713,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 50px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -2742,10 +2742,10 @@
 
             .kananb{
                 height: 200px;
-                width: 220%;
+                width: 261%;
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -24px;
+                margin-left: -40px;
                 position: inline-block;
             }
 
@@ -2830,10 +2830,10 @@
 
             .kananb{
                 height: 200px;
-                width: 240%;
+                width: 299%;
                 margin-top: 270px;
                 margin-right: 40px;
-                margin-left: -13px;
+                margin-left: -39px;
                 position: inline-block;
             }
 
