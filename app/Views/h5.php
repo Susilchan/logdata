@@ -49,6 +49,8 @@
                                 <i class="fa fa-envelope"> balittro@litbang.pertanian.go.id</i>     
                         </div>
                         <div class="kananb">
+                        <!-- <div class="column2"> -->
+                        
                             <img src="asset/kelompok.png" class="responsive">
                             
                         </div>
@@ -858,7 +860,7 @@
 
             .kiria {
                 margin-top: 10px;
-                margin-right:150px;
+                margin-right:155px;
                 margin-left:80px;
                 width:150px;
                 height:130px;
@@ -868,7 +870,7 @@
             }
 
             .kirib {
-                margin-right: 70px;
+                margin-right: 75px;
                 margin-left: 20px;
                 margin-top:-170px;
                 width: 150px;
@@ -897,11 +899,12 @@
 
             .kananb{
                 height: 200px;
-                width: 200.5%;
+                width: 90%;
+                /* width: 200.5%; */
                 margin-top: 270px;
                 margin-right: 60px;
                 margin-left: -25px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -978,7 +981,7 @@
             .kiria {
                 margin-top: 10px;
                 margin-right:150px;
-                margin-left:80px;
+                margin-left:70px;
                 width:150px;
                 height:130px;
                 position: grid;
@@ -987,7 +990,7 @@
             }
 
             .kirib {
-                margin-right: 60px;
+                margin-right: 85px;
                 margin-left: 20px;
                 margin-top:-170px;
                 width: 150px;
@@ -1016,11 +1019,12 @@
 
             .kananb{
                 height: 200px;
-                width: 206.5%;
+                width: 92%;
+                /* width: 206.5%; */
                 margin-top: 270px;
                 margin-right: 60px;
                 margin-left: -25px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -1102,7 +1106,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:115px;
+                margin-left:125px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1111,7 +1115,7 @@
             }
 
             .kirib {
-                margin-right: 110px;
+                margin-right: 115px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1140,11 +1144,12 @@
 
             .kananb{
                 height: 200px;
-                width: 215%;
+                width: 95%;
+                /* width: 215%; */
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -40px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -1225,7 +1230,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:110px;
+                margin-left:120px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1234,7 +1239,7 @@
             }
 
             .kirib {
-                margin-right: 105px;
+                margin-right: 115px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1263,11 +1268,12 @@
 
             .kananb{
                 height: 200px;
-                width: 217.5%;
+                width: 95%;
+                /* width: 217.5%; */
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -40px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -1386,11 +1392,136 @@
 
             .kananb{
                 height: 200px;
-                width: 219.5%;
+                width: 95%;
+                /* width: 219.5%; */
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -40px;
-                position: inline-block;
+                position: fixed;
+            }
+
+
+            .fa {
+                /* padding: 30px; */
+                font-size: 11px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+              
+                
+            }
+
+            .fa-instagram {
+                margin: -7px;
+                color: black;
+                font-size: 8px;
+                display: inline;
+            }
+
+            .fa-envelope{
+                /* margin: -16px; */
+                display: inline;
+                font-size: 8px;
+                margin-right:-5px;
+
+            }
+        
+        }
+
+        @media only screen and (min-width: 361px) and (max-width: 469px)  {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                position: block;
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                position: block;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:115px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 110px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 95%;
+                /* width: 219.5%; */
+                margin-top: 270px;
+                margin-right: 50px;
+                margin-left: -40px;
+                position: fixed;
             }
 
 
@@ -1471,7 +1602,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:100px;
+                margin-left:105px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1480,7 +1611,7 @@
             }
 
             .kirib {
-                margin-right: 100px;
+                margin-right: 110px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1492,7 +1623,7 @@
             .kanana{
                 height: 200px;
                 width: 95%;
-                margin-top: 60px;
+                margin-top: 60x;
                 margin-right: 10px;
                 margin-left: -40px;
                 border: 3px;
@@ -1509,11 +1640,12 @@
 
             .kananb{
                 height: 200px;
-                width: 222.5%;
+                width: 95%;
+                /* width: 222.5%; */
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -40px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -1594,7 +1726,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:100px;
+                margin-left:105px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1603,7 +1735,7 @@
             }
 
             .kirib {
-                margin-right: 90px;
+                margin-right: 95px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1632,11 +1764,12 @@
 
             .kananb{
                 height: 200px;
-                width: 224.5%;
+                width: 95%;
+                /* width: 224.5%; */
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -40px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -1717,7 +1850,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:90px;
+                margin-left:95px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1726,7 +1859,7 @@
             }
 
             .kirib {
-                margin-right: 95px;
+                margin-right: 100px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -1755,11 +1888,12 @@
 
             .kananb{
                 height: 200px;
-                width: 228%;
+                width: 95%;
+                /* width: 228%; */
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -40px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -1840,7 +1974,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left:95px;
+                margin-left:100px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1861,7 +1995,7 @@
             .kanana{
                 height: 200px;
                 width: 95%;
-                margin-top: 60px;
+                margin-top: 65px;
                 margin-right: 10px;
                 margin-left: -40px;
                 border: 3px;
@@ -1878,11 +2012,12 @@
 
             .kananb{
                 height: 200px;
-                width: 230.5%;
+                width: 95%;
+                /* width: 230.5%; */
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -40px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -1963,7 +2098,7 @@
             .kiria {
                 margin-top: 5px;
                 margin-right:300px;
-                margin-left: 90px;
+                margin-left: 95px;
                 width:100px;
                 height:120px;
                 position: grid;
@@ -1972,7 +2107,7 @@
             }
 
             .kirib {
-                margin-right: 75px;
+                margin-right: 80px;
                 margin-left: 10px;
                 margin-top:-160px;
                 width: 100px;
@@ -2001,11 +2136,12 @@
 
             .kananb{
                 height: 200px;
-                width: 234%;
-                margin-top: 270px;
+                width: 95%;
+                /* width: 234%; */
+                margin-top: 260px;
                 margin-right: 50px;
                 margin-left: -40px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -2125,11 +2261,12 @@
 
             .kananb{
                 height: 200px;
-                width: 237.5%;
+                width: 95%;
+                /* width: 237.5%; */
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -40px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -2248,11 +2385,12 @@
 
             .kananb{
                 height: 200px;
-                width: 242%;
+                width: 95%;
+                /* width: 242%; */
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -40px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -2371,11 +2509,12 @@
 
             .kananb{
                 height: 200px;
-                width: 246%;
+                width: 95%;
+                /* width: 246%; */
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -39px;
-                position: inline-block;
+                margin-left: -40px;
+                position: fixed;
             }
 
 
@@ -2494,13 +2633,14 @@
 
             .kananb{
                 height: 200px;
-                width: 250%;
+                width: 95%;
+                /* width: 250%; */
                 margin-top: 270px;
                 margin-right: 50px;
-                margin-left: -39px;
+                margin-left: -40px;
                 /* margin-left: -18px; */
 
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -2619,11 +2759,11 @@
 
             .kananb{
                 height: 200px;
-                width: 255%;
+                width: 95%;
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -40px;
-                position: inline-block;
+                position: fixed;
             }
 
 
@@ -2679,7 +2819,7 @@
                 padding-right: 10px;
                 padding-left: 10px;
                 height: 30px;
-                background-color: #2bd56b
+                background-color: #2bd56b;
                 position: block;
                 
             }
@@ -2742,7 +2882,7 @@
 
             .kananb{
                 height: 200px;
-                width: 261%;
+                width: 95%;
                 margin-top: 270px;
                 margin-right: 50px;
                 margin-left: -40px;
@@ -2776,6 +2916,571 @@
             }
         
         }
+        @media screen and (max-width: 340px) {
+            
+            *{
+                font-size: 14px;
+            }
+            .button-b {
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+        
+            }
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:50px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 50px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 95%;
+                margin-top: 270px;
+                margin-right: 40px;
+                margin-left: -40px;
+                position: fixed;
+            }
+
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                padding:2.5px;
+            }
+        
+            #time{
+                float: center;
+                font-size: 10px;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 3px;
+                padding-bottom: 2px;
+                padding-top: 3px;     
+                border-radius:50px;
+            }
+
+            /* li {
+                float:left;
+                margin: 0.7px;
+                padding: 0px;
+            
+            } */
+
+            .logo{
+                width:100%;
+                margin-left:1px;
+            }
+
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                /* margin-left:10px;
+                margin-top:10px; */
+                margin-right:10px;
+                text-align: justify;
+                font-size: 10px;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 8px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 20px;
+                padding-left: 20px;
+                height: 80px;
+                background-color: #2bd56b;
+
+                
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left:40px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                border: 0px;
+                margin-left:80px;
+            }
+        }
+        @media screen and (max-width: 330px) {
+            
+            *{
+                font-size: 14px;
+            }
+            .button-b {
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+        
+            }
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:50px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 45px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 95%;
+                margin-top: 270px;
+                margin-right: 40px;
+                margin-left: -40px;
+                position: fixed;
+            }
+
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                padding:2.5px;
+            }
+        
+            #time{
+                float: center;
+                font-size: 10px;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 3px;
+                padding-bottom: 2px;
+                padding-top: 3px;     
+                border-radius:50px;
+            }
+
+            /* li {
+                float:left;
+                margin: 0.7px;
+                padding: 0px;
+            
+            } */
+
+            .logo{
+                width:100%;
+                margin-left:1px;
+            }
+
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                /* margin-left:10px;
+                margin-top:10px; */
+                margin-right:10px;
+                text-align: justify;
+                font-size: 10px;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 8px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 20px;
+                padding-left: 20px;
+                height: 80px;
+                background-color: #2bd56b;
+
+                
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left:40px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                border: 0px;
+                margin-left:80px;
+            }
+        }
+        @media screen and (max-width: 320px) {
+            
+            *{
+                font-size: 14px;
+            }
+            .button-b {
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+        
+            }
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:50px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 40px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 95%;
+                margin-top: 270px;
+                margin-right: 40px;
+                margin-left: -40px;
+                position: fixed;
+            }
+
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                padding:2.5px;
+            }
+        
+            #time{
+                float: center;
+                font-size: 10px;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 3px;
+                padding-bottom: 2px;
+                padding-top: 3px;     
+                border-radius:50px;
+            }
+
+            /* li {
+                float:left;
+                margin: 0.7px;
+                padding: 0px;
+            
+            } */
+
+            .logo{
+                width:100%;
+                margin-left:1px;
+            }
+
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                /* margin-left:10px;
+                margin-top:10px; */
+                margin-right:10px;
+                text-align: justify;
+                font-size: 10px;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 8px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 20px;
+                padding-left: 20px;
+                height: 80px;
+                background-color: #2bd56b;
+
+                
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left:40px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                border: 0px;
+                margin-left:80px;
+            }
+        }
+        @media screen and (max-width: 310px) {
+            
+            *{
+                font-size: 14px;
+            }
+            .button-b {
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+        
+            }
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:40px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 40px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 95%;
+                margin-top: 270px;
+                margin-right: 40px;
+                margin-left: -39px;
+                position: fixed;
+            }
+
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                padding:2.5px;
+            }
+        
+            #time{
+                float: center;
+                font-size: 10px;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 3px;
+                padding-bottom: 2px;
+                padding-top: 3px;     
+                border-radius:50px;
+            }
+
+            /* li {
+                float:left;
+                margin: 0.7px;
+                padding: 0px;
+            
+            } */
+
+            .logo{
+                width:100%;
+                margin-left:1px;
+            }
+
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                /* margin-left:10px;
+                margin-top:10px; */
+                margin-right:10px;
+                text-align: justify;
+                font-size: 10px;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 8px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 20px;
+                padding-left: 20px;
+                height: 80px;
+                background-color: #2bd56b;
+
+                
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left:40px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                border: 0px;
+                margin-left:80px;
+            }
+        }
+
         @media screen and (max-width: 300px) {
             
             *{
@@ -2830,11 +3535,153 @@
 
             .kananb{
                 height: 200px;
-                width: 299%;
+                width: 95%;
                 margin-top: 270px;
                 margin-right: 40px;
-                margin-left: -39px;
-                position: inline-block;
+                margin-left: -40px;
+                position: fixed;
+            }
+
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                padding:2.5px;
+            }
+        
+            #time{
+                float: center;
+                font-size: 10px;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 3px;
+                padding-bottom: 2px;
+                padding-top: 3px;     
+                border-radius:50px;
+            }
+
+            /* li {
+                float:left;
+                margin: 0.7px;
+                padding: 0px;
+            
+            } */
+
+            .logo{
+                width:100%;
+                margin-left:1px;
+            }
+
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                /* margin-left:10px;
+                margin-top:10px; */
+                margin-right:10px;
+                text-align: justify;
+                font-size: 10px;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 8px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 20px;
+                padding-left: 20px;
+                height: 80px;
+                background-color: #2bd56b;
+
+                
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left:40px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                border: 0px;
+                margin-left:80px;
+            }
+        }
+
+        @media screen and (max-width: 290px) {
+            
+            *{
+                font-size: 14px;
+            }
+            .button-b {
+                padding: 10px 12px;
+                display: inline;
+                margin: 5px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+        
+            }
+            .kiria {
+                margin-top: 5px;
+                margin-right:300px;
+                margin-left:30px;
+                width:100px;
+                height:120px;
+                position: grid;
+                float: left;
+                margin-bottom:40px;
+            }
+
+            .kirib {
+                margin-right: 30px;
+                margin-left: 10px;
+                margin-top:-160px;
+                width: 100px;
+                height: 120px;
+                position: grid;
+                float: right;
+            }
+
+            .kanana{
+                height: 200px;
+                width: 95%;
+                margin-top: 60px;
+                margin-right: 10px;
+                margin-left: -40px;
+                border: 3px;
+                border-left: 10px;
+                border-right: 10px;
+                border-style: solid;
+                border-color: #93db74;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                font-size:6px;
+                float:none;
+            }
+
+            .kananb{
+                height: 200px;
+                width: 95%;
+                margin-top: 270px;
+                margin-right: 40px;
+                margin-left: -40px;
+                position: fixed;
             }
 
             .bt{
