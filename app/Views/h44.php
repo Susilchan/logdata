@@ -503,9 +503,11 @@
 
             th, td { white-space: nowrap; }
             div.dataTables_wrapper {
-                width: 200px;
+                width: 280px;
                 margin: 0 auto;
             }
+
+            tr { height: 50px; }
         }
         @media screen and (max-width: 300px) {
             
@@ -606,6 +608,7 @@
                 width: 200px;
                 margin: 0 auto;
             }
+            tr { height: 50px; }
         }
     </style>
 
