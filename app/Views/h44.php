@@ -487,17 +487,25 @@
                 padding-top: 10px;
 
             }
-                #time{
-                    float: center;
 
-                }
-                .bt.active {
-                    background-color: #f7f7f6;
-                    padding: 5px;
-                    padding-bottom: 1px;
-                    padding-top: 5px;
-                    border-radius:50px;
-                }
+            #time{
+                float: center;
+
+            }
+                
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 200px;
+                margin: 0 auto;
+            }
         }
         @media screen and (max-width: 300px) {
             
@@ -591,6 +599,12 @@
                 margin-top:10px;
                 border: 0px;
                 margin-left:80px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 200px;
+                margin: 0 auto;
             }
         }
     </style>

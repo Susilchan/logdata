@@ -551,13 +551,6 @@
                 border-radius:50px;
             }
 
-            /* li {
-                float:left;
-                margin: 0.7px;
-                padding: 0px;
-            
-            } */
-
             .logo{
                 width:100%;
                 margin-left:1px;

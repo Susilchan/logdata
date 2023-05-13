@@ -551,7 +551,7 @@ $data = json_decode($konten, true);
             };
 
             var dataKelembapan = {
-                label: "Kelembapan (%)",
+                label: "Kelembapan",
                 data: kelembapan,
                 lineTension: 0,
                 fill: false,
