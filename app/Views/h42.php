@@ -515,9 +515,9 @@
                 font-size: 14px;
             }
             .button-b {
-                padding: 10px 12px;
+                padding: 10px 18px;
                 display: inline;
-                margin: 5px 5px 5px;
+                margin: -7px 5px 10px;
                 font-size: 12px;
                 border-radius: 50px;
         
@@ -601,6 +601,12 @@
                 margin-top:10px;
                 border: 0px;
                 margin-left:80px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 200px;
+                margin: 0 auto;
             }
         }
 
