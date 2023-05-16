@@ -129,6 +129,13 @@ $data = json_decode($konten, true);
             width: 100%;
             height: 80px;
         }
+        a{
+            text-decoration: none;
+        }
+        a:visited{
+            color: inherit;
+        }
+
 
 
         .button {

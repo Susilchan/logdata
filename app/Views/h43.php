@@ -99,6 +99,12 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+    a{
+       text-decoration: none;
+    }
+    a:visited{
+        color: inherit;
+    }
 
     ul {
         list-style-type: none;

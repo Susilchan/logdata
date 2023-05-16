@@ -534,7 +534,6 @@
             margin: 5px 5px 5px;
             font-size: 12px;
             border-radius: 50px;
-       
             }
         
             #time{

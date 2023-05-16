@@ -64,6 +64,12 @@ $data = json_decode($konten, true);
             max-width: 100%;
             height: auto;
         }
+        a{
+            text-decoration: none;
+        }
+        a:visited{
+            color: inherit;
+        }
 
         #time {
             margin: 10px;

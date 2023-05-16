@@ -146,6 +146,13 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: small;
     }
+    a{
+      text-decoration: none;
+    }
+    a:visited{
+      color: inherit;
+    }
+
 
     nav {
         padding: 5px 5px;
