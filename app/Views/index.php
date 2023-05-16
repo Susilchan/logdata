@@ -18,11 +18,11 @@
             <main>
                 <div class="tengah">
                     <img src="asset/Logo 1-2.png" alt="logo felova" class="responsive" width="300px" height="250px">
-                    <br>
+                    <p>
                     <span>Website Fertigasi dan Logger Pada Tanaman Vanili </span>
+                    </p>
+                        <a href='<?php $baseURL ?>/h2'><button class="button">MULAI</button></a>
                     
-                    <br>
-                    <a href='<?php $baseURL ?>/h2'><button class="button">MULAI</button></a>
                 </div>
             </main>              
         </body>
@@ -64,7 +64,7 @@
                 text-decoration: none;
                 display: inline-block;
                 font-size: 20px;
-                margin: 70px 70px;
+                /* margin: 70px 70px; */
                 cursor: pointer;
                 padding: 20px 150px;
                 border-radius: 20px;
@@ -86,10 +86,16 @@
                 text-align: center;
                 font-size: 26px;
             }
+            .child{
+                margin-top: 50px;
+                margin-left: 0px;
+                position: absolute;
+                text-align: center;
+            }
             
 
             @media screen and (max-width: 1280px) {
-                .tengah, .button{
+                .tengah{
                     width: 100%; 
                     height: auto;
                     padding: 20px 80px;
@@ -101,7 +107,7 @@
             }
 
             @media screen and (max-width: 1024px) {
-                .tengah, .button{
+                .tengah{
                     width: 100%; 
                     height: auto;
                     padding: 20px 80px;
@@ -113,7 +119,7 @@
             }
            
             @media screen and (max-width: 800px) {
-                .tengah, .button{
+                .tengah{
                     width: 100%; 
                     height: auto;
                     margin-top: 30%;
@@ -123,7 +129,7 @@
                
             }
             @media only screen and (max-width: 400px) {
-                .tengah, .button{
+                .tengah{
                     width: 100%; 
                     height: auto;
                     padding: 20px 80px;
