@@ -103,6 +103,9 @@
                     margin-left: 1%; 
                     margin-right: 1%;        
                 }
+                .button{
+                    width:30%;
+                }
                
             }
 
@@ -115,7 +118,10 @@
                     margin-left: 1%; 
                     margin-right: 1%;        
                 }
-               
+                .button{
+                    width:30%;
+                }
+                            
             }
            
             @media screen and (max-width: 800px) {
@@ -126,7 +132,9 @@
                     margin-left: 1%;  
                     padding: 20px 60px;       
                 }
-               
+                .button{
+                    width:30%;
+                }
             }
             @media only screen and (max-width: 400px) {
                 .tengah{
@@ -137,7 +145,9 @@
                     margin-left: 1%;  
                     margin-right: 1%;       
                 }
-              
+                .button{
+                    width:30%;
+                }
             } 
             
         </style>
