@@ -195,6 +195,130 @@ $data = json_decode($konten, true);
                 
         }
 
+        @media screen and (max-width: 1024px) {
+            * {
+            box-sizing: border-box;
+            }
+
+            body {
+                margin: 0px;
+                font-size: 14px;
+                background: rgba(246, 247, 247, 1);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+            a{
+                text-decoration: none;
+            }
+            a:visited{
+                color: inherit;
+            }
+
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            li {
+                float: left;
+                margin: 5px;
+
+            }
+
+            li a {
+                display: block;
+                color: white;
+                padding: 5px 5px;
+                font-size: 5px;
+            }
+
+            .responsive {
+                max-width: 100%;
+                height: auto;
+            }
+
+            #time {
+                margin: 10px;
+                padding: 5px 5px;
+                border: 5px;
+                border-color: #fefefe;
+                background-color: #fefefe;
+                border-style: solid;
+                border-radius: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: small;
+            }
+
+            nav {
+                padding: 5px 5px;
+                font-size: 64px;
+                text-decoration: none;
+                border: 10px;
+                margin: 0px;
+                background-color: #2bd56b;
+                width: 100%;
+                height: 80px;
+            }
+
+
+            .button {
+                display: inline-block;
+            }
+
+            .bt {
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px;
+            }
+
+            .bt.active {
+                background-color: #f7f7f6;
+                border-bottom-left-radius: 1px;
+                border-bottom-right-radius: 1px;
+                padding: 5px;
+                padding-bottom: 10px;
+                padding-top: 5px;
+            }
+
+            .button-b {
+                background-color: #93db74;
+                border: none;
+                color: black;
+                padding: 12px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin: 20px 50px 8px;
+                cursor: pointer;
+                border-radius: 16px;
+                position: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+
+            }
+
+            .button-b:hover {
+                background-color: #c1ff72;
+            }
+
+            .button-b.active {
+                background-color: #c1ff72;
+
+            }
+
+            .column {
+                padding-top:20px;
+                width: 60%;
+                /* height:50%; */
+                margin: 15px auto;
+                    
+            }
+        }
+
         @media screen and (max-width: 900px) {
             .column {
             padding-top:20px;
