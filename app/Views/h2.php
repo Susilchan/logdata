@@ -509,13 +509,15 @@
             #g1{
                     width:150px;
                     height:200px;
-                    margin-left: 80px;
+                    margin-left: 130px;
             }
 
             #tittle{
                 margin-top:10px;
+                margin-left:160px;
                 border: 0px;
             }
+            
 
             
 
@@ -539,6 +541,312 @@
             #time{
                 float: center;
 
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left:10px;
+                margin-top:10px;
+                font-size: 12px;
+                text-align: justify;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 50px;
+                padding-left: 50px;
+                height: 80px;
+                background-color: #2bd56b;
+                /* margin-right:10px; */
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left: 70px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                margin-left:110px;
+                border: 0px;
+            }
+        }
+        @media screen and (max-width: 340px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+            }
+        
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left:10px;
+                margin-top:10px;
+                font-size: 12px;
+                text-align: justify;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 50px;
+                padding-left: 50px;
+                height: 80px;
+                background-color: #2bd56b;
+                /* margin-right:10px; */
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left: 70px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                margin-left:110px;
+                border: 0px;
+            }
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                
+            }
+        }
+        @media screen and (max-width: 330px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+            }
+        
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left:10px;
+                margin-top:10px;
+                font-size: 12px;
+                text-align: justify;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 50px;
+                padding-left: 50px;
+                height: 80px;
+                background-color: #2bd56b;
+                /* margin-right:10px; */
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left: 70px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                margin-left:110px;
+                border: 0px;
+            }
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                
+            }
+        }
+
+        @media screen and (max-width: 320px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+            }
+        
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                
+            }
+
+            #desc{
+                border: 30px;
+                border-style: solid;
+                border-color: #93db74;
+                background-color: #93db74;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left:10px;
+                margin-top:10px;
+                font-size: 12px;
+                text-align: justify;
+            }
+
+            .column {
+                float: none;
+                width: 100%;
+                margin-top: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: justify;
+                padding-right: 50px;
+                padding-left: 50px;
+                height: 80px;
+                background-color: #2bd56b;
+                /* margin-right:10px; */
+            }
+
+            #g1{
+                width:150px;
+                height:200px;
+                margin-left: 70px;
+            }
+
+            #tittle{
+                margin-top:10px;
+                margin-left:110px;
+                border: 0px;
+            }
+        }
+
+        @media screen and (max-width: 310px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+            }
+        
+            #time{
+                float: center;
+
+            }
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                
             }
             .bt.active {
                 background-color: #f7f7f6;
