@@ -138,7 +138,13 @@
                 font-weight: bold;
                 font-size: 18px;
               
-            }   
+            }  
+            .icon-bar {
+                    position: fixed;
+                    top: 25px;
+                    left: 20px;
+                    height: 90%
+                } 
                
             }
 
@@ -181,6 +187,12 @@
                 font-size: 18px;
               
             }
+            .icon-bar {
+                    position: fixed;
+                    top: 25px;
+                    left: 20px;
+                    height: 90%
+                }
                
             }
 
@@ -227,6 +239,12 @@
                 font-size: 18px;
               
             }  
+            .icon-bar {
+                    position: fixed;
+                    top: 25px;
+                    left: 20px;
+                    height: 90%
+                }
                
             }
            
@@ -272,7 +290,13 @@
                 font-weight: bold;
                 font-size: 18px;
               
-            }  
+            } 
+            .icon-bar {
+                    position: fixed;
+                    top: 25px;
+                    left: 20px;
+                    height: 90%
+                } 
                
             }
 
@@ -319,7 +343,13 @@
                 font-weight: bold;
                 font-size: 18px;
               
-            }    
+            }  
+            .icon-bar {
+                    position: fixed;
+                    top: 25px;
+                    left: 20px;
+                    height: 90%
+                }  
               
             }
 
@@ -367,6 +397,12 @@
                 font-size: 18px;
               
             } 
+            .icon-bar {
+                    position: fixed;
+                    top: 25px;
+                    left: 20px;
+                    height: 90%
+                }
               
             }
 
@@ -418,6 +454,12 @@
                     font-weight: bold;
                     font-size: 18px;
                 
+                }
+                .icon-bar {
+                    position: fixed;
+                    top: 25px;
+                    left: 20px;
+                    height: 90%
                 }    
               
             } 
@@ -471,6 +513,12 @@
                     font-size: 18px;
                 
                 } 
+                .icon-bar {
+                    position: fixed;
+                    top: 25px;
+                    left: 20px;
+                    height: 90%
+                }
 
                 @media only screen and (max-width: 300px) {
                 .tengah{
