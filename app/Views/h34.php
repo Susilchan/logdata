@@ -169,7 +169,7 @@ $data = json_decode($konten, true);
             text-align: center;
             text-decoration: none;
             display: inline;
-            margin: 20px 90px 8px;
+            margin: 20px 50px 8px;
             cursor: pointer;
             border-radius: 16px;
             position: center;
