@@ -425,7 +425,7 @@ $data = json_decode($konten, true);
                 font-size: 14px;
             }
             .button-b {
-                padding: 10px 12px;
+                padding: 10px 25px;
                 display: inline;
                 margin: 5px 5px 5px;
                 font-size: 12px;

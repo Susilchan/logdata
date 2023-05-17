@@ -292,7 +292,7 @@ $data = json_decode($konten, true);
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
-                margin: 20px 50px 8px;
+                margin: 20px 20px 8px;
                 cursor: pointer;
                 border-radius: 16px;
                 position: center;
@@ -552,7 +552,7 @@ $data = json_decode($konten, true);
                 font-size: 14px;
             }
             .button-b {
-                padding: 10px 12px;
+                padding: 10px 25px;
                 display: inline;
                 margin: 5px 5px 5px;
                 font-size: 12px;
