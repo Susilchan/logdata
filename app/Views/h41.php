@@ -474,7 +474,7 @@
                 margin: 5px 5px 5px;
                 font-size: 12px;
                 border-radius: 50px;
-       
+                
             }
             .column1{
                 /* float: left; */
@@ -517,6 +517,325 @@
             tr { height: 50px; }
         }
 
+        @media screen and (max-width: 350px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+                padding: 5px 10px;
+                display: inline;
+                margin: 0px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+                
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 230px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 340px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+                padding: 5px 10px;
+                display: inline;
+                margin: 0px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+                
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 230px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 330px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+                padding: 5px 10px;
+                display: inline;
+                margin: 0px 20px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+                
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
+            #time{
+                float: center;
+
+            }
+
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                padding:2.5px;
+            } 
+
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 230px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 320px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+                padding: 5px 10px;
+                display: inline;
+                margin: 0px 20px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+                
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
+            #time{
+                float: center;
+
+            }
+
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                padding:2.5px;
+            } 
+
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 230px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 310px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+                padding: 7px 10px;
+                display: inline;
+                margin: 0px 20px 3px;
+                font-size: 12px;
+                border-radius: 50px;
+                
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+
+            }
+            #time{
+                float: center;
+
+            }
+
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:2px;
+                margin-left:-5px;
+                padding:2.5px;
+            } 
+            
+
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 3px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 230px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+
         @media screen and (max-width: 300px) {
             
             *{
@@ -524,12 +843,12 @@
             }
 
             .button-b {
-                padding: 10px 18px;
+                padding: 5px 10px;
                 display: inline;
-                margin: -7px 5px 10px;
+                margin: -7px 20px 10px;
                 font-size: 12px;
                 border-radius: 50px;
-                
+    
             }
 
             .bt{
@@ -601,6 +920,23 @@
                 
             }
 
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b;
+                
+                
+            }
+
             #g1{
                 width:150px;
                 height:200px;
@@ -613,9 +949,8 @@
                 margin-left:80px;
             }
         }
-
-    
     </style>
+
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
         <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
         <script src="https://cdn.datatables.net/buttons/2.3.5/js/dataTables.buttons.min.js"></script>
