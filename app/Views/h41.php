@@ -102,157 +102,157 @@
     * {
         box-sizing: border-box;
     }
-    body {
-        margin:0px;
-        font-size: 14px;
-        background: rgba(246,247,247,1);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+        body {
+            margin:0px;
+            font-size: 14px;
+            background: rgba(246,247,247,1);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
 
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
-    li {
-        float:left;
-        margin: 5px;
-      
-    }
+        li {
+            float:left;
+            margin: 5px;
+        
+        }
 
-    li a{
-        display: block;
-        color: white;
-        padding: 5px 5px;
-        font-size: 5px;
-    }
+        li a{
+            display: block;
+            color: white;
+            padding: 5px 5px;
+            font-size: 5px;
+        }
 
-    .responsive {
-        max-width: 100%;
-        height: auto; 
-    }
+        .responsive {
+            max-width: 100%;
+            height: auto; 
+        }
 
-    #time{
-        margin: 10px;
-        padding: 5px 5px;
-        border: 5px;
-        border-color: #fefefe;
-        background-color: #fefefe;
-        border-style: solid;
-        border-radius: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: small;
-    }
-    a{
-      text-decoration: none;
-    }
-    a:visited{
-      color: inherit;
-    }
-
-
-    nav {
-        padding: 5px 5px;
-        font-size: 64px;
+        #time{
+            margin: 10px;
+            padding: 5px 5px;
+            border: 5px;
+            border-color: #fefefe;
+            background-color: #fefefe;
+            border-style: solid;
+            border-radius: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+        }
+        a{
         text-decoration: none;
-        border: 10px;
-        margin: 0px;
-        background-color: #2bd56b;
-        width: 100%;
-        height: 80px;
-    }
+        }
+        a:visited{
+        color: inherit;
+        }
 
-    #desc{
-        border: 30px;
-        border-style: solid;
-        border-color: #93db74;
-        background-color: #93db74;
-        font-family: Arial, Helvetica, sans-serif;
-    }
 
-    .column1 {
-        float: left;
-        width: 35%;
-        margin-top: 0px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 24px;
-        opacity: 1;
-        text-align: center;
-        padding-right: 50px;
-        padding-left: 50px;
-        height: 80px;
-        background-color: #2bd56b
-    }
+        nav {
+            padding: 5px 5px;
+            font-size: 64px;
+            text-decoration: none;
+            border: 10px;
+            margin: 0px;
+            background-color: #2bd56b;
+            width: 100%;
+            height: 80px;
+        }
 
-    .column2 {
-        float: right;
-        width: 65%;
-        margin-top: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 24px;
-        opacity: 1;
-        text-align: justify;
-        padding-right: 50px;
-        padding-left: 50px;
-        height: 80px;
-        background-color: #2bd56b
-    }
-    .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
+        #desc{
+            border: 30px;
+            border-style: solid;
+            border-color: #93db74;
+            background-color: #93db74;
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-    .button {
-        display: block;
-    }
+        .column1 {
+            float: left;
+            width: 35%;
+            margin-top: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            opacity: 1;
+            text-align: center;
+            padding-right: 50px;
+            padding-left: 50px;
+            height: 80px;
+            background-color: #2bd56b
+        }
 
-    .bt{
-        border-radius: 50%;
-        border: 0px;
-        background-color: #2bd56b;
-        cursor: pointer;
-        padding-bottom: 5px ;
-    }
+        .column2 {
+            float: right;
+            width: 65%;
+            margin-top: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            opacity: 1;
+            text-align: justify;
+            padding-right: 50px;
+            padding-left: 50px;
+            height: 80px;
+            background-color: #2bd56b
+        }
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
 
-    .bt.active{
-        background-color: #f7f7f6;
-        border-bottom-left-radius: 1px;
-        border-bottom-right-radius: 1px;
-        padding: 5px;
-        padding-bottom: 10px;
-        padding-top: 5px;
-    }
+        .button {
+            display: block;
+        }
 
-    .button-b {
-        background-color: #93db74;
-        border: none;
-        color: black;
-        padding: 10px 60px;
-        text-align: center;
-        text-decoration: none;
-        display: block;
-        margin: 80px 70px 75px;
-        cursor: pointer;
-        border-radius: 16px;
-        position: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        font-size: 16px;
-    }
+        .bt{
+            border-radius: 50%;
+            border: 0px;
+            background-color: #2bd56b;
+            cursor: pointer;
+            padding-bottom: 5px ;
+        }
 
-    .button-b.active {
-        background-color: #c1ff72;
+        .bt.active{
+            background-color: #f7f7f6;
+            border-bottom-left-radius: 1px;
+            border-bottom-right-radius: 1px;
+            padding: 5px;
+            padding-bottom: 10px;
+            padding-top: 5px;
+        }
 
-    }
+        .button-b {
+            background-color: #93db74;
+            border: none;
+            color: black;
+            padding: 10px 60px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            margin: 80px 70px 75px;
+            cursor: pointer;
+            border-radius: 16px;
+            position: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 16px;
+        }
 
-    .button-b:hover {
-        background-color: #c1ff72;
-    }
+        .button-b.active {
+            background-color: #c1ff72;
 
+        }
+
+        .button-b:hover {
+            background-color: #c1ff72;
+        }
+    
     @media screen and (max-width: 800px) {
         .button-b {
             display: inline;
