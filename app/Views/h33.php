@@ -540,6 +540,117 @@ $data = json_decode($konten, true);
                 margin:-5px;
             }
         }
+        @media screen and (max-width: 330px) {
+            .button-blok {
+            display: grid;
+            place-items: center; 
+        }
+            .button-b {
+                margin: 10px 50px 8px;
+                position: center;
+                place-items: center;
+            }
+            .column {
+                width: 95%;
+                height: 200px;
+            }
+            #time {
+                float: center;
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:-9px;
+                margin-left:-5px;
+                
+            }
+        }
+        @media screen and (max-width: 320px) {
+            .button-blok {
+            display: grid;
+            place-items: center; 
+        }
+            .button-b {
+                margin: 10px 50px 8px;
+                position: center;
+                place-items: center;
+            }
+            .column {
+                width: 95%;
+                height: 200px;
+            }
+            #time {
+                float: center;
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:-9px;
+                margin-left:-5px;
+                
+            }
+        }
+        @media screen and (max-width: 310px) {
+            .button-blok {
+            display: grid;
+            place-items: center; 
+        }
+            .button-b {
+                margin: 10px 50px 8px;
+                position: center;
+                place-items: center;
+            }
+            .column {
+                width: 95%;
+                height: 200px;
+            }
+            #time {
+                float: center;
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+            .bt{
+                width:20%;
+                padding: 0px;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                display: inline;
+                margin-top:10px;
+                margin-right:-9px;
+                margin-left:-5px;
+                
+            }
+        }
 
         @media screen and (max-width: 300px) {
             
