@@ -195,7 +195,7 @@ $data = json_decode($konten, true);
                 
         }
 
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1600px) {
             * {
             box-sizing: border-box;
             }
@@ -292,7 +292,7 @@ $data = json_decode($konten, true);
                 text-align: center;
                 text-decoration: none;
                 display: inline-block;
-                margin: 20px 20px 8px;
+                margin: 20px 92px 8px;
                 cursor: pointer;
                 border-radius: 16px;
                 position: center;
