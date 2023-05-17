@@ -165,11 +165,11 @@ $data = json_decode($konten, true);
             background-color: #93db74;
             border: none;
             color: black;
-            padding: 10px 50px;
+            padding: 12px 50px;
             text-align: center;
             text-decoration: none;
             display: inline;
-            margin: 20px 75px 8px;
+            margin: 20px 90px 8px;
             cursor: pointer;
             border-radius: 16px;
             position: center;
@@ -204,7 +204,7 @@ $data = json_decode($konten, true);
             }
 
             .button-b {
-                margin: 20px 85px 10px;
+                margin: 20px 145px 10px;
                 position: center;
             }
             nav {
@@ -229,6 +229,7 @@ $data = json_decode($konten, true);
                 padding-top: 5px;
                 border-radius:50px;
             }
+            
 
         }
         

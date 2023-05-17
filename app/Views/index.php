@@ -10,8 +10,8 @@
         <body>
             <header>
                  <div class="icon-bar">
-                    <a href="#"><img src="asset/bsop-troa.png" alt="bsip-troa" class="responsive" width="50px" height="50px"></a>
-                    <a href="#"><img src="asset/sv-ipb.png" alt="svipb" class="responsive" width="250px" height="50px"></a>
+                    <img src="asset/bsop-troa.png" alt="bsip-troa" class="responsive" width="50px" height="50px">
+                    <img src="asset/sv-ipb.png" alt="svipb" class="responsive" width="250px" height="50px">
                 </div>
             </header>
                 
@@ -47,6 +47,15 @@
                 background-attachment: fixed;
             }
 
+            a{
+                 text-decoration: none;
+                 margin-left: 0px;
+                 text-align: center;
+             }
+             a:visited{
+                color: inherit;
+             }    
+
             .header{
                 display: inline;
                 width: 70%;
@@ -58,18 +67,21 @@
             }
 
             .button {
-                border: 1px;
+                background-color: #fefefe;;
+                border: none;
                 color: #4CAF50;
+                padding: 12px 50px;
                 text-align: center;
                 text-decoration: none;
-                display: inline-block;
-                font-size: 20px;
-                margin: 70px 70px;
+                display: inline;
+                margin: 20px 90px 8px;
                 cursor: pointer;
-                padding: 20px 150px;
-                border-radius: 20px;
-                background-color: #fefefe;
-                
+                border-radius: 16px;
+                position: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 18px;
+              
             }
 
             .icon-bar {
@@ -89,7 +101,7 @@
             
 
             @media screen and (max-width: 1280px) {
-                .tengah, .button{
+                .tengah {
                     width: 100%; 
                     height: auto;
                     padding: 20px 80px;
@@ -97,11 +109,41 @@
                     margin-left: 1%; 
                     margin-right: 1%;        
                 }
+                a{
+                 text-decoration: none;
+                 margin-left: 0px;
+                 text-align: center;
+             }
+                 a:visited{
+                    color: inherit;
+             } 
+             .responsive {
+                max-width: 100%;
+                height: auto; 
+            }
+
+            .button {
+                background-color: #fefefe;;
+                border: none;
+                color: #4CAF50;
+                padding: 12px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline;
+                margin: 20px 90px 8px;
+                cursor: pointer;
+                border-radius: 16px;
+                position: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 18px;
+              
+            }   
                
             }
 
             @media screen and (max-width: 1024px) {
-                .tengah, .button{
+                .tengah {
                     width: 100%; 
                     height: auto;
                     padding: 20px 80px;
@@ -109,27 +151,383 @@
                     margin-left: 1%; 
                     margin-right: 1%;        
                 }
+                a{
+                 text-decoration: none;
+                 margin-left: 0px;
+                 text-align: center;
+             }
+                 a:visited{
+                    color: inherit;
+             }    
+             .responsive {
+                max-width: 100%;
+                height: auto; 
+            }
+
+            .button {
+                background-color: #fefefe;;
+                border: none;
+                color: #4CAF50;
+                padding: 12px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline;
+                margin: 20px 90px 8px;
+                cursor: pointer;
+                border-radius: 16px;
+                position: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 18px;
+              
+            }
                
             }
-           
-            @media screen and (max-width: 800px) {
-                .tengah, .button{
+
+            @media screen and (max-width: 900px) {
+                .tengah{
                     width: 100%; 
                     height: auto;
                     margin-top: 30%;
                     margin-left: 1%;  
-                    padding: 20px 60px;       
+                    padding: 20px 40px;       
                 }
+
+                .button{
+                    margin-left: 5%;
+                    padding: 15px 30px;
+                }
+                a{
+                 text-decoration: none;
+                 margin-left: 0px;
+                 text-align: center;
+             }
+                 a:visited{
+                    color: inherit;
+             }  
+             .responsive {
+                max-width: 100%;
+                height: auto; 
+            }
+
+            .button {
+                background-color: #fefefe;;
+                border: none;
+                color: #4CAF50;
+                padding: 12px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline;
+                margin: 20px 90px 8px;
+                cursor: pointer;
+                border-radius: 16px;
+                position: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 18px;
+              
+            }  
                
             }
-            @media only screen and (max-width: 400px) {
-                .tengah, .button{
+           
+            @media screen and (max-width: 800px) {
+                .tengah{
+                    width: 100%; 
+                    height: auto;
+                    margin-top: 30%;
+                    margin-left: 1%;  
+                    padding: 20px 40px;       
+                }
+
+                .button{
+                    margin-left: 5%;
+                    padding: 15px 30px;
+                }
+                a{
+                 text-decoration: none;
+                 margin-left: 0px;
+                 text-align: center;
+                }
+                 a:visited{
+                    color: inherit;
+             }  
+             .responsive {
+                max-width: 100%;
+                height: auto; 
+            }
+
+            .button {
+                background-color: #fefefe;;
+                border: none;
+                color: #4CAF50;
+                padding: 12px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline;
+                margin: 20px 90px 8px;
+                cursor: pointer;
+                border-radius: 16px;
+                position: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 18px;
+              
+            }  
+               
+            }
+
+            @media only screen and (max-width: 700px) {
+                .tengah{
                     width: 100%; 
                     height: auto;
                     padding: 20px 80px;
                     margin-top: 30%;
                     margin-left: 1%;  
                     margin-right: 1%;       
+                }
+
+                .button{
+                    margin-left: 8%;
+                    padding: 20px 30px;
+                }
+                a{
+                 text-decoration: none;
+                 margin-left: 0px;
+                 text-align: center;
+             }
+                a:visited{
+                    color: inherit;
+             }
+             .responsive {
+                max-width: 100%;
+                height: auto; 
+            }
+
+            .button {
+                background-color: #fefefe;;
+                border: none;
+                color: #4CAF50;
+                padding: 12px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline;
+                margin: 20px 90px 8px;
+                cursor: pointer;
+                border-radius: 16px;
+                position: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 18px;
+              
+            }    
+              
+            }
+
+            @media only screen and (max-width: 600px) {
+                .tengah{
+                    width: 100%; 
+                    height: auto;
+                    padding: 20px 80px;
+                    margin-top: 30%;
+                    margin-left: 1%;  
+                    margin-right: 1%;       
+                }
+
+                .button{
+                    margin-left: 10%;
+                    padding: 20px 35px;
+                }
+                a{
+                 text-decoration: none;
+                 margin-left: 0px;
+                 text-align: center;
+                }
+                 a:visited{
+                    color: inherit;
+             }   
+             .responsive {
+                max-width: 100%;
+                height: auto; 
+            }
+
+            .button {
+                background-color: #fefefe;;
+                border: none;
+                color: #4CAF50;
+                padding: 12px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline;
+                margin: 20px 90px 8px;
+                cursor: pointer;
+                border-radius: 16px;
+                position: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 18px;
+              
+            } 
+              
+            }
+
+            @media only screen and (max-width: 500px) {
+                .tengah{
+                    width: 100%; 
+                    height: auto;
+                    padding: 20px 80px;
+                    margin-top: 100px;
+                    margin-left: 1%;  
+                    margin-right: 1%;  
+                    position: fixed;
+                      
+                }
+
+                .button{
+                    margin-left: 20%;
+                }
+
+                a{
+                    text-decoration: none;
+                    margin-left: -170px;
+                    text-align: center;
+                    position: fixed;
+                }
+                
+                a:visited{
+                    color: inherit;
+                }
+
+                .responsive {
+                    max-width: 100%;
+                    height: auto; 
+                }
+
+                .button {
+                    background-color: #fefefe;;
+                    border: none;
+                    color: #4CAF50;
+                    padding: 12px 50px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline;
+                    margin: 20px 90px 8px;
+                    cursor: pointer;
+                    border-radius: 16px;
+                    position: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                    font-size: 18px;
+                
+                }    
+              
+            } 
+
+            @media only screen and (max-width: 400px) {
+                .tengah{
+                    width: 100%; 
+                    height: auto;
+                    padding: 20px 80px;
+                    margin-top: 100px;
+                    margin-left: 1%;  
+                    margin-right: 1%;  
+                    position: fixed;
+                      
+                }
+
+                .button{
+                    margin-left: 20%;
+                }
+
+                a{
+                    text-decoration: none;
+                    margin-left: -170px;
+                    text-align: center;
+                    position: fixed;
+                }
+
+                a:visited{
+                    color: inherit;
+                } 
+
+                .responsive {
+                    max-width: 100%;
+                    height: auto; 
+                }
+
+                .button {
+                    background-color: #fefefe;;
+                    border: none;
+                    color: #4CAF50;
+                    padding: 12px 50px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline;
+                    margin: 20px 90px 8px;
+                    cursor: pointer;
+                    border-radius: 16px;
+                    position: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                    font-size: 18px;
+                
+                } 
+
+                @media only screen and (max-width: 300px) {
+                .tengah{
+                    width: 100%; 
+                    height: auto;
+                    padding: 20px 80px;
+                    margin-top: 120px;
+                    margin-left: 1%;  
+                    margin-right: 1%;  
+                    position: fixed;
+                      
+                }
+
+                .button{
+                    margin-left: 20%;
+                }
+
+                a{
+                    text-decoration: none;
+                    margin-left: -170px;
+                    text-align: center;
+                    position: fixed;
+                }
+
+                a:visited{
+                    color: inherit;
+                } 
+
+                .responsive {
+                    max-width: 100%;
+                    height: auto; 
+                    
+                }
+                
+                .button {
+                    background-color: #fefefe;;
+                    border: none;
+                    color: #4CAF50;
+                    padding: 12px 50px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline;
+                    margin: 20px 90px 8px;
+                    cursor: pointer;
+                    border-radius: 16px;
+                    position: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                    font-size: 18px;
+                
+                } 
+
+                .icon-bar {
+                    position: fixed;
+                    top: 25px;
+                    left: 20px;
+                    height: 90%
                 }
               
             } 
