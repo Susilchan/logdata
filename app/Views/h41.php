@@ -33,15 +33,15 @@
                     </div>
                 </header>
                 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="column1" style="background-color:#f7f7f6;">
                         <div class="button-blok">
                             <a href='<?php $baseURL ?>/h41'><button class="button-b active">BLOK 1</button></a>
                             <a href='<?php $baseURL ?>/h42'><button class="button-b">BLOK 2</button></a>
                             <a href='<?php $baseURL ?>/h43'><button class="button-b">BLOK 3</button></a>
                             <a href='<?php $baseURL ?>/h44'><button class="button-b">BLOK 4</button></a>
-                        </div>
-                    </div>
+                        </div> -->
+                    <!-- </div> -->
                     <div class="column2" style="background-color:#f7f7f6;">
                         <table id="data" class="display" style="width:100%">
                             <thead>
@@ -189,16 +189,17 @@
 
         .column2 {
             float: right;
-            width: 65%;
+            width: 95%;
             margin-top: 30px;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 24px;
             opacity: 1;
             text-align: justify;
             padding-right: 50px;
-            padding-left: 50px;
+            padding-left: 0px;
             height: 80px;
-            background-color: #2bd56b
+            background-color: #2bd56b;
+           
         }
         .row:after {
         content: "";
@@ -252,6 +253,14 @@
         .button-b:hover {
             background-color: #c1ff72;
         }
+
+        /* th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 0px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 100px; } */
     
     @media screen and (max-width: 800px) {
         .button-b {

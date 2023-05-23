@@ -1,8 +1,28 @@
- <?php 
+<?php 
 $sumber = 'http://103.76.120.90/logdata';
 $konten = file_get_contents($sumber);
 $data = json_decode($konten, true);
+
+// $sql = "SELECT TIME(created_date::TIME) AS date
+// , ROUND(AVG(kelembapan),2) as kelembapan
+// , ROUND(AVG(suhu),2) as suhu FROM logdata GROUP BY 1";
+
+// $sql = "SELECT DATE(created_date) AS date,
+// HOUR(created_date) AS hour,
+// ROUND(AVG(kelembapan),2) as kelembapan,
+// ROUND(AVG(suhu),2) as suhu FROM logdata GROUP BY DATE(created_date), HOUR(created_date), 1 ORDER BY date, hour";
+
+$sql = "SELECT DATE(created_date) AS date,
+HOUR(created_date) AS hour,
+ROUND(AVG(kelembapan), 2) AS kelembapan,
+ROUND(AVG(suhu), 2) AS suhu
+FROM logdata
+WHERE MINUTE(created_date) = 0 AND SECOND(created_date) = 0
+GROUP BY DATE(created_date), HOUR(created_date), 1
+ORDER BY date, hour";
+
 ?>
+
 
 <?php foreach ($data as $row) {
 
@@ -10,7 +30,8 @@ $data = json_decode($konten, true);
         $suhu[] = $row['suhu'];
         $kelembapan[] = $row['kelembapan'];
         $date[] = $row['created_date'];
-         $blok[] = $row['blok'];
+        $hour[] = $row['created_date'];
+        $blok[] = $row['blok'];
 
     }}
 ?>
@@ -735,15 +756,10 @@ $data = json_decode($konten, true);
         </div>
     </header>
 
-    <div class="button-blok">
-        <a href='<?php $baseURL ?>/h31'><button class="button-b active">BLOK 1</button></a>
-        <a href='<?php $baseURL ?>/h32'><button class="button-b">BLOK 2</button></a>
-        <a href='<?php $baseURL ?>/h33'><button class="button-b">BLOK 3</button></a>
-        <a href='<?php $baseURL ?>/h34'><button class="button-b">BLOK 4</button></a>
-    </div>
+    
 
     <div class="column" style="background-color:#f7f7f6;">
-        <canvas id="myChart" width="200" height="100"></canvas>
+        <canvas id="myChart" width="900" height="450"></canvas>
     </div>
 
 
@@ -753,16 +769,13 @@ $data = json_decode($konten, true);
 </html>
 <br /><br />
 
-
-
 <script>
     var kelembapan = <?= json_encode($kelembapan); ?>;
     var suhu = <?= json_encode($suhu); ?>;
     var date = <?= json_encode($date); ?>;
+    var hour = <?= json_encode($hour); ?>;
     var blok = <?= json_encode($blok); ?>;
     $(document).ready(function() {
-        var time_Array = [date];
-
         var dataSuhu = {
             label: "Suhu (°C)",
             data: suhu,
@@ -770,7 +783,6 @@ $data = json_decode($konten, true);
             fill: false,
             borderColor: 'red',
             backgroundColor: 'red',
-
         };
 
         var dataKelembapan = {
@@ -782,18 +794,16 @@ $data = json_decode($konten, true);
             backgroundColor: 'blue',
         };
 
-
         var ctx = document.getElementById('myChart').getContext('2d');
 
         const data = {
             labels: date,
             datasets: [dataSuhu, dataKelembapan]
-        }
+        };
 
         var myChart = new Chart(ctx, {
             type: 'line',
             data: data,
-
             options: {
                 responsive: true,
                 interaction: {
@@ -816,8 +826,8 @@ $data = json_decode($konten, true);
                             beginAtZero: true
                         },
                         grid: {
-                            drawOnChartArea: false,
-                        },
+                            drawOnChartArea: false
+                        }
                     },
                     y1: {
                         type: 'linear',
@@ -827,29 +837,34 @@ $data = json_decode($konten, true);
                             beginAtZero: true
                         },
                         grid: {
-                            drawOnChartArea: false,
-                        },
+                            drawOnChartArea: false
+                        }
                     },
-                    xAxes: [{
+                    x: {
                         type: 'time',
                         time: {
                             parser: 'YYYY-MM-DD HH:mm:ss',
-                            unit: 'date',
+                            unit: 'hour',
+                            stepSize: 1,
                             displayFormats: {
-                                'date': 'YYYY-MM-DD',
-                                'minute': 'YYYY-MM-DD HH:mm:ss',
-                                'hour': 'YYYY-MM-DD HH:mm:ss'
+                                hour: 'HH:mm'
                             }
                         },
                         ticks: {
-                            source: 'data'
+                            source: 'data',
+                            autoSkip: true,
+                            maxTicksLimit: 24, // Adjust the maximum number of ticks as needed
+                            maxRotation: 0, // Prevent label rotation
+                            minRotation: 0 // Prevent label rotation
                         }
-                    }]
+                    }
+
                 }
             }
         });
     });
 </script>
+
 
 
 <script>

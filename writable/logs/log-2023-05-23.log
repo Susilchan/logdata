@@ -1,0 +1,93 @@
+CRITICAL - 2023-05-23 07:45:42 --> Undefined variable $chartData
+in APPPATH\Views\h31.php on line 953.
+ 1 APPPATH\Views\h31.php(953): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $chartData', 'APPPATH\\Views\\h31.php', 953)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(9): view('h31')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-23 07:51:24 --> Undefined variable $connection
+in APPPATH\Views\h31.php on line 962.
+ 1 APPPATH\Views\h31.php(962): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $connection', 'APPPATH\\Views\\h31.php', 962)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(9): view('h31')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-23 07:52:34 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, string given
+in APPPATH\Views\h31.php on line 962.
+ 1 APPPATH\Views\h31.php(962): mysqli_query('http://103.76.120.90/logdata', 'SELECT DATE(created_date) AS date,
+HOUR(created_date) AS hour,
+ROUND(AVG(kelembapan),2) as kelembapan,
+ROUND(AVG(suhu),2) as suhu FROM logdata GROUP BY DATE(created_date), HOUR(created_date), 1 ORDER BY date, hour')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(9): view('h31')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-23 07:53:05 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, string given
+in APPPATH\Views\h31.php on line 962.
+ 1 APPPATH\Views\h31.php(962): mysqli_query('http://103.76.120.90/logdata', 'SELECT DATE(created_date) AS date,
+        HOUR(created_date) AS hour,
+        ROUND(AVG(kelembapan), 2) as kelembapan,
+        ROUND(AVG(suhu), 2) as suhu
+        FROM logdata
+        GROUP BY DATE(created_date), HOUR(created_date)
+        ORDER BY date, hour')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(9): view('h31')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-23 07:53:08 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, string given
+in APPPATH\Views\h31.php on line 962.
+ 1 APPPATH\Views\h31.php(962): mysqli_query('http://103.76.120.90/logdata', 'SELECT DATE(created_date) AS date,
+        HOUR(created_date) AS hour,
+        ROUND(AVG(kelembapan), 2) as kelembapan,
+        ROUND(AVG(suhu), 2) as suhu
+        FROM logdata
+        GROUP BY DATE(created_date), HOUR(created_date)
+        ORDER BY date, hour')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(9): view('h31')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-23 07:55:34 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, array given
+in APPPATH\Views\h31.php on line 962.
+ 1 APPPATH\Views\h31.php(962): mysqli_query([...], 'SELECT DATE(created_date) AS date,
+        HOUR(created_date) AS hour,
+        ROUND(AVG(kelembapan), 2) as kelembapan,
+        ROUND(AVG(suhu), 2) as suhu
+        FROM logdata
+        GROUP BY DATE(created_date), HOUR(created_date)
+        ORDER BY date, hour')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(9): view('h31')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
