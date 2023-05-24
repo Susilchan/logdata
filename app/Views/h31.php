@@ -168,8 +168,6 @@ ORDER BY date, hour";
 
         }
 
-       
-
         @media screen and (max-width: 1440px) {
             * {
                 box-sizing: border-box;
@@ -290,13 +288,13 @@ ORDER BY date, hour";
             .column {
                 padding-top: 20px;
                 width: 60%; */
-                 height:50%;
+                height:50%;
                 margin: 15px auto;
                 /* width: 100%;
                 height: 150px; */
                 padding-right: 70px;
                 padding-left: 10px;
-                position: center;
+                
 
             }
         }
@@ -573,12 +571,132 @@ ORDER BY date, hour";
                 padding-bottom: 5px;
                 margin: -5px;
             }
+        }
 
-            #myChart {
-                width: 900px;
-                height: 1000px;
+        @media screen and (max-width: 370px) {
+            .button-blok {
+                display: grid;
+                place-items: center;
+            }
+
+            .button-b {
+                margin: 10px 50px 8px;
+                position: center;
+                place-items: center;
+            }
+
+            .column {
+                width: 100%;
+                height: 50px;
+                padding-right: 20px;
+                padding-left: -20px;
+            }
+
+            #time {
+                float: center;
+            }
+
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius: 50px;
+            }
+
+            .bt {
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px;
+                margin: -5px;
             }
         }
+
+        @media screen and (max-width: 350px) {
+            .button-blok {
+                display: grid;
+                place-items: center;
+            }
+
+            .button-b {
+                margin: 10px 50px 8px;
+                position: center;
+                place-items: center;
+            }
+
+            .column {
+                width: 100%;
+                height: 50px;
+                padding-right: 5px;
+                padding-left: -60px;
+            }
+
+            #time {
+                float: center;
+            }
+
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius: 50px;
+            }
+
+            .bt {
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px;
+                margin: -5px;
+            }
+        }
+
+        @media screen and (max-width: 340px) {
+            .button-blok {
+                display: grid;
+                place-items: center;
+            }
+
+            .button-b {
+                margin: 10px 50px 8px;
+                position: center;
+                place-items: center;
+            }
+
+            .column {
+                width: 100%;
+                height: 90px;
+                padding-right: 5px;
+                padding-left: -10px;
+            }
+
+            #time {
+                float: center;
+            }
+
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius: 50px;
+            }
+
+            .bt {
+                border-radius: 50%;
+                border: 0px;
+                background-color: #2bd56b;
+                cursor: pointer;
+                padding-bottom: 5px;
+                margin: -5px;
+            }
+        }
+
+        
 
         @media screen and (max-width: 330px) {
             .button-blok {
@@ -594,9 +712,9 @@ ORDER BY date, hour";
 
             .column {
                 width: 100%;
-                height: 200px;
-                padding-right: 20px;
-                padding-left: -5px;
+                height: 70px;
+                padding-right: 5px;
+                padding-left: -55px;
             }
 
             #time {
