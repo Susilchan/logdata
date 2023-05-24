@@ -744,14 +744,14 @@ ORDER BY date, hour";
 
             .column {
                 float: none;
-                width: 120%;
+                width: 100%;
                 margin-top: 0px;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 8px;
                 opacity: 1;
                 text-align: justify;
                 padding-right: 20px;
-                padding-left: 20px;
+                padding-left: 10px;
                 height: 100px;
                 background-color: #2bd56b;
 
