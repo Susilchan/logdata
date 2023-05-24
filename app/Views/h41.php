@@ -182,7 +182,7 @@
             opacity: 1;
             text-align: center;
             padding-right: 50px;
-            padding-left: 50px;
+            padding-left: 20px;
             height: 80px;
             background-color: #2bd56b
         }
@@ -195,8 +195,8 @@
             font-size: 24px;
             opacity: 1;
             text-align: justify;
-            padding-right: 50px;
-            padding-left: 50px;
+            padding-right: 70px;
+            padding-left: 20px;
             height: 80px;
             background-color: #2bd56b;
            
@@ -319,6 +319,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
+                padding-right: 20px;
+                padding-left: 70px;
 
             }
             nav {
@@ -371,6 +373,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
+                padding-right: 60px;
+                padding-left: 90px;
 
             }
             .bt.active {
@@ -412,6 +416,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
+                padding-right: 70px;
+                padding-left: 20px;
 
             }
             .bt.active {
@@ -503,6 +509,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
+                padding-right: 70px;
+                padding-left: 60px;
 
             }
             #time{
@@ -668,6 +676,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
+                padding-right: 70px;
+                padding-left: 50px;
 
             }
             #time{
@@ -806,6 +816,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
+                padding-right: 70px;
+                padding-left: 40px;
 
             }
             #time{
