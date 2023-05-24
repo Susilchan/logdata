@@ -744,7 +744,7 @@ ORDER BY date, hour";
 
             .column {
                 float: none;
-                width: 90%;
+                width: 120%;
                 margin-top: 0px;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 8px;
@@ -752,7 +752,7 @@ ORDER BY date, hour";
                 text-align: justify;
                 padding-right: 20px;
                 padding-left: 20px;
-                height: 80px;
+                height: 100px;
                 background-color: #2bd56b;
 
 
