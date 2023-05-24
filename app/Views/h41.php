@@ -196,15 +196,15 @@
             opacity: 1;
             text-align: justify;
             padding-right: 50px;
-            padding-left: 0px;
+            padding-left: 50px;
             height: 80px;
             background-color: #2bd56b;
            
         }
         .row:after {
-        content: "";
-        display: table;
-        clear: both;
+            content: "";
+            display: table;
+            clear: both;
         }
 
         .button {
