@@ -168,6 +168,8 @@ ORDER BY date, hour";
 
         }
 
+       
+
         @media screen and (max-width: 1440px) {
             * {
                 box-sizing: border-box;
@@ -570,6 +572,11 @@ ORDER BY date, hour";
                 cursor: pointer;
                 padding-bottom: 5px;
                 margin: -5px;
+            }
+
+            #myChart {
+                width: 900px;
+                height: 1000px;
             }
         }
 
