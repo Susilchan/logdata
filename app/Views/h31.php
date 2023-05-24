@@ -1,8 +1,7 @@
-<?php 
-$sumber = 'http://103.76.120.90/logdata';
-$konten = file_get_contents($sumber);
-$data = json_decode($konten, true);
-
+<?php
+// $sumber = 'http://103.76.120.90/logdata';
+// $konten = file_get_contents($sumber);
+// $data = json_decode($konten, true);
 // $sql = "SELECT TIME(created_date::TIME) AS date
 // , ROUND(AVG(kelembapan),2) as kelembapan
 // , ROUND(AVG(suhu),2) as suhu FROM logdata GROUP BY 1";
@@ -24,16 +23,12 @@ ORDER BY date, hour";
 ?>
 
 
-<?php foreach ($data as $row) {
+<?php foreach ($average as $row) {
 
-    if($row['blok']  == 1){
-        $suhu[] = $row['suhu'];
-        $kelembapan[] = $row['kelembapan'];
-        $date[] = $row['created_date'];
-        $hour[] = $row['created_date'];
-        $blok[] = $row['blok'];
-
-    }}
+    $suhu[] = $row['suhu'];
+    $kelembapan[] = $row['kelembapan'];
+    $hour[] = $row['hour'];
+}
 ?>
 
 
@@ -60,10 +55,12 @@ ORDER BY date, hour";
             background-repeat: no-repeat;
             background-attachment: fixed;
         }
-        a{
+
+        a {
             text-decoration: none;
         }
-        a:visited{
+
+        a:visited {
             color: inherit;
         }
 
@@ -164,16 +161,16 @@ ORDER BY date, hour";
         }
 
         .column {
-            padding-top:20px;
+            padding-top: 20px;
             width: 60%;
             /* height:50%; */
             margin: 15px auto;
-                
+
         }
 
         @media screen and (max-width: 1440px) {
             * {
-            box-sizing: border-box;
+                box-sizing: border-box;
             }
 
             body {
@@ -183,10 +180,12 @@ ORDER BY date, hour";
                 background-repeat: no-repeat;
                 background-attachment: fixed;
             }
-            a{
+
+            a {
                 text-decoration: none;
             }
-            a:visited{
+
+            a:visited {
                 color: inherit;
             }
 
@@ -287,26 +286,27 @@ ORDER BY date, hour";
             }
 
             .column {
-                padding-top:20px;
+                padding-top: 20px;
                 width: 60%;
                 /* height:50%; */
                 margin: 15px auto;
-                    
+
             }
         }
 
         @media screen and (max-width: 900px) {
             .column {
-            padding-top:20px;
-            width: 50%;
-            height:25%;
-            margin: 15px auto;
+                padding-top: 20px;
+                width: 50%;
+                height: 25%;
+                margin: 15px auto;
             }
 
             .button-b {
                 margin: 20px 145px 10px;
                 position: center;
             }
+
             nav {
                 width: 100%;
                 height: auto;
@@ -317,71 +317,77 @@ ORDER BY date, hour";
                 float: left;
                 padding: 15px;
             }
+
             #myChart {
-                    width: 500px;
-                    height: 800px;
+                width: 500px;
+                height: 800px;
 
             }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
                 padding-bottom: 1px;
                 padding-top: 5px;
-                border-radius:50px;
+                border-radius: 50px;
             }
-            
+
 
         }
-        
+
         @media screen and (max-width: 800px) {
             .button-blok {
-            display: grid;
-            place-items: center; 
-        }
-            .column {
-            padding-top:20px;
-            width: 50%;
-            height:25%;
-            margin: 15px auto;
+                display: grid;
+                place-items: center;
             }
-            
+
+            .column {
+                padding-top: 20px;
+                width: 50%;
+                height: 25%;
+                margin: 15px auto;
+            }
+
             .left,
             .main,
             .right {
                 width: 100%;
                 /* The width is 100%, when the viewport is 800px or smaller */
             }
+
             #myChart {
                 width: 500px;
                 height: 800px;
 
             }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
                 padding-bottom: 1px;
                 padding-top: 5px;
-                border-radius:50px;
+                border-radius: 50px;
             }
         }
 
         @media screen and (max-width: 700px) {
             .button-blok {
-            display: grid;
-            place-items: center; 
+                display: grid;
+                place-items: center;
             }
-        
+
             .column {
-            padding-top:20px;
-            width: 50%;
-            height:25%;
-            margin: 15px auto;
+                padding-top: 20px;
+                width: 50%;
+                height: 25%;
+                margin: 15px auto;
             }
 
             .button-b {
                 margin: 20px 85px 10px;
                 position: center;
             }
+
             nav {
                 width: 100%;
                 height: auto;
@@ -392,36 +398,41 @@ ORDER BY date, hour";
                 float: left;
                 padding: 15px;
             }
+
             #myChart {
                 width: 500px;
                 height: 800px;
 
             }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
                 padding-bottom: 1px;
                 padding-top: 5px;
-                border-radius:50px;
+                border-radius: 50px;
             }
 
-        }     
+        }
+
         @media screen and (max-width: 600px) {
             .button-blok {
-            display: grid;
-            place-items: center; 
-        }
+                display: grid;
+                place-items: center;
+            }
+
             .column {
-            padding-top:20px;
-            width: 50%;
-            height:25%;
-            margin: 15px auto;
+                padding-top: 20px;
+                width: 50%;
+                height: 25%;
+                margin: 15px auto;
             }
 
             .button-b {
                 margin: 20px 85px 10px;
                 position: center;
             }
+
             nav {
                 width: 100%;
                 height: auto;
@@ -432,37 +443,41 @@ ORDER BY date, hour";
                 float: left;
                 padding: 15px;
             }
+
             #myChart {
                 width: 500px;
                 height: 800px;
 
             }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
                 padding-bottom: 1px;
                 padding-top: 5px;
-                border-radius:50px;
+                border-radius: 50px;
             }
 
         }
+
         @media screen and (max-width: 500px) {
             .button-blok {
-            display: grid;
-            place-items: center; 
-        }
+                display: grid;
+                place-items: center;
+            }
 
             .column {
-            padding-top:20px;
-            width: 50%;
-            height:25%;
-            margin: 15px auto;
+                padding-top: 20px;
+                width: 50%;
+                height: 25%;
+                margin: 15px auto;
             }
 
             .button-b {
                 margin: 20px 85px 10px;
                 position: center;
             }
+
             nav {
                 width: 100%;
                 height: auto;
@@ -473,204 +488,232 @@ ORDER BY date, hour";
                 float: left;
                 padding: 15px;
             }
+
             #myChart {
-                    width: 500px;
-                    height: 800px;
+                width: 500px;
+                height: 800px;
 
             }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
                 padding-bottom: 1px;
                 padding-top: 5px;
-                border-radius:50px;
+                border-radius: 50px;
             }
 
 
         }
+
         @media screen and (max-width: 400px) {
             .button-blok {
-            display: grid;
-            place-items: center; 
-        }
+                display: grid;
+                place-items: center;
+            }
+
             .button-b {
                 margin: 10px 50px 8px;
                 position: center;
                 place-items: center;
             }
+
             .column {
                 width: 95%;
                 height: 200px;
             }
+
             #time {
                 float: center;
             }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
                 padding-bottom: 1px;
                 padding-top: 5px;
-                border-radius:50px;
+                border-radius: 50px;
             }
+
             .bt {
                 border-radius: 50%;
                 border: 0px;
                 background-color: #2bd56b;
                 cursor: pointer;
                 padding-bottom: 5px;
-                margin:-5px;
+                margin: -5px;
             }
         }
+
         @media screen and (max-width: 330px) {
             .button-blok {
-            display: grid;
-            place-items: center; 
-        }
+                display: grid;
+                place-items: center;
+            }
+
             .button-b {
                 margin: 10px 50px 8px;
                 position: center;
                 place-items: center;
             }
+
             .column {
                 width: 95%;
                 height: 200px;
             }
+
             #time {
                 float: center;
             }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
                 padding-bottom: 1px;
                 padding-top: 5px;
-                border-radius:50px;
+                border-radius: 50px;
             }
-            .bt{
-                width:20%;
+
+            .bt {
+                width: 20%;
                 padding: 0px;
                 border: 0px;
                 background-color: #2bd56b;
                 cursor: pointer;
                 display: inline;
-                margin-top:10px;
-                margin-right:-9px;
-                margin-left:-5px;
-                
+                margin-top: 10px;
+                margin-right: -9px;
+                margin-left: -5px;
+
             }
         }
+
         @media screen and (max-width: 320px) {
             .button-blok {
-            display: grid;
-            place-items: center; 
-        }
+                display: grid;
+                place-items: center;
+            }
+
             .button-b {
                 margin: 10px 50px 8px;
                 position: center;
                 place-items: center;
             }
+
             .column {
                 width: 95%;
                 height: 200px;
             }
+
             #time {
                 float: center;
             }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
                 padding-bottom: 1px;
                 padding-top: 5px;
-                border-radius:50px;
+                border-radius: 50px;
             }
-            .bt{
-                width:20%;
+
+            .bt {
+                width: 20%;
                 padding: 0px;
                 border: 0px;
                 background-color: #2bd56b;
                 cursor: pointer;
                 display: inline;
-                margin-top:10px;
-                margin-right:-9px;
-                margin-left:-5px;
-                
+                margin-top: 10px;
+                margin-right: -9px;
+                margin-left: -5px;
+
             }
         }
+
         @media screen and (max-width: 310px) {
             .button-blok {
-            display: grid;
-            place-items: center; 
-        }
+                display: grid;
+                place-items: center;
+            }
+
             .button-b {
                 margin: 10px 50px 8px;
                 position: center;
                 place-items: center;
             }
+
             .column {
                 width: 95%;
                 height: 200px;
             }
+
             #time {
                 float: center;
             }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 5px;
                 padding-bottom: 1px;
                 padding-top: 5px;
-                border-radius:50px;
+                border-radius: 50px;
             }
-            .bt{
-                width:20%;
+
+            .bt {
+                width: 20%;
                 padding: 0px;
                 border: 0px;
                 background-color: #2bd56b;
                 cursor: pointer;
                 display: inline;
-                margin-top:10px;
-                margin-right:-9px;
-                margin-left:-5px;
-                
+                margin-top: 10px;
+                margin-right: -9px;
+                margin-left: -5px;
+
             }
         }
 
         @media screen and (max-width: 300px) {
-            
-            *{
+
+            * {
                 font-size: 14px;
             }
+
             .button-b {
                 padding: 10px 25px;
                 display: inline;
                 margin: 5px 5px 5px;
                 font-size: 12px;
                 border-radius: 50px;
-        
+
             }
 
-            .bt{
-                width:20%;
+            .bt {
+                width: 20%;
                 padding: 0px;
                 border: 0px;
                 background-color: #2bd56b;
                 cursor: pointer;
                 display: inline;
-                margin-top:10px;
-                margin-right:2px;
-                margin-left:-5px;
-                padding:2.5px;
+                margin-top: 10px;
+                margin-right: 2px;
+                margin-left: -5px;
+                padding: 2.5px;
             }
-        
-            #time{
+
+            #time {
                 float: center;
                 font-size: 10px;
 
             }
+
             .bt.active {
                 background-color: #f7f7f6;
                 padding: 3px;
                 padding-bottom: 2px;
-                padding-top: 3px;     
-                border-radius:50px;
+                padding-top: 3px;
+                border-radius: 50px;
             }
 
             /* li {
@@ -680,13 +723,13 @@ ORDER BY date, hour";
             
             } */
 
-            .logo{
-                width:100%;
-                margin-left:1px;
+            .logo {
+                width: 100%;
+                margin-left: 1px;
             }
 
 
-            #desc{
+            #desc {
                 border: 30px;
                 border-style: solid;
                 border-color: #93db74;
@@ -694,7 +737,7 @@ ORDER BY date, hour";
                 font-family: Arial, Helvetica, sans-serif;
                 /* margin-left:10px;
                 margin-top:10px; */
-                margin-right:10px;
+                margin-right: 10px;
                 text-align: justify;
                 font-size: 10px;
             }
@@ -712,25 +755,21 @@ ORDER BY date, hour";
                 height: 80px;
                 background-color: #2bd56b;
 
-                
+
             }
 
-            #g1{
-                width:150px;
-                height:200px;
-                margin-left:40px;
+            #g1 {
+                width: 150px;
+                height: 200px;
+                margin-left: 40px;
             }
 
-            #tittle{
-                margin-top:10px;
+            #tittle {
+                margin-top: 10px;
                 border: 0px;
-                margin-left:80px;
+                margin-left: 80px;
             }
         }
-
-        
-            
-        
     </style>
 </head>
 
@@ -743,12 +782,14 @@ ORDER BY date, hour";
                         <ul class="nav">
                             <a href='<?php $baseURL ?>/index.php'> <button class="bt "><img src="asset/Logo 2.png" alt="dashboard" class="responsive" class="logo" width="50px" height="50px"></button></a>
                             <!-- <li><img src="asset/Logo 2.png" alt="logo felova"  width="50px" height="50px"></li> -->
-                            <a href='<?php $baseURL ?>/h2'><button class="bt" ><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
+                            <a href='<?php $baseURL ?>/h2'><button class="bt"><img src="asset/Icon-Dashboard.png" alt="dashboard" class="responsive" width="50px" height="50px"></button></a>
                             <a href='<?php $baseURL ?>/h31'><button class="bt active"><img src="asset/Icon-Grafik.png" alt="grafik" class="responsive" width="50px" height="50px"></button></a>
                             <a href='<?php $baseURL ?>/h41'><button class="bt"><img src="asset/Icon-Tables.png" alt="table" class="responsive" width="50px" height="50px"></button></a>
                             <a href='<?php $baseURL ?>/h5'><button class="bt"><img src="asset/Icon-Aboutus.png" alt="About Us" class="responsive" width="50px" height="50px"></button></a>
-                            <span class="responsive" style="float: right"> <h5 id="time"></h5></span>
-                        </ul>  
+                            <span class="responsive" style="float: right">
+                                <h5 id="time"></h5>
+                            </span>
+                        </ul>
 
                     </nav>
                 </div>
@@ -756,7 +797,7 @@ ORDER BY date, hour";
         </div>
     </header>
 
-    
+
 
     <div class="column" style="background-color:#f7f7f6;">
         <canvas id="myChart" width="900" height="450"></canvas>
@@ -772,9 +813,8 @@ ORDER BY date, hour";
 <script>
     var kelembapan = <?= json_encode($kelembapan); ?>;
     var suhu = <?= json_encode($suhu); ?>;
-    var date = <?= json_encode($date); ?>;
     var hour = <?= json_encode($hour); ?>;
-    var blok = <?= json_encode($blok); ?>;
+    var hour = <?= json_encode($hour); ?>;
     $(document).ready(function() {
         var dataSuhu = {
             label: "Suhu (°C)",
@@ -797,7 +837,7 @@ ORDER BY date, hour";
         var ctx = document.getElementById('myChart').getContext('2d');
 
         const data = {
-            labels: date,
+            labels: hour,
             datasets: [dataSuhu, dataKelembapan]
         };
 
@@ -868,24 +908,24 @@ ORDER BY date, hour";
 
 
 <script>
-        `use strict`;
-        function refreshTime() {
+    `use strict`;
+
+    function refreshTime() {
         const timeDisplay = document.getElementById("time");
         const dateString = new Date().toLocaleString();
         const formattedString = dateString.replace(", ", " - ");
         timeDisplay.textContent = formattedString;
-        }
-        setInterval(refreshTime, 1000);
+    }
+    setInterval(refreshTime, 1000);
 
-        var datetime = new Date().getDay();
-        console.log(datetime); // it will represent date in the console of developers tool
-        document.getElementById("time").textContent = datetime; //it will print on html page
+    var datetime = new Date().getDay();
+    console.log(datetime); // it will represent date in the console of developers tool
+    document.getElementById("time").textContent = datetime; //it will print on html page
 
-        `use strict`
-        var datetime = new Date().getMonth() + 1;
-        console.log(datetime); // it will represent date in the console of  developers tool
-        document.getElementById("time").textContent = datetime; // represent on html page
-
-    </script>
+    `use strict`
+    var datetime = new Date().getMonth() + 1;
+    console.log(datetime); // it will represent date in the console of  developers tool
+    document.getElementById("time").textContent = datetime; // represent on html page
+</script>
 
 </html>
