@@ -750,8 +750,8 @@ ORDER BY date, hour";
                 font-size: 8px;
                 opacity: 1;
                 text-align: justify;
-                padding-right: 20px;
-                padding-left: 5px;
+                padding-right: 25px;
+                padding-left: 0px;
                 height: 100px;
                 background-color: #2bd56b;
 
