@@ -416,8 +416,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
-                padding-right: 70px;
-                padding-left: 20px;
+                padding-right: 50px;
+                padding-left: 70px;
 
             }
             .bt.active {
@@ -470,7 +470,7 @@
 
             th, td { white-space: nowrap; }
             div.dataTables_wrapper {
-                width: 320px;
+                width: 360px;
                 margin: 0 auto;
             }
         
@@ -510,9 +510,9 @@
                 float: none;
                 padding-top: 10px;
                 padding-right: 70px;
-                padding-left: 60px;
-
+                padding-left: 55px;
             }
+
             #time{
                 float: center;
 
@@ -527,7 +527,7 @@
 
             th, td { white-space: nowrap; }
             div.dataTables_wrapper {
-                width: 280px;
+                width: 290px;
                 margin: 0 auto;
             }
         
@@ -563,11 +563,15 @@
                 background-color: #2bd56b
                 
             }
+            
             .column2{
                 float: none;
                 padding-top: 10px;
-
+                padding-right: 70px;
+                padding-left: 60px;
             }
+            
+
             #time{
                 float: center;
 
@@ -905,7 +909,7 @@
 
             th, td { white-space: nowrap; }
             div.dataTables_wrapper {
-                width: 200px;
+                width: 230px;
                 margin: 0 auto;
             }
         
