@@ -458,6 +458,9 @@
             .column2{
                 float: none;
                 padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 35px;
+                
 
             }
             .bt.active {
@@ -470,7 +473,476 @@
 
             th, td { white-space: nowrap; }
             div.dataTables_wrapper {
-                width: 360px;
+                width: 430px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+        
+
+        @media screen and (max-width: 490px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 35px;
+                
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 420px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 480px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 35px;
+                
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 410px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 470px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 35px;
+                
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 395px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 360px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 35px;
+                
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 390px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 450px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 35px;
+                
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 370px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 440px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 35px;
+                
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 365px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 430px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 35px;
+                
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 355px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 420px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 35px;
+                
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 345px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 410px) {
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+            padding: 10px 12px;
+            display: inline;
+            margin: 5px 5px 5px;
+            font-size: 12px;
+            border-radius: 50px;
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 35px;
+                
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 335px;
                 margin: 0 auto;
             }
         
@@ -509,8 +981,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
-                padding-right: 70px;
-                padding-left: 55px;
+                padding-right: 50px;
+                padding-left: 35px;
             }
 
             #time{
@@ -527,12 +999,249 @@
 
             th, td { white-space: nowrap; }
             div.dataTables_wrapper {
-                width: 290px;
+                width: 330px;
                 margin: 0 auto;
             }
         
             tr { height: 50px; }
         }
+
+        @media screen and (max-width: 390px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+                padding: 5px 10px;
+                display: inline;
+                margin: 0px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+                
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 35px;
+            }
+            
+
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 310px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 380px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+                padding: 5px 10px;
+                display: inline;
+                margin: 0px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+                
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 45px;
+            }
+            
+
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 295px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 370px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+                padding: 5px 10px;
+                display: inline;
+                margin: 0px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+                
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 45px;
+            }
+            
+
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 280px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
+        @media screen and (max-width: 360px) {
+            
+            *{
+                font-size: 12px;
+            }
+            .button-b {
+                padding: 5px 10px;
+                display: inline;
+                margin: 0px 5px 5px;
+                font-size: 12px;
+                border-radius: 50px;
+                
+       
+            }
+            .column1{
+                /* float: left; */
+                float: none;
+                width: 100%;
+                margin-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 12px;
+                opacity: 1;
+                text-align: center;
+                padding-right: 10px;
+                padding-left: 10px;
+                height: 30px;
+                background-color: #2bd56b
+                
+            }
+            
+            .column2{
+                float: none;
+                padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 45px;
+            }
+            
+
+            #time{
+                float: center;
+
+            }
+            .bt.active {
+                background-color: #f7f7f6;
+                padding: 5px;
+                padding-bottom: 1px;
+                padding-top: 5px;
+                border-radius:50px;
+            }
+
+            th, td { white-space: nowrap; }
+            div.dataTables_wrapper {
+                width: 270px;
+                margin: 0 auto;
+            }
+        
+            tr { height: 50px; }
+        }
+
 
         @media screen and (max-width: 350px) {
             
@@ -567,8 +1276,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
-                padding-right: 70px;
-                padding-left: 60px;
+                padding-right: 50px;
+                padding-left: 45px;
             }
             
 
@@ -586,7 +1295,7 @@
 
             th, td { white-space: nowrap; }
             div.dataTables_wrapper {
-                width: 230px;
+                width: 260px;
                 margin: 0 auto;
             }
         
@@ -625,6 +1334,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 45px;
 
             }
             #time{
@@ -641,7 +1352,7 @@
 
             th, td { white-space: nowrap; }
             div.dataTables_wrapper {
-                width: 230px;
+                width: 250px;
                 margin: 0 auto;
             }
         
@@ -680,8 +1391,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
-                padding-right: 70px;
-                padding-left: 50px;
+                padding-right: 50px;
+                padding-left: 45px;
 
             }
             #time{
@@ -712,7 +1423,7 @@
 
             th, td { white-space: nowrap; }
             div.dataTables_wrapper {
-                width: 230px;
+                width: 240px;
                 margin: 0 auto;
             }
         
@@ -751,6 +1462,8 @@
             .column2{
                 float: none;
                 padding-top: 10px;
+                padding-right: 50px;
+                padding-left: 45px;
 
             }
             #time{
@@ -781,7 +1494,7 @@
 
             th, td { white-space: nowrap; }
             div.dataTables_wrapper {
-                width: 230px;
+                width: 235px;
                 margin: 0 auto;
             }
         
@@ -853,7 +1566,7 @@
 
             th, td { white-space: nowrap; }
             div.dataTables_wrapper {
-                width: 230px;
+                width: 235px;
                 margin: 0 auto;
             }
         
