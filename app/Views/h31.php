@@ -757,6 +757,9 @@ ORDER BY date, hour";
 
 
             }
+            #myChart {
+                width: 400
+            }
 
             #g1 {
                 width: 150px;
