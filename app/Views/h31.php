@@ -751,7 +751,7 @@ ORDER BY date, hour";
                 opacity: 1;
                 text-align: justify;
                 padding-right: 20px;
-                padding-left: 10px;
+                padding-left: 5px;
                 height: 100px;
                 background-color: #2bd56b;
 
