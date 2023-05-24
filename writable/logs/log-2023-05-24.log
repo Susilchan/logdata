@@ -885,3 +885,132 @@ FROM `logdata`', [], false)
  8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-24 08:22:05 --> number_format(): Argument #1 ($num) must be of type float, array given
+in APPPATH\Controllers\H31.php on line 45.
+ 1 APPPATH\Controllers\H31.php(45): number_format([...], 2)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-24 08:25:05 --> number_format(): Argument #1 ($num) must be of type float, array given
+in APPPATH\Controllers\H31.php on line 45.
+ 1 APPPATH\Controllers\H31.php(45): number_format([...], 2)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-24 08:25:07 --> number_format(): Argument #1 ($num) must be of type float, array given
+in APPPATH\Controllers\H31.php on line 45.
+ 1 APPPATH\Controllers\H31.php(45): number_format([...], 2)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-24 08:57:49 --> foreach() argument must be of type array|object, float given
+in APPPATH\Views\h31.php on line 26.
+ 1 APPPATH\Views\h31.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, float given', 'APPPATH\\Views\\h31.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(48): view('h31', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-24 09:02:41 --> foreach() argument must be of type array|object, float given
+in APPPATH\Views\h31.php on line 26.
+ 1 APPPATH\Views\h31.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, float given', 'APPPATH\\Views\\h31.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(48): view('h31', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-24 09:02:42 --> foreach() argument must be of type array|object, float given
+in APPPATH\Views\h31.php on line 26.
+ 1 APPPATH\Views\h31.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, float given', 'APPPATH\\Views\\h31.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(48): view('h31', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-24 09:05:40 --> Cannot use [] for reading
+in APPPATH\Controllers\H31.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-05-24 09:05:53 --> foreach() argument must be of type array|object, float given
+in APPPATH\Views\h31.php on line 26.
+ 1 APPPATH\Views\h31.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, float given', 'APPPATH\\Views\\h31.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(48): view('h31', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-24 09:06:18 --> Undefined variable $averages
+in APPPATH\Views\h31.php on line 26.
+ 1 APPPATH\Views\h31.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $averages', 'APPPATH\\Views\\h31.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(48): view('h31', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-24 09:06:20 --> Undefined variable $averages
+in APPPATH\Views\h31.php on line 26.
+ 1 APPPATH\Views\h31.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $averages', 'APPPATH\\Views\\h31.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h31.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h31', [], true)
+ 5 APPPATH\Controllers\H31.php(48): view('h31', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H31->h31()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H31))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-24 09:11:26 --> file_get_contents(http://103.76.120.90/logdata): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+in APPPATH\Views\h41.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://103.76.120.90/logdata): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+', 'APPPATH\\Views\\h41.php', 58)
+ 2 APPPATH\Views\h41.php(58): file_get_contents('http://103.76.120.90/logdata')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h41.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h41', [], true)
+ 6 APPPATH\Controllers\H41.php(9): view('h41')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H41->h41()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H41))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-05-24 09:11:30 --> file_get_contents(http://103.76.120.90/logdata): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+in APPPATH\Views\h41.php on line 58.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://103.76.120.90/logdata): Failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+', 'APPPATH\\Views\\h41.php', 58)
+ 2 APPPATH\Views\h41.php(58): file_get_contents('http://103.76.120.90/logdata')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\h41.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('h41', [], true)
+ 6 APPPATH\Controllers\H41.php(9): view('h41')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\H41->h41()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\H41))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
