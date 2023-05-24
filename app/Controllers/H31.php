@@ -24,7 +24,6 @@ class H31 extends BaseController
                     'count' => 0,
                     'suhu' => 0,
                     'kelembapan' => 0,
-
                 ];
             }
 
@@ -36,8 +35,8 @@ class H31 extends BaseController
         $averages = [];
         foreach ($hourlyAverages as $hour => $api) {
             $averages[$hour]['hour'] = $hour;
-            $averages[$hour]['suhu'] = $api['suhu'] / $api['count'];
-            $averages[$hour]['kelembapan'] = $api['kelembapan'] / $api['count'];
+            $averages[$hour]['suhu'] = round($api['suhu'] / $api['count'], 2);
+            $averages[$hour]['kelembapan'] = round($api['kelembapan'] / $api['count'], 2);
         }
 
         // Display the average values
