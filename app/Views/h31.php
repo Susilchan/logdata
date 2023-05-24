@@ -287,9 +287,14 @@ ORDER BY date, hour";
 
             .column {
                 padding-top: 20px;
-                width: 60%;
-                /* height:50%; */
+                width: 60%; */
+                 height:50%;
                 margin: 15px auto;
+                /* width: 100%;
+                height: 150px; */
+                padding-right: 70px;
+                padding-left: 10px;
+                position: center;
 
             }
         }
@@ -297,9 +302,13 @@ ORDER BY date, hour";
         @media screen and (max-width: 900px) {
             .column {
                 padding-top: 20px;
-                width: 50%;
-                height: 25%;
+                /* width: 50%;
+                height: 25%; */
                 margin: 15px auto;
+                width: 100%;
+                height: 300px;
+                padding-right: 50px;
+                padding-left: -5px;
             }
 
             .button-b {
@@ -343,8 +352,12 @@ ORDER BY date, hour";
 
             .column {
                 padding-top: 20px;
-                width: 50%;
-                height: 25%;
+                /* width: 50%;
+                height: 25%; */
+                width: 100%;
+                height: 300px;
+                padding-right: 40px;
+                padding-left: -5px;
                 margin: 15px auto;
             }
 
@@ -378,9 +391,14 @@ ORDER BY date, hour";
 
             .column {
                 padding-top: 20px;
-                width: 50%;
-                height: 25%;
+                /* width: 50%;
+                height: 25%; */
                 margin: 15px auto;
+
+                width: 100%;
+                height: 300px;
+                padding-right: 40px;
+                padding-left: -5px;
             }
 
             .button-b {
@@ -423,9 +441,14 @@ ORDER BY date, hour";
 
             .column {
                 padding-top: 20px;
-                width: 50%;
-                height: 25%;
+                /* width: 50%;
+                height: 25%; */
                 margin: 15px auto;
+
+                width: 100%;
+                height: 300px;
+                padding-right: 35px;
+                padding-left: -5px;
             }
 
             .button-b {
@@ -467,10 +490,13 @@ ORDER BY date, hour";
             }
 
             .column {
-                padding-top: 20px;
-                width: 50%;
-                height: 25%;
-                margin: 15px auto;
+                /* padding-top: 20px;
+                margin: 15px auto; */
+
+                width: 100%;
+                height: 300px;
+                padding-right: 35px;
+                padding-left: -5px;
             }
 
             .button-b {
@@ -519,8 +545,10 @@ ORDER BY date, hour";
             }
 
             .column {
-                width: 95%;
+                width: 100%;
                 height: 200px;
+                padding-right: 30px;
+                padding-left: -10px;
             }
 
             #time {
@@ -558,8 +586,10 @@ ORDER BY date, hour";
             }
 
             .column {
-                width: 95%;
+                width: 100%;
                 height: 200px;
+                padding-right: 20px;
+                padding-left: -5px;
             }
 
             #time {
@@ -601,8 +631,10 @@ ORDER BY date, hour";
             }
 
             .column {
-                width: 95%;
-                height: 200px;
+                width: 100%;
+                height: 300px;
+                padding-right: 20px;
+                padding-left: -5px;
             }
 
             #time {
@@ -644,8 +676,10 @@ ORDER BY date, hour";
             }
 
             .column {
-                width: 95%;
-                height: 200px;
+                width: 100%;
+                height: 300px;
+                padding-right: 20px;
+                padding-left: -5px;
             }
 
             #time {
@@ -751,15 +785,16 @@ ORDER BY date, hour";
                 opacity: 1;
                 text-align: justify;
                 padding-right: 25px;
-                padding-left: 0px;
+                padding-left: -30px;
                 height: 100px;
                 background-color: #2bd56b;
 
 
             }
-            #myChart {
-                width: 400
-            }
+            /* #myChart {
+                width: 400px;
+                height: 100px;
+            } */
 
             #g1 {
                 width: 150px;
