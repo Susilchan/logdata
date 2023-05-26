@@ -589,7 +589,7 @@ ORDER BY date, hour";
             .column {
                 width: 100%;
                 height: 50px;
-                padding-right: 20px;
+                padding-right: 45px;
                 padding-left: -20px;
             }
 
@@ -630,7 +630,7 @@ ORDER BY date, hour";
             .column {
                 width: 100%;
                 height: 50px;
-                padding-right: 5px;
+                padding-right: 35px;
                 padding-left: -60px;
             }
 
@@ -671,7 +671,7 @@ ORDER BY date, hour";
             .column {
                 width: 100%;
                 height: 90px;
-                padding-right: 5px;
+                padding-right: 35px;
                 padding-left: -10px;
             }
 
@@ -714,7 +714,7 @@ ORDER BY date, hour";
             .column {
                 width: 100%;
                 height: 70px;
-                padding-right: 5px;
+                padding-right: 35px;
                 padding-left: -55px;
             }
 
@@ -759,8 +759,10 @@ ORDER BY date, hour";
             .column {
                 width: 100%;
                 height: 300px;
-                padding-right: 20px;
+                padding-right: 45px;
                 padding-left: -5px;
+
+                
             }
 
             #time {
@@ -804,7 +806,7 @@ ORDER BY date, hour";
             .column {
                 width: 100%;
                 height: 300px;
-                padding-right: 20px;
+                padding-right: 45px;
                 padding-left: -5px;
             }
 
@@ -910,7 +912,7 @@ ORDER BY date, hour";
                 font-size: 8px;
                 opacity: 1;
                 text-align: justify;
-                padding-right: 25px;
+                padding-right: 40px;
                 padding-left: -30px;
                 height: 100px;
                 background-color: #2bd56b;
