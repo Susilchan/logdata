@@ -305,7 +305,7 @@ ORDER BY date, hour";
                 /* width: 50%;
                 height: 25%; */
                 margin: 15px auto;
-                width: 100%;
+                width: 65%;
                 height: 300px;
                 padding-right: 50px;
                 padding-left: -5px;
@@ -327,11 +327,12 @@ ORDER BY date, hour";
                 padding: 15px;
             }
 
-            #myChart {
+            /* #myChart {
                 width: 500px;
                 height: 800px;
-
-            }
+                font-size: 24px;
+                position: 
+            } */
 
             .bt.active {
                 background-color: #f7f7f6;
@@ -354,8 +355,8 @@ ORDER BY date, hour";
                 padding-top: 20px;
                 /* width: 50%;
                 height: 25%; */
-                width: 100%;
-                height: 300px;
+                width: 70%;
+                height: 100%;
                 padding-right: 40px;
                 padding-left: -5px;
                 margin: 15px auto;
@@ -395,8 +396,8 @@ ORDER BY date, hour";
                 height: 25%; */
                 margin: 15px auto;
 
-                width: 100%;
-                height: 300px;
+                width: 80%;
+                height: 100%;
                 padding-right: 40px;
                 padding-left: -5px;
             }
@@ -417,11 +418,11 @@ ORDER BY date, hour";
                 padding: 15px;
             }
 
-            #myChart {
+            /* #myChart {
                 width: 500px;
-                height: 800px;
+                height: 300px;
 
-            }
+            } */
 
             .bt.active {
                 background-color: #f7f7f6;
@@ -916,10 +917,10 @@ ORDER BY date, hour";
 
 
             }
-            /* #myChart {
+            #myChart {
                 width: 400px;
-                height: 100px;
-            } */
+                height: 60px;
+            }
 
             #g1 {
                 width: 150px;
@@ -962,8 +963,8 @@ ORDER BY date, hour";
 
 
 
-    <div class="column" style="background-color:#f7f7f6;">
-        <canvas id="myChart" width="900" height="450"></canvas>
+    <div class="column" style="background-color:#f7f7f6;" height='100%'>
+        <canvas id="myChart" width="900px" height="650%"></canvas>
     </div>
 
 
@@ -986,6 +987,7 @@ ORDER BY date, hour";
             fill: false,
             borderColor: 'red',
             backgroundColor: 'red',
+            size: 12
         };
 
         var dataKelembapan = {
@@ -1041,7 +1043,9 @@ ORDER BY date, hour";
                         },
                         grid: {
                             drawOnChartArea: false
-                        }
+                        },
+                        suggestedMin: 20,
+                        suggestedMax: 600
                     },
                     x: {
                         type: 'time',
@@ -1057,9 +1061,13 @@ ORDER BY date, hour";
                             source: 'data',
                             autoSkip: true,
                             maxTicksLimit: 24, // Adjust the maximum number of ticks as needed
-                            maxRotation: 0, // Prevent label rotation
-                            minRotation: 0 // Prevent label rotation
-                        }
+                            maxRotation: 90, // Prevent label rotation
+                            minRotation: 90 // Prevent label rotation
+                        },
+                        font: {
+                            size: 8
+                        },
+                        position: 'right'
                     }
 
                 }
