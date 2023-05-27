@@ -965,12 +965,11 @@ ORDER BY date, hour";
 
 
 
-    <div class="column" style="background-color:#f7f7f6;" height='100%'>
-        <canvas id="myChart" width="900px" height="650%"></canvas>
+    <div class="column" style="background-color:#f7f7f6;" >
+        <canvas id="myChart" width="100%" height="65%"></canvas>
     </div>
 
 
-    </div>
 </body>
 
 </html>
