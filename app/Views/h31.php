@@ -956,7 +956,6 @@ ORDER BY date, hour";
                                 <h5 id="time"></h5>
                             </span>
                         </ul>
-
                     </nav>
                 </div>
             </div>
@@ -992,7 +991,7 @@ ORDER BY date, hour";
         };
 
         var dataKelembapan = {
-            label: "Kelembapan",
+            label: "Kelembapan (%)",
             data: kelembapan,
             lineTension: 0,
             fill: false,
